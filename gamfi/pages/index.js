@@ -39,8 +39,8 @@ export default function Home() {
     {/* <div className='container'> */}
 
         {/* <!--Preloader area start here-->
-        <section class="loader_first">
-            <div class="circular-spinner"></div>
+        <section className="loader_first">
+            <div className="circular-spinner"></div>
         </section> */}
         {/* <!--Preloader area End here--> */}
         
