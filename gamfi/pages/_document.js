@@ -5,7 +5,7 @@ export default function Document() {
   return (
     <Html>
       <Head>
-      <title>GamFi - Metaverse Web3 IGO/IDO Token Launchpad HTML5 Template</title>
+      <title>Finace Token</title>
         <meta name="description" content="" />
         {/* <!-- responsive tag --> */}
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -35,7 +35,9 @@ export default function Document() {
         {/* <!-- responsive css --> */}
         <link rel="stylesheet" type="text/css" href="styles/css/responsive.css" />
       </Head>
-      <body>
+      <body style={{
+        backgroundColor: "#151625"
+      }}>
         <Main />
         <NextScript />
       </body>

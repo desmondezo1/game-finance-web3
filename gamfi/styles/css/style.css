@@ -6580,7 +6580,7 @@ Kyc Upload Docs
     z-index: 9;
     overflow: hidden;
     padding: 170px 0 225px;
-    background: url(../../public/images/bg/V3_Banner_BG.png);
+    /* background: url(/images/bg/V3_Banner_BG.png); */
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
