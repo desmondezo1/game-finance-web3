@@ -1,0 +1,8 @@
+.bannerH2{
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient( 109.22deg, #4eecac, #8dc7ed 90.86%, #8285f0 125.51% );
+    color: transparent!important;
+    font-family: 'Comic Sans MS', 'Comic Sans'!important;
+
+}
