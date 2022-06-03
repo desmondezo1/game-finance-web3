@@ -92,7 +92,7 @@ export default function Nav(){
                                         borderRadius: "10px",
                                         color: "#00D1B8" 
                                         
-                                        }} type="button" className="readon hover-shape" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
+                                        }} type="button" className="readon hover-shape" > 
                                         <span style={{
                                             color: "#00D1B8" 
                                         }} className="btn-text">Sign Up </span>
