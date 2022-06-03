@@ -1,6 +1,7 @@
 import BannerImage from "../../public/images/svg/bunny.svg"
 import bannerCss from "../../styles/banner.module.css"
 import indexCss from "../../styles/index.module.css"
+import bgImage from "../../public/images/bg/V3_Banner_BG.png"
 import Image from "next/image"
 export default function Banner(){
     return(<>
@@ -22,7 +23,9 @@ export default function Banner(){
         }
     </style>
     
-    <div id="sc-banner" className="sc_banner_V3 banner-bg position-relative">
+    <div id="sc-banner" style={{
+        background: `url(${bgImage.src})`,
+    }} className="sc_banner_V3 banner-bg position-relative">
             <div className="container">
                 <div className="banner-content V3_BanerContent">
                     <div className="row">
