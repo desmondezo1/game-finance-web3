@@ -8,7 +8,7 @@ export default function Document() {
       <title>GamFi - Metaverse Web3 IGO/IDO Token Launchpad HTML5 Template</title>
         <meta name="description" content="" />
         {/* <!-- responsive tag --> */}
-        <meta http-equiv="x-ua-compatible" content="ie=edge" />
+        <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <!-- favicon --> */}
         <link rel="apple-touch-icon" href="apple-touch-icon.html" />

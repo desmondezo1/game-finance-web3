@@ -14,7 +14,7 @@ export default function TeamSection(){
                     </div>
                     <div className="gamfi-btn-area">
                         <ul className="GamfiV3_ProjectPoolsBtn">
-                            <li className="v3_OurPartnars_tablinks m-0" onclick="openV3_OurPartnars(event, 'Investor')" id="V3_OurPartnars_Tab_defaultOpen">
+                            <li className="v3_OurPartnars_tablinks m-0" onClick="openV3_OurPartnars(event, 'Investor')" id="V3_OurPartnars_Tab_defaultOpen">
                                 <button className="view-more black-shape">
                                     <span className="btn-text">Investor</span>
                                     <span className="hover-shape1"></span>
@@ -22,7 +22,7 @@ export default function TeamSection(){
                                     <span className="hover-shape3"></span>
                                 </button>
                             </li>
-                            <li className="v3_OurPartnars_tablinks" onclick="openV3_OurPartnars(event, 'MEDIA')">
+                            <li className="v3_OurPartnars_tablinks" onClick="openV3_OurPartnars(event, 'MEDIA')">
                                 <button className="view-more black-shape">
                                     <span className="btn-text">MEDIA</span>
                                     <span className="hover-shape1"></span>

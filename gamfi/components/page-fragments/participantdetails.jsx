@@ -55,7 +55,7 @@ export default function Participantdetails(){
                         <div className="project-meta-inner">
                             <div className="meta-header">
                                 <h4 className="mb-20">Connected MetaMask</h4>
-                                <p>If not connected, click the "Connect Wallet" button in the top right corner</p>
+                                <p>If not connected, click the &quot; Connect Wallet &quot; button in the top right corner</p>
                             </div>
                             <div className="meta-header">
                                 <h4 className="mb-20">Available Balance</h4>

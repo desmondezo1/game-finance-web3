@@ -21,7 +21,7 @@ export default function KeyPointsSection(){
                                     </div>
                                     <div className="Key_Points_Item_Text">
                                         <h3>Decentralized</h3>
-                                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing</p>
+                                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn &apos; t anything embarrassing</p>
                                     </div>
                                 </div>
                             </div>

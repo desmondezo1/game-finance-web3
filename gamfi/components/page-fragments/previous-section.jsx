@@ -14,7 +14,7 @@ export default function PreviousSection(){
                     </div>
                     <div className="gamfi-btn-area">
                         <ul className="GamfiV3_ProjectPoolsBtn">
-                            <li className="V3_ProjectPool_tablinks m-0" onclick="openV3_ProjectPool(event, 'On_going')" id="V3_ProjectPool_Tab_defaultOpen">
+                            <li className="V3_ProjectPool_tablinks m-0" onClick="openV3_ProjectPool(event, 'On_going')" id="V3_ProjectPool_Tab_defaultOpen">
                                 <button className="view-more black-shape">
                                     <span className="btn-text">On going</span>
                                     <span className="hover-shape1"></span>
@@ -22,7 +22,7 @@ export default function PreviousSection(){
                                     <span className="hover-shape3"></span>
                                 </button>
                             </li>
-                            <li className="V3_ProjectPool_tablinks" onclick="openV3_ProjectPool(event, 'UPCOMING')">
+                            <li className="V3_ProjectPool_tablinks" onClick="openV3_ProjectPool(event, 'UPCOMING')">
                                 <button className="view-more black-shape">
                                     <span className="btn-text">UPCOMING</span>
                                     <span className="hover-shape1"></span>
@@ -30,7 +30,7 @@ export default function PreviousSection(){
                                     <span className="hover-shape3"></span>
                                 </button>
                             </li>
-                            <li className="V3_ProjectPool_tablinks" onclick="openV3_ProjectPool(event, 'ENDED')">
+                            <li className="V3_ProjectPool_tablinks" onClick="openV3_ProjectPool(event, 'ENDED')">
                                 <button className="view-more black-shape">
                                     <span className="btn-text">View More</span>
                                     <span className="hover-shape1"></span>
