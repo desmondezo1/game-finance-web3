@@ -1682,15 +1682,15 @@ body .modal-backdrop {
 }
 
 .project-details-conent .banner-bottom-content .btn-area .readon {
-    background: #6D4AFE;
+    background: #86cae6;
     border: none;
     transition: 0.4s;
     padding: 17px 45;
 }
 
 .project-details-conent .readon {
-    background: #6d4afe;
-    border-color: #6d4afe;
+    background: #86cae6;
+    border-color: #86cae6;
     border: 2px solid #3C3D4F;
     transition: 0.4s;
     color: #fff;
@@ -1839,7 +1839,7 @@ body .modal-backdrop {
 }
 
 .project-details-conent .project-item .project-form-list .balance-form-area .approve input[type="submit"] {
-    background: #6D4AFE;
+    background: #86cae6;
 }
 
 .project-details-conent .project-item .hover-shape-inner {
@@ -1989,7 +1989,7 @@ body .modal-backdrop {
 }
 
 .project-details-conent .project-content .project-price .darkslateblue:before {
-    background: #6d4afe;
+    background: #86cae6;
 }
 
 .project-details-conent .project-content .project-price .cyan:before {
@@ -2144,7 +2144,7 @@ body .modal-backdrop {
     left: 0;
     width: 0;
     height: 2px;
-    background: #6d4afe;
+    background: #86cae6;
     bottom: 0;
     transition: 0.3s;
 }
@@ -2422,7 +2422,7 @@ body .modal-backdrop {
 }
 
 .gamfi-previous-section .form-switch input:checked + .slider {
-    background-color: #6D4AFE;
+    background-color: #86cae6;
 }
 
 .gamfi-previous-section .form-switch input:checked + .slider:before {
@@ -2434,7 +2434,7 @@ body .modal-backdrop {
 }
 
 .gamfi-previous-section .form-switch input:focus + .slider {
-    box-shadow: 0 0 1px #6D4AFE;
+    box-shadow: 0 0 1px #86cae6;
 }
 
 .gamfi-previous-section .form-switch input:checked + .slider:before {
@@ -2770,7 +2770,7 @@ body .modal-backdrop {
     position: absolute;
     z-index: 9999;
     right: 9px;
-    background: #6D4AFE;
+    background: #86cae6;
 }
 
 .gamfi-farming-content .expeand-centent .farm-form-list .black-shape span {
@@ -2786,7 +2786,7 @@ body .modal-backdrop {
 }
 
 .gamfi-farming-content .expeand-centent .farm-form-list input[type="submit"].submit-active {
-    background: #6D4AFE;
+    background: #86cae6;
 }
 
 .gamfi-farming-content .expeand-centent .farm-form-list:last-child h5 {
@@ -3147,7 +3147,7 @@ body .modal-backdrop {
 }
 .gamfi-tokenomics-section .tokenomics-counter .counter-number {
     font-size: 36px;
-    color: #6d4afe;
+    color: #86cae6;
     font-family: "Russo One", sans-serif;
     display: block;
 }
@@ -3471,7 +3471,7 @@ body .modal-backdrop {
 }
 
 .gamfi-form-content .address-form .project-btn-area {
-    background: #6d4afe;
+    background: #86cae6;
 }
 
 .gamfi-form-content .address-form .project-btn-area input {
@@ -4095,7 +4095,7 @@ section.loader_first {
     opacity: 0.8;
 }
 .KycRadioBtn .container input:checked ~ .checkmark {
-    background-color: #6D4AFE;
+    background-color: #86cae6;
     ;
     border: none;
 }
@@ -4133,7 +4133,7 @@ section.loader_first {
     justify-content: center;
     max-width: 570px;
     width: 100%;
-    background: #6D4AFE;
+    background: #86cae6;
     height: 60px;
     border: none;
     outline: none;
@@ -4537,7 +4537,7 @@ Kyc Upload Docs
     font-weight: 500;
     font-size: 16px;
     line-height: 158%;
-    color: #6D4AFE;
+    color: #86cae6;
 }
 .KYC_TramsAndCondetionSect .container input {
     position: absolute;
@@ -4560,7 +4560,7 @@ Kyc Upload Docs
     opacity: 0.8;
 }
 .KYC_TramsAndCondetionSect .container input:checked ~ .checkmark {
-    background-color: #6D4AFE;
+    background-color: #86cae6;
     ;
     border: none;
 }
@@ -4795,7 +4795,7 @@ Kyc Upload Docs
     font-weight: 500;
     font-size: 16px;
     line-height: 45px;
-    color: #6D4AFE;
+    color: #86cae6;
 }
 
 /*------------------------
@@ -4927,7 +4927,7 @@ Kyc Upload Docs
 .SignUp_SignIn_Form form button {
     width: 100%;
     height: 60px;
-    background: #6D4AFE;
+    background: #86cae6;
     border: none;
     outline: none;
     font-family: Russo One;
@@ -4958,7 +4958,7 @@ Kyc Upload Docs
     font-size: 16px;
     line-height: 28px;
     text-align: center;
-    color: #6D4AFE;
+    color: #86cae6;
 }
 
 .forgetPassBtnSect{
@@ -5146,7 +5146,7 @@ Kyc Upload Docs
 
 .connectWalletBtnforMobile{
     width: 100%;
-    background: #6D4AFE;
+    background: #86cae6;
     height: 40px;
     margin-top: 20px;
     display: none;
@@ -5514,7 +5514,7 @@ Kyc Upload Docs
     font-size: 22px;
     line-height: 45px;
     text-transform: uppercase;
-    color: #6D4AFE;
+    color: #86cae6;
     margin-bottom: 0px;
 }
 
@@ -6053,7 +6053,7 @@ Kyc Upload Docs
     background: #01CC9B;
 }
 .TokenomicsListSect ul li span.Private_Sale{
-    background: #6D4AFE;
+    background: #86cae6;
 }
 .TokenomicsListSect ul li span.Liquidity{
     background: #14A0C0;
@@ -6456,7 +6456,7 @@ Kyc Upload Docs
     font-weight: normal;
     font-size: 22px;
     line-height: 27px;
-    color: #6D4AFE;
+    color: #86cae6;
     margin-bottom: 75px;
 }
 .RoadMapContents.disable h3{
@@ -6514,7 +6514,7 @@ Kyc Upload Docs
 
 .Gamfi_footerBtnSect{
     height: 200px;
-    background: #6D4AFE;
+    background: #86cae6;
     position: fixed;
     left: 0;
     top: auto;
@@ -6676,7 +6676,7 @@ Kyc Upload Docs
     font-size: 22px;
     line-height: 40px;
     text-transform: uppercase;
-    color: #6D4AFE;
+    color: #86cae6;
     margin-bottom: 0px;
 }
 
@@ -7612,7 +7612,7 @@ Kyc Upload Docs
 }
 
 .Article_Details2 h4 a span {
-    color: #6D4AFE;
+    color: #86cae6;
 }
 
 .Article_Details2 h4 a strong {
@@ -7837,7 +7837,7 @@ Kyc Upload Docs
     justify-content: center;
 }
 .Menu_column ul li span.new{
-    background: #6D4AFE;
+    background: #86cae6;
     backdrop-filter: blur(5px);
 }
 .Menu_column ul li span.soon{
@@ -8026,7 +8026,7 @@ Kyc Upload Docs
     left: -20px;
 }
 .blog-detail-conent .blog-area .Tokenomics-item .project-content .project-sale.darkslateblue:before{
-    background: #6D4AFE;
+    background: #86cae6;
 }
 .blog-detail-conent .blog-area .Tokenomics-item .project-content .project-sale.cyan:before{
     background: #3BCBFF;
@@ -8233,7 +8233,7 @@ Kyc Upload Docs
 }
 .blog-detail-conent .blog-area .form-item .input-submit input{
     width: 100%;
-    background: #6D4AFE;
+    background: #86cae6;
     color: #fff;
     border: none;
     padding: 17px;
@@ -9278,7 +9278,7 @@ ProjectClasic
     height: 60px;
     border: none;
     outline: none;
-    background: #6D4AFE;
+    background: #86cae6;
     font-family: 'Russo One';
     font-style: normal;
     font-weight: 400;
@@ -10102,7 +10102,7 @@ ProjectDetails2
     color: #FFFFFF;
 }
 .First_Survivor_CityRight_Button button.participateBtn{
-    background: #6D4AFE;
+    background: #86cae6;
     border: none;
 }
 .First_Survivor_CityRight_Button button.WHITELISbtn{
