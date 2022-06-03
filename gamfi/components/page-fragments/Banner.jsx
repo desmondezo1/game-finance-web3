@@ -2,6 +2,7 @@ import BannerImage from "../../public/images/svg/bunny.svg"
 import bannerCss from "../../styles/banner.module.css"
 import indexCss from "../../styles/index.module.css"
 import bgImage from "../../public/images/bg/V3_Banner_BG.png"
+import Link from 'next/link'
 import Image from "next/image"
 export default function Banner(){
     return(<>
@@ -42,12 +43,15 @@ export default function Banner(){
                                            <span className="hover-shape3"></span>
                                        </button>
                                     </a>
+                                    <Link href={'/Igo'}>                                    
                                     <a className={`${indexCss.fiFont} readon black-shape Apply_Project_Btn`} href="igo-apply.html">
                                         <span className={`${indexCss.fiFont} btn-text`}>Apply Project</span>
                                         <span className="hover-shape1"></span>
                                         <span className="hover-shape2"></span>
                                         <span className="hover-shape3"></span>
                                     </a>
+                                    </Link>
+
                                 </div>
                             </div>
                         </div>

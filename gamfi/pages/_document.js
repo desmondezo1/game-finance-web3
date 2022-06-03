@@ -36,7 +36,9 @@ export default function Document() {
         <link rel="stylesheet" type="text/css" href="styles/css/responsive.css" />
       </Head>
       <body style={{
-        backgroundColor: "#151625"
+        backgroundColor: "#151625",
+        fontFamily: "'Comic Sans MS', 'Comic Sans'",
+
       }}>
         <Main />
         <NextScript />

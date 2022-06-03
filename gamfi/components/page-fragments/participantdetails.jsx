@@ -12,7 +12,7 @@ export default function Participantdetails(){
                                 <span>Total Value Locked</span>
                             </div>
                             <div className="project-value-image">
-                                <img src="assets/images/project/raking.png" alt="rank"/>
+                                <img src="/images/project/raking.png" alt="rank"/>
                             </div>
                         </div>
                     </div>
@@ -23,7 +23,7 @@ export default function Participantdetails(){
                                 <span>Apy</span>
                             </div>
                             <div className="project-value-image">
-                                <img src="assets/images/project/raking2.png" alt="rank"/>
+                                <img src="/images/project/raking2.png" alt="rank"/>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ export default function Participantdetails(){
                                 <span>Number of Stakers</span>
                             </div>
                             <div className="project-value-image">
-                                <img src="assets/images/project/raking3.png" alt="rank"/>
+                                <img src="/images/project/raking3.png" alt="rank"/>
                             </div>
                         </div>
                     </div>
@@ -43,11 +43,11 @@ export default function Participantdetails(){
                     <div className="col-lg-4 md-mb-30">
                         <div className="project-summary-menu bg_gradient_custom">
                             <div className="nav" id="nav-tab" role="tablist">
-                                <button className="nav-link active" id="nav-project-summary" data-bs-toggle="tab" data-bs-target="#project-summary" type="button" role="tab" aria-selected="true">Checkpoint <img src="assets/images/project/menu-image.png" alt="project" /></button>
-                                <button className="nav-link" id="nav-schedule" data-bs-toggle="tab" data-bs-target="#schedule" type="button" role="tab" aria-selected="false">Amount Stake<img src="assets/images/project/menu-image.png" alt="project" /></button>
-                                <button className="nav-link" id="nav-comparison" data-bs-toggle="tab" data-bs-target="#comparison" type="button" role="tab" aria-selected="false">Pre-authorization<img src="assets/images/project/menu-image.png" alt="project" /></button>
-                                <button className="nav-link" id="nav-tokenomics" data-bs-toggle="tab" data-bs-target="#tokenomics" type="button" role="tab" aria-selected="false">Confirm<img src="assets/images/project/menu-image.png" alt="project" /></button>
-                                <button className="nav-link" id="nav-roadmap" data-bs-toggle="tab" data-bs-target="#roadmap" type="button" role="tab" aria-selected="false">Confirmation <img src="assets/images/project/menu-image.png" alt="project" /></button>
+                                <button className="nav-link active" id="nav-project-summary" data-bs-toggle="tab" data-bs-target="#project-summary" type="button" role="tab" aria-selected="true">Checkpoint <img src="/images/project/menu-image.png" alt="project" /></button>
+                                <button className="nav-link" id="nav-schedule" data-bs-toggle="tab" data-bs-target="#schedule" type="button" role="tab" aria-selected="false">Amount Stake<img src="/images/project/menu-image.png" alt="project" /></button>
+                                <button className="nav-link" id="nav-comparison" data-bs-toggle="tab" data-bs-target="#comparison" type="button" role="tab" aria-selected="false">Pre-authorization<img src="/images/project/menu-image.png" alt="project" /></button>
+                                <button className="nav-link" id="nav-tokenomics" data-bs-toggle="tab" data-bs-target="#tokenomics" type="button" role="tab" aria-selected="false">Confirm<img src="/images/project/menu-image.png" alt="project" /></button>
+                                <button className="nav-link" id="nav-roadmap" data-bs-toggle="tab" data-bs-target="#roadmap" type="button" role="tab" aria-selected="false">Confirmation <img src="/images/project/menu-image.png" alt="project" /></button>
                             </div>
                         </div>
                     </div>

@@ -10,7 +10,7 @@ export default function Breadcrumbs(){
                             <div className="sub-inner mb-15">
                                 <a className="breadcrumbs-link" href="index-2.html">Home</a>
                                 <span className="sub-title">Staking</span>
-                                <img className="heading-left-image" src="assets/images/icons/steps.png" alt="Steps-Image" />
+                                <img className="heading-left-image" src="/images/icons/steps.png" alt="Steps-Image" />
                             </div>
                             <h2 className="title mb-0">Staking-2</h2>
                         </div>

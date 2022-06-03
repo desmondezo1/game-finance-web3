@@ -166,7 +166,7 @@ h6 {
 }
 
 .sec-heading .sub-title {
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
@@ -196,7 +196,7 @@ a:active,
 a:hover {
     text-decoration: none;
     outline: 0 none;
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
 }
 
 ul {
@@ -291,7 +291,7 @@ body .search-modal .close {
 }
 
 body .search-modal .close:hover {
-    color: #a3ff12 !important;
+    color: rgb(134, 202, 230) !important;
     opacity: 1 !important;
 }
 
@@ -775,7 +775,7 @@ body .modal-backdrop {
 }
 
 .progress-inner .progress-bar {
-    background-image: linear-gradient(60deg, #a3ff12 26%, transparent 25%, transparent 50%, #a3ff12 54%, #a3ff12 82%, transparent 75%, transparent);
+    background-image: linear-gradient(60deg, rgb(134, 202, 230) 26%, transparent 25%, transparent 50%, rgb(134, 202, 230) 54%, rgb(134, 202, 230) 82%, transparent 75%, transparent);
 }
 
 .white-shape-small,
@@ -943,7 +943,7 @@ body .modal-backdrop {
     position: relative;
     transition: all 0.4s ease-in-out;
     font-family: "Russo One", sans-serif;
-    background: #a3ff12;
+    background: rgb(134, 202, 230);
     color: #090a1a;
     padding: 19px 50px;
 }
@@ -988,7 +988,7 @@ body .modal-backdrop {
 }
 
 .gamfi-breadcrumbs-section .breadcrumbs-link:hover {
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
 }
 
 .gamfi-breadcrumbs-section .breadcrumbs-form {
@@ -1119,7 +1119,7 @@ body .modal-backdrop {
 .gamfi-navigation ul li a.active:not(.black-shape),
 .gamfi-navigation ul li a:hover:not(.black-shape) {
     background: #2E2F3C;
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
 }
 
 .breadcrumbs-form .gamfi-navigation {
@@ -1414,7 +1414,7 @@ body .modal-backdrop {
     right: 0;
     width: 5px;
     height: 200px;
-    background: linear-gradient(to top, #a3ff12 -100%, rgba(21, 22, 37, 0) 64%);
+    background: linear-gradient(to top, rgb(134, 202, 230) -100%, rgba(21, 22, 37, 0) 64%);
 }
 
 .active-shape .shadow-4,
@@ -1423,7 +1423,7 @@ body .modal-backdrop {
     right: 5px;
     width: 200px;
     height: 5px;
-    background: linear-gradient(to left, #a3ff12 -100%, rgba(21, 22, 37, 0) 64%);
+    background: linear-gradient(to left, rgb(134, 202, 230) -100%, rgba(21, 22, 37, 0) 64%);
 }
 
 .hover-shape-border .border-shadow {
@@ -1633,7 +1633,7 @@ body .modal-backdrop {
 }
 
 .project-details-conent .banner-bottom-content .social-icon-list li a:hover {
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
 }
 
 .project-details-conent .banner-bottom-content .social-icon-list li:first-child {
@@ -1678,7 +1678,7 @@ body .modal-backdrop {
 .project-details-conent .project-item .date-listing li:hover button,
 .project-details-conent .project-item .date-listing li.active button {
     background: #303244;
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
 }
 
 .project-details-conent .banner-bottom-content .btn-area .readon {
@@ -1768,7 +1768,7 @@ body .modal-backdrop {
 .project-details-conent .project-item .date-listing li .active,
 .project-details-conent .project-item .date-listing li input:checked + label {
     background: #303244;
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
 }
 
 .project-details-conent .project-item .date-listing li + li {
@@ -1783,12 +1783,12 @@ body .modal-backdrop {
 .project-details-conent .project-item .date-listing li a:hover {
     background: #313245;
     border-color: #313245;
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
 }
 
 .project-details-conent .project-item .big-text {
     font-size: 30px;
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
     font-family: "Russo One", sans-serif;
     position: absolute;
     right: 0;
@@ -1895,7 +1895,7 @@ body .modal-backdrop {
 }
 
 .project-details-conent .project-media .social-icon-list li a:hover {
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
 }
 
 .project-details-conent .project-video-area {
@@ -2005,7 +2005,7 @@ body .modal-backdrop {
 }
 
 .project-details-conent .project-content .project-price .springGreen:before {
-    background: #a3ff12;
+    background: rgb(134, 202, 230);
 }
 
 .project-details-conent .project-content .project-price .darkturquoise:before {
@@ -2051,7 +2051,7 @@ body .modal-backdrop {
 }
 
 .project-summary-menu .nav button.active {
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
 }
 
 .project-summary-menu .nav button.active img {
@@ -2661,7 +2661,7 @@ body .modal-backdrop {
 }
 
 .gamfi-previous-section .project-item .project-media .social-icon-list li a i:hover {
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
 }
 
 .gamfi-previous-section .project-item .project-media .social-icon-list li {
@@ -2802,19 +2802,19 @@ body .modal-backdrop {
 
 .gamfi-farming-content .expeand-centent .expeand-menu ul li {
     display: inline-block;
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
     font-size: 14px;
     margin-right: 30px;
 }
 
 .gamfi-farming-content .expeand-centent .expeand-menu ul li i {
     font-size: 15px;
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
     padding-left: 10px;
 }
 
 .gamfi-farming-content .expeand-centent .unit {
-    color: #a3ff12;
+    color: rgb(134, 202, 230);
     font-size: 22px;
     font-family: "Russo One", sans-serif;
 }
@@ -3422,7 +3422,7 @@ body .modal-backdrop {
 }
 
 .gamfi-form-content .address-form .input-list input[type="radio"]:checked ~ .check::before {
-    background: #a3ff12;
+    background: rgb(134, 202, 230);
 }
 
 .gamfi-form-content .address-form .input-list input[type="radio"]:checked + h5,
@@ -3616,7 +3616,7 @@ body .gamfi-explore-content .project-item {
 }
 
 .gamfi-footer-section .footer-cta-area .footer-link .subscribe {
-    background: #a3ff12;
+    background: rgb(134, 202, 230);
 }
 
 .gamfi-footer-section .footer-cta-area .footer-link .subscribe span {
@@ -3811,7 +3811,7 @@ body .gamfi-explore-content .project-item {
 
 /*
 .modal-content .connect-section .heading-list li a:hover {
-  color: #a3ff12;
+  color: rgb(134, 202, 230);
 }
 */
 .modal-content .modal-title {
@@ -3887,7 +3887,7 @@ section.loader_first {
     width: 60px;
     height: 60px;
     border: 10px solid rgba(255, 255, 255, 0.1);
-    border-top: 10px solid #a3ff12;
+    border-top: 10px solid rgb(134, 202, 230);
     border-radius: 50%;
     animation: pre_rotate 1.5s linear infinite;
     position: absolute;
@@ -3960,7 +3960,7 @@ section.loader_first {
     overflow: hidden;
 }
 .Gamfi_Header_ProgressBar .progress-bar {
-    background-color: #A3FF12;
+    background-color: rgb(134, 202, 230);
 }
 .kycFormSect {
     padding-top: 56px;
@@ -5119,7 +5119,7 @@ Kyc Upload Docs
     font-weight: normal;
     font-size: 22px;
     line-height: 158%;
-    color: #A3FF12;
+    color: rgb(134, 202, 230);
     margin-bottom: 10px;
 }
 .RodmapConetentbox.disable  h3{
@@ -5283,7 +5283,7 @@ Kyc Upload Docs
 .gamfi_V2_hero_Btns .VIEW_Projects_Btn{
     width: 200px;
     height: 60px;
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     outline: none;
     margin-right: 15px;
     display: flex;
@@ -6041,7 +6041,7 @@ Kyc Upload Docs
     margin-top: 8px;
 }
 .TokenomicsListSect ul li span.Farming_Pool{
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
 }
 .TokenomicsListSect ul li span.Staking{
     background: #841183;
@@ -6413,7 +6413,7 @@ Kyc Upload Docs
     line-height: 19px;
     text-align: center;
 
-    color: #A3FF12;
+    color: rgb(134, 202, 230);
 }
 .no-border{
     border: none !important;
@@ -6470,7 +6470,7 @@ Kyc Upload Docs
 .RoadmapListSect .CheckIconBg{
     height: 21px;
     width: 21px;
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     border-radius: 50%;
     position: absolute;
     top: -30px;
@@ -7622,7 +7622,7 @@ Kyc Upload Docs
     font-size: 30px;
     line-height: 50px;
     text-transform: uppercase;
-    color: #A3FF12;
+    color: rgb(134, 202, 230);
     margin-right: 10px;
 }
 .Article_Details2 h5 a{
@@ -8038,7 +8038,7 @@ Kyc Upload Docs
     background: #01CC9B;
 }
 .blog-detail-conent .blog-area .Tokenomics-item .project-content .project-sale.springGreen:before{
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
 }
 .blog-detail-conent .blog-area .Tokenomics-item .project-content .project-sale.darkturquoise:before{
     background: #14A0C0;
@@ -8405,7 +8405,7 @@ div.latest-item .hover-shape-bg{
     padding: 17px 0;
     width: 100%;
     text-transform: uppercase;
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     border: transparent;
     font-family: "Russo One", sans-serif;
 }
@@ -8524,7 +8524,7 @@ div.latest-item .hover-shape-bg{
 .gamfi-navigation ul li a.active:not(.black-shape),
 .gamfi-navigation ul li a:hover:not(.black-shape) {
   background: #2e2f3c;
-  color: #a3ff12;
+  color: rgb(134, 202, 230);
 }
 
 .breadcrumbs-form .gamfi-navigation {
@@ -8616,7 +8616,7 @@ FAQ Screen
     font-weight: 400;
     font-size: 16px;
     line-height: 50px;
-    color: #A3FF12;
+    color: rgb(134, 202, 230);
     text-transform: none;
 }
 
@@ -8720,7 +8720,7 @@ ProjectDetailsRoadMapContent
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    color: #A3FF12;
+    color: rgb(134, 202, 230);
     margin-bottom: 10px;
 }
 .ProjectDetailsRoadMapContent h4.disable {
@@ -8854,7 +8854,7 @@ ProjectDetails_TeamMembers_Sect
     justify-content: flex-start;
 }
 .ProjectSammeryTabsSect button.active a, .ProjectSammeryTabsSect button:hover a{
-    color: #A3FF12;
+    color: rgb(134, 202, 230);
 }
 .ProjectSammeryTabsSect button img{
     display: none;
@@ -9003,7 +9003,7 @@ ProjectClasic
 }
 .ProjectClasicCustomProgressSect .ProgressBg .ProgressBar.ProgressBar82{
     height: 100%;
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     animation-name: Progressing82;
     animation-duration: 3s;
     width: 82%;
@@ -9021,7 +9021,7 @@ ProjectClasic
 
 .ProjectClasicCustomProgressSect .ProgressBg .ProgressBar.ProgressBar92{
     height: 100%;
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     animation-name: Progressing92;
     animation-duration: 4s;
     width: 92%;
@@ -9039,7 +9039,7 @@ ProjectClasic
 
 .ProjectClasicCustomProgressSect .ProgressBg .ProgressBar.ProgressBar100{
     height: 100%;
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     animation-name: Progressing100;
     animation-duration: 4s;
     width: 100%;
@@ -9057,7 +9057,7 @@ ProjectClasic
 
 .ProjectClasicCustomProgressSect .ProgressBg .ProgressBar.ProgressBar36{
     height: 100%;
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     animation-name: Progressing36;
     animation-duration: 4s;
     width: 36%;
@@ -9075,7 +9075,7 @@ ProjectClasic
 
 .ProjectClasicCustomProgressSect .ProgressBg .ProgressBar.ProgressBar65{
     height: 100%;
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     animation-name: Progressing65;
     animation-duration: 4s;
     width: 65%;
@@ -9092,7 +9092,7 @@ ProjectClasic
 }
 .ProjectClasicCustomProgressSect .ProgressBg .ProgressBar.ProgressBar93{
     height: 100%;
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     animation-name: Progressing93;
     animation-duration: 4s;
     width: 93%;
@@ -9532,7 +9532,7 @@ ProjectClasic
     position: absolute;
     top: -10px;
     left: -10px;
-    border: 10px solid #A3FF12;
+    border: 10px solid rgb(134, 202, 230);
     border-radius: 100px 0px 0px 100px;
     border-right: 0;
     transform-origin: right;
@@ -9749,7 +9749,7 @@ ProjectClasic2
     margin-bottom: 18px;
 }
 .TotalRisedProgressBar.Progress32{
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     height: 100%;
     width: 32%;
     animation-name: Progressing32;
@@ -9764,7 +9764,7 @@ ProjectClasic2
     }
 }
 .TotalRisedProgressBar.Progress65{
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     height: 100%;
     width: 65%;
     animation-name: Progressing65;
@@ -9781,7 +9781,7 @@ ProjectClasic2
 
 
 .TotalRisedProgressBar.Progress89{
-    background: #A3FF12;
+    background: rgb(134, 202, 230);
     height: 100%;
     width: 89%;
     animation-name: Progressing89;

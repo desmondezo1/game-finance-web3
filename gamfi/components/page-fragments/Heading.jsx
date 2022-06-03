@@ -7,7 +7,7 @@ export default function Heading(){
                     <div className="heaader-inner-area d-flex justify-content-between align-items-center">
                         <div className="gamfi-logo-area d-flex justify-content-between align-items-center">
                             <div className="logo">
-                                <a href="index-2.html"><img src="assets/images/logo.png" alt="logo" /></a>
+                                <a href="index-2.html"><img src="/images/logo.png" alt="logo" /></a>
                             </div>
                             <div className="header-menu">
                                 <ul className="nav-menu">
@@ -53,20 +53,20 @@ export default function Heading(){
                                                         <div className="HomeMenuList">
                                                             <div className="HomeMenuListHeadings">
                                                                 <h2>Home Pages</h2>
-                                                                <span><img src="assets/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
+                                                                <span><img src="/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
                                                             </div>
                                                             <ul>
                                                                 <li>
-                                                                    <a href="index-2.html">01 <span><img src="assets/images/megaMenu/index-V1.png" alt="Index V1" className="img-fluid" /></span></a>
+                                                                    <a href="index-2.html">01 <span><img src="/images/megaMenu/index-V1.png" alt="Index V1" className="img-fluid" /></span></a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="index2.html">02 <span><img src="assets/images/megaMenu/index-V2.png" alt="Index V2" className="img-fluid" /></span></a>
+                                                                    <a href="index2.html">02 <span><img src="/images/megaMenu/index-V2.png" alt="Index V2" className="img-fluid" /></span></a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="index-V3.html">03 <span><img src="assets/images/megaMenu/index-V3.png" alt="Index V3" className="img-fluid" /></span></a>
+                                                                    <a href="index-V3.html">03 <span><img src="/images/megaMenu/index-V3.png" alt="Index V3" className="img-fluid" /></span></a>
                                                                 </li>
                                                                 <li>
-                                                                    <a href="index-V4.html">04 <span><img src="assets/images/megaMenu/index-V4.png" alt="Index V3" className="img-fluid" /></span></a>
+                                                                    <a href="index-V4.html">04 <span><img src="/images/megaMenu/index-V4.png" alt="Index V3" className="img-fluid" /></span></a>
                                                                 </li>
                                                             </ul>
                                                         </div>
@@ -79,7 +79,7 @@ export default function Heading(){
                                                         <div className="Menu_column ProjectColumn">
                                                             <div className="menuHeadings">
                                                                 <h2>PROJECT PAGES</h2>
-                                                                <span><img src="assets/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
+                                                                <span><img src="/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
                                                             </div>
                                                             <ul>
                                                                 <li><a href="Project-Clasic.html">Projects Clasic 1</a> <span className="hot">HOT</span></li>
@@ -97,7 +97,7 @@ export default function Heading(){
                                                             <div className="Menu_column ProjectColumn">
                                                                 <div className="menuHeadings">
                                                                     <h2>STAKE & Farm</h2>
-                                                                    <span><img src="assets/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
+                                                                    <span><img src="/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
                                                                 </div>
                                                                 <ul>
                                                                     <li><a href="staking.html">Staking One</a></li>
@@ -110,7 +110,7 @@ export default function Heading(){
                                                             <div className="Menu_column ProjectColumn">
                                                                 <div className="menuHeadings">
                                                                     <h2>other Pages</h2>
-                                                                    <span><img src="assets/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
+                                                                    <span><img src="/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
                                                                 </div>
                                                                 <ul>
                                                                     <li><a href="Get-In-touch.html">Contact Us</a></li>
@@ -126,7 +126,7 @@ export default function Heading(){
                                                             <div className="Menu_column ProjectColumn">
                                                                 <div className="menuHeadings">
                                                                     <h2>TOKENOMIC & TIER</h2>
-                                                                    <span><img src="assets/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
+                                                                    <span><img src="/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
                                                                 </div>
                                                                 <ul>
                                                                     <li><a href="Tier.html">Tier System 1</a></li>
@@ -139,7 +139,7 @@ export default function Heading(){
                                                             <div className="Menu_column ProjectColumn">
                                                                 <div className="menuHeadings">
                                                                     <h2>BLOG PAGES</h2>
-                                                                    <span><img src="assets/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
+                                                                    <span><img src="/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
                                                                 </div>
                                                                 <ul>
                                                                     <li><a href="blog_grid.html">Blog Grid</a></li>
@@ -152,7 +152,7 @@ export default function Heading(){
                                                         <div className="Menu_column ProjectColumn">
                                                             <div className="menuHeadings">
                                                                 <h2>AUth Pages</h2>
-                                                                <span><img src="assets/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
+                                                                <span><img src="/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
                                                             </div>
                                                             <ul>
                                                                 <li><a href="kyc_process.html">KYC Step 01</a> <span className="hot">HOT</span></li>
@@ -196,14 +196,14 @@ export default function Heading(){
                                         <span className="hover-shape3"></span>
                                     </a>
                                     <ul>
-                                        <li><a href="#"><img src="assets/images/icons/pancake.png" alt="pancake" /> PancakeSwap</a></li>
-                                        <li><a href="#"><img src="assets/images/icons/uniswap.png" alt="uniswap" /> UniSwap</a></li>
-                                        <li><a href="#"><img src="assets/images/icons/market.png" alt="market" /> CoinMarketCap</a></li>
-                                        <li><a href="#"><img src="assets/images/icons/gate.png" alt="gate" /> Gate.io</a></li>
+                                        <li><a href="#"><img src="/images/icons/pancake.png" alt="pancake" /> PancakeSwap</a></li>
+                                        <li><a href="#"><img src="/images/icons/uniswap.png" alt="uniswap" /> UniSwap</a></li>
+                                        <li><a href="#"><img src="/images/icons/market.png" alt="market" /> CoinMarketCap</a></li>
+                                        <li><a href="#"><img src="/images/icons/gate.png" alt="gate" /> Gate.io</a></li>
                                     </ul>
                                 </li>
                                 <li>
-                                    <button type="button" className="readon white-btn hover-shape" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/images/icons/connect.png" alt="Icon" /> 
+                                    <button type="button" className="readon white-btn hover-shape" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="/images/icons/connect.png" alt="Icon" /> 
                                         <span className="btn-text">Connect </span>
                                         <span className="hover-shape1"></span>
                                         <span className="hover-shape2"></span>
@@ -226,7 +226,7 @@ export default function Heading(){
                     </a>
                 </div>
                 <div className="sidebar-logo mb-30">
-                    <a href="index-2.html"><img src="assets/images/logo-dark.png" alt="" /></a>
+                    <a href="index-2.html"><img src="/images/logo-dark.png" alt="" /></a>
                 </div>
                 <ul className="nav-menu">
                     <li className="current-menu-item"><a href="index-2.html">Home</a>
@@ -326,7 +326,7 @@ export default function Heading(){
                         </ul>
                     </li>
                     <li>
-                        <button type="button" className="readon black-shape-big connectWalletBtnforMobile" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="assets/images/icons/connect_white.png" alt="Icon" />
+                        <button type="button" className="readon black-shape-big connectWalletBtnforMobile" data-bs-toggle="modal" data-bs-target="#exampleModal"><img src="/images/icons/connect_white.png" alt="Icon" />
                             <span className="btn-text">Connect </span>
                             <span className="hover-shape1"></span>
                             <span className="hover-shape2"></span>

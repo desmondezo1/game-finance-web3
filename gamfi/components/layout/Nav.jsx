@@ -61,6 +61,11 @@ export default function Nav(){
                                         <a style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}} >Staking</a>
                                         </Link>
                                     </li>
+                                    <li>
+                                        <Link href={'https://financetoken.org/'}>
+                                        <a style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}} >Fin Deck</a>
+                                        </Link>
+                                    </li>
 
                                     
                                 </ul>
@@ -83,6 +88,8 @@ export default function Nav(){
                                     <a style={{
                                         fontFamily: "'Comic Sans MS', 'Comic Sans'", 
                                         fontWeight: 600,
+                                        border: "2px solid #00D1B8",
+                                        borderRadius: "10px",
                                         color: "#00D1B8" 
                                         
                                         }} type="button" className="readon hover-shape" data-bs-toggle="modal" data-bs-target="#exampleModal"> 
@@ -93,9 +100,9 @@ export default function Nav(){
                                     </Link>
                                 </li>
                                 <li>
-                                    <button type="button" style={{ background: "#86cae6"}} className="readon white-btn hover-shape" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    <button type="button" style={{ background: "#86cae6",  borderRadius: "10px",}} className="readon white-btn hover-shape" data-bs-toggle="modal" data-bs-target="#exampleModal">
                                         <Image src={connectPng} alt="Icon"/> 
-                                        <span style={{marginLeft: "10px", fontFamily: "'Comic Sans MS', 'Comic Sans'" , fontWeight: 600 ,   }} className="btn-text">Connect </span>
+                                        <span style={{marginLeft: "10px", fontFamily: "'Comic Sans MS', 'Comic Sans'" , fontWeight: 600 ,  borderRadius: "10px",  }} className="btn-text">Connect </span>
                                         <span className="hover-shape1"></span>
                                         <span className="hover-shape2"></span>
                                         <span className="hover-shape3"></span>

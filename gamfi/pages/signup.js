@@ -1,8 +1,8 @@
-
+import indexCss from "../styles/index.module.css"
 
 export default function signup(){
     return (<>
-    		<div className="SignUp_SignIn_Form_Sect">
+    		<div className={`${indexCss.top} SignUp_SignIn_Form_Sect`}>
             <div className="SignUp_SignIn_Form_SectBG"></div>
 		    <div className="container">
 		        <div className="SignUp_SignIn_Form_Content">
