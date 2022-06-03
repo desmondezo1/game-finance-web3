@@ -7,6 +7,7 @@ import HowToParticipate from '../components/page-fragments/HowToParticipate'
 import KeyPointsSection from '../components/page-fragments/keyPointsSection'
 import FaqSection from '../components/page-fragments/faqSection'
 import Footer from '../components/layout/Footer'
+import Modal from '../components/page-fragments/modal'
 // import "../public/js/modernizr-2.8.3.min.js"
 // import "../public/js/jquery.min.js"
 // <!-- Bootstrap v4.4.1 js -->
@@ -49,6 +50,7 @@ export default function Home() {
         <HowToParticipate />
         <KeyPointsSection />
         <FaqSection />
+        <Modal />
         <Footer />
       {/* </div> */}
     </>

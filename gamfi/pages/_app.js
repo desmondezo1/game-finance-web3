@@ -1,6 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.css'
 import '../styles/globals.css'
 import Nav from '../components/layout/Nav'
 import Head from 'next/head'
+
 import "../styles/css/bootstrap.min.css"
 import "../styles/css/animate.css";
 import "../styles/css/magnific-popup.css"
@@ -47,7 +49,13 @@ function MyApp({ Component, pageProps }) {
         {/* <link rel="stylesheet" type="text/css" href="../styles/css/style.css" /> */}
         {/* <!-- responsive css --> */}
         {/* <link rel="stylesheet" type="text/css" href="../styles/css/responsive.css" /> */}
+  
+  
   </Head>
+  <script
+src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+crossOrigin="anonymous"/>
   <Nav/>
   <Component {...pageProps} />
   </>) 
