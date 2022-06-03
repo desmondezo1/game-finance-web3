@@ -1,3 +1,6 @@
+import Link from 'next/link'
+
+
 export default function Footer(){
     return(<>
     
@@ -11,12 +14,13 @@ export default function Footer(){
                     <div className="dsc mb-40 md-mb-30">
                         If you want to lanuch an IGO/IDO, It will be your perfect choice
                     </div>
-                    <a className="banner-btn wow fadeInUp black-shape" data-wow-delay="0.3s" data-wow-duration="0.5s" href="igo-apply.html">
+                    <Link href={'/igo'}>
+                    <a className="banner-btn wow fadeInUp black-shape" data-wow-delay="0.3s" data-wow-duration="0.5s">
                         <span className="btn-text">Apply For IGO</span>
                         <span className="hover-shape1"></span>
                         <span className="hover-shape2"></span>
                         <span className="hover-shape3"></span>
-                    </a>
+                    </a></Link>
                     <span className="border-shadow shadow-1"></span>
                     <span className="border-shadow shadow-2"></span>
                     <span className="border-shadow shadow-3"></span>
@@ -30,9 +34,9 @@ export default function Footer(){
                 <div className="container">
                     <div className="sec-heading text-center">
                         <div className="sub-inner mb-52 mb-mb-30">
-                            <img className="heading-right-image" src="assets/images/icons/steps2.png" alt="Steps-Image"/>
+                            <img className="heading-right-image" src="/images/icons/steps2.png" alt="Steps-Image"/>
                             <span className="sub-title white-color">Find us on Social</span>
-                            <img className="heading-left-image" src="assets/images/icons/steps.png" alt="Steps-Image"/>
+                            <img className="heading-left-image" src="/images/icons/steps.png" alt="Steps-Image"/>
                         </div>
                     </div>
                     <div className="footer-listing text-center mb-100 md-mb-70 xs-mb-50">
@@ -47,7 +51,7 @@ export default function Footer(){
                         </ul>
                     </div>
                     <div className="footer-logo text-center mb-45"> 
-                        <img src="assets/images/logo.png" alt="Footer-logo" />
+                        <img src="/images/logo.png" alt="Footer-logo" />
                     </div>
                     <div className="footer-mainmenu text-center mb-20">
                         <ul>
