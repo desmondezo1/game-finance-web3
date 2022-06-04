@@ -12,7 +12,7 @@ export default function HowToParticipate(){
                                     <span className={`${indexCss.fiFont} sub-title`}>3 EASY STEPS</span>
                                     <img className="heading-left-image" src="/images/icons/steps.png" alt="Steps-Image" />
                                 </div>
-                                <h2 className={`${indexCss.fiFont} title` }>How to Participate</h2>
+                                <h2 className={`${indexCss.fiFont} title` }>Join Orchestrstor Network</h2>
                             </div>
                             <div className="How_to_Participate_Left_Contnet">
                                 <p>In Finance Token, any NGO and Charitable organisation can join the network and become what's known as an orchestrator by Signing Agreements to mandates you to offer free and immediate healthcare services to consumers in your Region. either subsidized or 100% free. contribute your PILLS to help Citizens like Bob. <br> For doing so, you earn fees in the form of a cryptocurrency like BNB or a stablecoin pegged to the US dollar like BUSD.</p>
@@ -36,7 +36,7 @@ export default function HowToParticipate(){
                                 </div>
                                 <div className="How_to_Participate_right_CardText">
                                     <h4>Submit KYC</h4>
-                                    <p>Contrary to popular belief, that are bound to ensue; and equal blame belongs to those who fail in their dutyis.</p>
+                                    <p>Go through basic Identity varification and business Licensing </p>
                                 </div>
                             </div>
                             <div className="How_to_Participate_right_Card How_to_Participate_right_Card2 wow fadeInRight" data-wow-delay="0.3s" data-wow-duration="0.5s">
@@ -44,8 +44,8 @@ export default function HowToParticipate(){
                                     <img src="/images/icons/two.svg" alt="img" className="img-fluid" />
                                 </div>
                                 <div className="How_to_Participate_right_CardText">
-                                    <h4>Verify Wallet</h4>
-                                    <p>Simply random text. It has roots in a piece Contrary to popular belief, Lorem Ipsum is not simply random text.</p>
+                                    <h4>Verify Contract</h4>
+                                    <p>Simply connect your web3 wallet, buy $Fin and approve a smart contract.</p>
                                 </div>
                             </div>
                             <div className="How_to_Participate_right_Card How_to_Participate_right_Card3 wow fadeInRight" data-wow-delay="0.4s" data-wow-duration="0.6s">
@@ -53,8 +53,8 @@ export default function HowToParticipate(){
                                     <img src="/images/icons/three.svg" alt="img" className="img-fluid" />
                                 </div>
                                 <div className="How_to_Participate_right_CardText">
-                                    <h4>Start Staking</h4>
-                                    <p>It has roots in a piece Contrary to popular belief, Lorem Ipsum is not simply random text roots in a piece</p>
+                                    <h4>Own Staking Pool</h4>
+                                    <p>If Verified and contract created you now can govern a staking pool and take out profits from the staking pairs.</p>
                                 </div>
                             </div>
                         </div>
