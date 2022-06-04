@@ -1,4 +1,5 @@
 import indexCss from "../../styles/index.module.css"
+import Link from "next/link"
 
 export default function HowToParticipate(){
     return(<>
@@ -17,13 +18,15 @@ export default function HowToParticipate(){
                             <div className="How_to_Participate_Left_Contnet">
                                 <p>we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment. so blinded by desire, that they cannot foresee the pain and trouble</p>
                                 <div className="How_to_Participate_Left_Btn">
-                                    <a className="view-more black-shape" href="kyc_process.html">
+                                    <Link href={"/verify-kyc"}>
+                                    <a className="view-more black-shape">
                                         <span className="btn-text">Verify KYC</span>
                                         <i className="icon-arrow_right"></i>
                                         <span className="hover-shape1"></span>
                                         <span className="hover-shape2"></span>
                                         <span className="hover-shape3"></span>
                                     </a>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
