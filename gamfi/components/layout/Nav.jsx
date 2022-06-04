@@ -76,8 +76,8 @@ export default function Nav(){
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={'https://financetoken.org/'}>
-                                        <a style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}} >Fin Deck</a>
+                                        <Link href={'https://financetoken.org/findeck'}>
+                                        <a style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}} >Findeck</a>
                                         </Link>
                                     </li>
 
@@ -168,8 +168,8 @@ export default function Nav(){
                     </Link>
                 </li>
                 <li>
-                    <Link href={'https://financetoken.org/'}>
-                    <a style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}} >Fin Deck</a>
+                    <Link href={'https://financetoken.org/findeck'}>
+                    <a style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}} >Findeck</a>
                     </Link>
                 </li>
 
