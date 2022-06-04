@@ -32,8 +32,8 @@ export default function Banner(){
                     <div className="row">
                         <div className="col-md-6">
                             <div className="sc_banner_V3_left" style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}}>
-                                <h2 className={`${bannerCss.bannerH2} bannerH2 wow fadeInUp`} data-wow-delay="0.4s" data-wow-duration="0.6s">METAVERSE <br/> PLAY-TO <span><img src="/images/icons/dollar-dollar-color.svg" alt="" className="img-fluid" /></span> EARN IGO Launchpad <span><img src="/images/icons/rocket-dynamic-color.svg" alt="" className="img-fluid" /></span></h2>
-                                <p className="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s" style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}}>The next generation gaming ecosystem for IGOs and NFT market Secure crypto solutions by blockchain technology</p>
+                                <h2 className={`${bannerCss.bannerH2} bannerH2 wow fadeInUp`} data-wow-delay="0.4s" data-wow-duration="0.6s">BETASPACE <br/> STAKE-TO <span><img src="/images/icons/dollar-dollar-color.svg" alt="" className="img-fluid" /></span> EARN COMMUNITY OWNED <span><img src="/images/icons/rocket-dynamic-color.svg" alt="" className="img-fluid" /></span></h2>
+                                <p className="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s" style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}}>Largest community token allowing Crowd Funding on BNB Chain . It Facilitates a secrured crowd funding system for the community and Charity. HOLDERS of $FIN would be rewareded in BUSD and and iFIN for thier contributions to the growth of $FIN.</p>
                                 <div className="gamfi_V2_hero_Btns wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
                                     <a href="project.html">
                                        <button type="button" className="readon white-btn hover-shape VIEW_Projects_Btn">
