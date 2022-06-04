@@ -22,7 +22,7 @@ useEffect(()=>{
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         {/* <!-- favicon --> */}
         <link rel="apple-touch-icon" href="apple-touch-icon.html" />
-        <link rel="shortcut icon" type="image/x-icon" href="/images/fav.png" />
+        <link rel="shortcut icon"  href="/images/favicon.ico" />
 
         <link rel="stylesheet" href="styles/css/bootstrap.min.css" />
         {/* <!-- animate css --> */}
