@@ -20,8 +20,8 @@ export default function KeyPointsSection(){
                                         <img src="/images/icons/Key_icon1.png" alt="icon" className="img-fluid" />
                                     </div>
                                     <div className="Key_Points_Item_Text">
-                                        <h3>Decentralized</h3>
-                                        <p>If you are going to use a passage of Lorem Ipsum, you need to be sure there isn &apos; t anything embarrassing</p>
+                                        <h3>Defi</h3>
+                                        <p>Defi means it's Decentralized, secured and always scalable, giving full control over your money.</p>
                                     </div>
                                 </div>
                             </div>
@@ -32,7 +32,7 @@ export default function KeyPointsSection(){
                                     </div>
                                     <div className="Key_Points_Item_Text">
                                         <h3>PoS Conscensus</h3>
-                                        <p>But I must explain to you how all this mistaken idea of  new gem denouncing pleasure and praising pain</p>
+                                        <p>Proof of Stake mechanism, This has the effect of growing network ownership amongst those who participate and shrinking it amongst those who do not.</p>
                                     </div>
                                 </div>
                             </div>
@@ -43,7 +43,7 @@ export default function KeyPointsSection(){
                                     </div>
                                     <div className="Key_Points_Item_Text">
                                         <h3>Fair Launch</h3>
-                                        <p>When our power of choice is untrammelled and when nothing prevents our being able to do what we like best</p>
+                                        <p>No whales or pre sale Investors every single Delegator is given a fair right of ownership at a same price on Launch.</p>
                                     </div>
                                 </div>
                             </div>
@@ -53,8 +53,8 @@ export default function KeyPointsSection(){
                                         <img src="/images/icons/Key_icon4.png" alt="icon" className="img-fluid" />
                                     </div>
                                     <div className="Key_Points_Item_Text">
-                                        <h3Community Owned</h3>
-                                        <p>But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently </p>
+                                        <h3>Community Owned</h3>
+                                        <p>The Progression of the $FIN token project is dependent on collective participation in trading, HODL and Affiliating by the community. </p>
                                     </div>
                                 </div>
                             </div>
