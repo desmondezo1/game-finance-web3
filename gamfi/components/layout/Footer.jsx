@@ -8,11 +8,11 @@ export default function Footer(){
             <div className="container">
                 <div className="footer-cta-area text-center active-shape hover-shape-inner">
                     <h2 className="title mb-15">
-                        Apply for project<br />
-                        incubation
+                        Become an<br />
+                        Orchestrator
                     </h2>
                     <div className="dsc mb-40 md-mb-30">
-                        If you want to lanuch an IGO/IDO, It will be your perfect choice
+                        Do you have a health or Charitable NGO? lend a helping hand
                     </div>
                     <Link href={'/igo'}>
                     <a className="banner-btn wow fadeInUp black-shape" data-wow-delay="0.3s" data-wow-duration="0.5s">
@@ -66,7 +66,7 @@ export default function Footer(){
                     </div>
                     <div className="copyright-area text-center mb-0">
                         <div className="dsc mb-37 md-mb-25">Copyright © 2022. All Rights Reserved by 
-                            <a target="_blank" className="gafi" href="#">GaFi</a>
+                            <a target="_blank" className="gafi" href="#">Bunny labs</a>
                         </div>
                     </div>
                     <div className="scrollup text-center">

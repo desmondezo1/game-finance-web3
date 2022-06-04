@@ -15,8 +15,8 @@ useEffect(()=>{
   return (
     <Html>
       <Head>
-      <title>Finace Token</title>
-        <meta name="description" content="" />
+      <title>Finance Token</title>
+        <meta name="description" content="Keeping a balance between Health and Wealth" />
         {/* <!-- responsive tag --> */}
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
