@@ -31,7 +31,7 @@ export default function KeyPointsSection(){
                                         <img src="/images/icons/Key_icon2.png" alt="icon" className="img-fluid" />
                                     </div>
                                     <div className="Key_Points_Item_Text">
-                                        <h3>Secure Bridge</h3>
+                                        <h3>PoS Conscensus</h3>
                                         <p>But I must explain to you how all this mistaken idea of  new gem denouncing pleasure and praising pain</p>
                                     </div>
                                 </div>
@@ -42,7 +42,7 @@ export default function KeyPointsSection(){
                                         <img src="/images/icons/Key_icon3.png" alt="icon" className="img-fluid" />
                                     </div>
                                     <div className="Key_Points_Item_Text">
-                                        <h3>Fair Allocations</h3>
+                                        <h3>Fair Launch</h3>
                                         <p>When our power of choice is untrammelled and when nothing prevents our being able to do what we like best</p>
                                     </div>
                                 </div>
@@ -53,7 +53,7 @@ export default function KeyPointsSection(){
                                         <img src="/images/icons/Key_icon4.png" alt="icon" className="img-fluid" />
                                     </div>
                                     <div className="Key_Points_Item_Text">
-                                        <h3>Autopilot Liquidity</h3>
+                                        <h3Community Owned</h3>
                                         <p>But in certain circumstances and owing to the claims of duty or the obligations of business it will frequently </p>
                                     </div>
                                 </div>
