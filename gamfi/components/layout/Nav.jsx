@@ -97,7 +97,7 @@ export default function Nav(){
                                     </span>
                                 </li>
 
-                                <li class="buy-token">
+                                <li className="buy-token">
                                 <Link href="/signup">
                                     <a style={{
                                         fontFamily: "'Comic Sans MS', 'Comic Sans'", 
@@ -106,15 +106,15 @@ export default function Nav(){
                                         borderRadius: "10px",
                                         color: "#00D1B8" 
                                         
-                                        }} class="readon black-shape" >
-                                        <span class="btn-text" 
+                                        }} className="readon black-shape" >
+                                        <span className="btn-text" 
                                         style={{
                                             color: "#00D1B8" 
                                         }}>Sign Up </span>
-                                        {/* <i class="icon-arrow_down"></i>
-                                        <span class="hover-shape1"></span>
-                                        <span class="hover-shape2"></span>
-                                        <span class="hover-shape3"></span> */}
+                                        {/* <i className="icon-arrow_down"></i>
+                                        <span className="hover-shape1"></span>
+                                        <span className="hover-shape2"></span>
+                                        <span className="hover-shape3"></span> */}
                                     </a>
                                     </Link>
                                     <ul>
@@ -185,15 +185,15 @@ export default function Nav(){
                                         justifyContent: "center",
                                         color: "#00D1B8" 
                                         
-                                        }} class="readon black-shape" >
-                                        <span class="btn-text" 
+                                        }} className="readon black-shape" >
+                                        <span className="btn-text" 
                                         style={{
                                             color: "#00D1B8" 
                                         }}>Sign Up </span>
-                                        {/* <i class="icon-arrow_down"></i>
-                                        <span class="hover-shape1"></span>
-                                        <span class="hover-shape2"></span>
-                                        <span class="hover-shape3"></span> */}
+                                        {/* <i className="icon-arrow_down"></i>
+                                        <span className="hover-shape1"></span>
+                                        <span className="hover-shape2"></span>
+                                        <span className="hover-shape3"></span> */}
                                     </a>
                                     </Link>
                         {/* <ul className="sub-menu">
