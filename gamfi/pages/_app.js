@@ -14,13 +14,28 @@ import "../styles/css/slick-theme.min.css"
 import "../styles/css/sc-spacing.css"
 import "../styles/css/style.css" 
 import "../styles/css/responsive.css"
-
+import { useEffect } from 'react'
+import useStore from '../utility/store'
 
 function MyApp({ Component, pageProps }) {
+
+  const navClassVal = useStore(state => state.navBarExpanded);
+
+  useEffect(() =>
+  {        
+    if(navClassVal){
+        document.body.classList.add("nav-expanded");
+    }else{
+      document.body.classList.remove("nav-expanded");
+    }
+      
+      // document.body.classList.add("text-gray-700");
+  });
+
   return(<>
   <Head>
   <meta charset="utf-8" />
-        <title>GamFi - Metaverse Web3 IGO/IDO Token Launchpad HTML5 Template</title>
+        <title>Finance Token</title>
         <meta name="description" content="" />
         {/* <!-- responsive tag --> */}
         <meta httpEquiv="x-ua-compatible" content="ie=edge" />
@@ -56,8 +71,10 @@ function MyApp({ Component, pageProps }) {
 src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
 integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
 crossOrigin="anonymous"/>
+<script src='js/utility/extrajquery.js' />
   <Nav/>
 
+    
   <Component {...pageProps} />
   </>) 
 }

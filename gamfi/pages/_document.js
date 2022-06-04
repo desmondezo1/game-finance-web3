@@ -1,7 +1,17 @@
 
 import { Html, Head, Main, NextScript } from 'next/document'
-
+import { useEffect, useState } from 'react';
+import useStore from '../utility/store'
 export default function Document() {
+const [navstat, setNavStat] = useState("");
+
+
+useEffect(()=>{
+
+  //   const navClass = useStore(state => state.navBarExpanded); 
+  // setNavStat(navClass);
+})
+
   return (
     <Html>
       <Head>
@@ -38,11 +48,17 @@ export default function Document() {
       <body style={{
         backgroundColor: "#151625",
         fontFamily: "'Comic Sans MS', 'Comic Sans'",
+        right: "0 !important"
 
       }}>
         <Main />
+     
         <NextScript />
       </body>
+
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.5.9/slick.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+        <script src="public/js/main.js"></script>
     </Html>
   )
 }

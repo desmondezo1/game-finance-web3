@@ -8,6 +8,10 @@ import KeyPointsSection from '../components/page-fragments/keyPointsSection'
 import FaqSection from '../components/page-fragments/faqSection'
 import Footer from '../components/layout/Footer'
 import Modal from '../components/page-fragments/modal'
+import { useEffect } from 'react'
+import useStore from '../utility/store'
+
+
 // import "../public/js/modernizr-2.8.3.min.js"
 // import "../public/js/jquery.min.js"
 // <!-- Bootstrap v4.4.1 js -->
@@ -34,6 +38,8 @@ import Modal from '../components/page-fragments/modal'
 // // <!-- slickSlider js -->
 // import "../public/js/slick.min.js"
 export default function Home() {
+
+
   return (
     <>
 
@@ -44,7 +50,6 @@ export default function Home() {
             <div className="circular-spinner"></div>
         </section> */}
         {/* <!--Preloader area End here--> */}
-        
         <Banner />
         <PreviousSection/>
         <HowToParticipate />
