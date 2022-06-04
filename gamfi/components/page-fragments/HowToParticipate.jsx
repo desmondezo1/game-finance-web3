@@ -15,7 +15,7 @@ export default function HowToParticipate(){
                                 <h2 className={`${indexCss.fiFont} title` }>How to Participate</h2>
                             </div>
                             <div className="How_to_Participate_Left_Contnet">
-                                <p>we denounce with righteous indignation and dislike men who are so beguiled and demoralized by the charms of pleasure of the moment. so blinded by desire, that they cannot foresee the pain and trouble</p>
+                                <p>In Finance Token, any NGO and Charitable organisation can join the network and become what's known as an orchestrator by Signing Agreements to mandates you to offer free and immediate healthcare services to consumers in your Region. either subsidized or 100% free. contribute your PILLS to help Citizens like Bob. <br> For doing so, you earn fees in the form of a cryptocurrency like BNB or a stablecoin pegged to the US dollar like BUSD.</p>
                                 <div className="How_to_Participate_Left_Btn">
                                     <a className="view-more black-shape" href="kyc_process.html">
                                         <span className="btn-text">Verify KYC</span>
