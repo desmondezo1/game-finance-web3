@@ -11,7 +11,6 @@ import uniswap from "../../public/images/icons/uniswap.png"
 import market from "../../public/images/icons/market.png"
 import gate from "../../public/images/icons/gate.png"
 import connectPng from "../../public/images/icons/connect.png"
-import useDownloader from "react-use-downloader";
 import connectWhite from "../../public/images/icons/connect_white.png"
 import Link from "next/link"
 import useStore from "../../utility/store"
@@ -22,11 +21,7 @@ export default function Nav(){
     const expand = useStore(state => state.expandMobileNav);
 
 
-    const downloadPdf = () =>{
-        const down = useDownloader();
-        down.download(fileUrl, filename);
-    }
-      
+
    
   
   const fileUrl = "../../public/pdf/Findeck.pdf"
@@ -180,9 +175,9 @@ export default function Nav(){
                     </Link>
                 </li>
                 <li>
-                    <Link href={'https://financetoken.org/findeck'}>
-                    <a style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}} >Findeck</a>
-                    </Link>
+                    {/* <Link href={'https://financetoken.org/findeck'}> */}
+                    <a href={"/pdf/Findeck.pdf"} download={filename} style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}} >Findeck</a>
+                    {/* </Link> */}
                 </li>
 
                     <li className="menu-item-has-children">

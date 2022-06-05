@@ -21,7 +21,7 @@ export default function KeyPointsSection(){
                                     </div>
                                     <div className="Key_Points_Item_Text">
                                         <h3>Defi</h3>
-                                        <p>Defi means it's Decentralized, secured and always scalable, giving full control over your money.</p>
+                                        <p>Defi means it&apos;s Decentralized, secured and always scalable, giving full control over your money.</p>
                                     </div>
                                 </div>
                             </div>

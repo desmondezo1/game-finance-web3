@@ -1,4 +1,5 @@
 import indexCss from "../../styles/index.module.css"
+import Link from "next/link"
 
 export default function KycStep3(){
     return (
