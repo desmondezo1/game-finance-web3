@@ -1,9 +1,9 @@
 import { useRouter } from "next/router"
 import { useEffect, useState } from "react";
 import BreadCrumbsKYC from "../../components/page-fragments/breadcrumbskyc"
-import KycStep1 from "../../components/page-fragments/kyc-Step1";
-import KycStep2 from "../../components/page-fragments/kyc-Step2";
-import KycStep3 from "../../components/page-fragments/kyc-Step3";
+import KycStep1 from "../../components/page-fragments/KycStep1";
+import KycStep2 from "../../components/page-fragments/KycStep2";
+import KycStep3 from "../../components/page-fragments/KycStep3";
 
 export default function VerifyKyc(){
     const router = useRouter();
