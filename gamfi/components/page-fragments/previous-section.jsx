@@ -73,14 +73,14 @@ export default function PreviousSection(){
                                             </div>
                                         </div>
                                         <div className="previous-chaining">
-                                            <img src="/images/project/previous-image2.png" alt="Chain-Image" />
+                                            <img src={`/images/project/${chain}.png`} alt="Chain-Image" />
                                             <span>{created}</span>
                                         </div>
                                         <div className="previous-raise">
                                             <span>{raised} BUSD ({Math.trunc((10 * percent_raised))/10}%)</span>
                                             <div className="progress-inner">
                                                 <div className="progress">
-                                                    <div className="progress-bar progress-bar-striped" role="progressbar" aria-valuenow={Math.trunc(percent_raised)} aria-valuemin="0" aria-valuemax="100" style={{width: Math.trunc(percent_raised)}}></div>
+                                                    <div className="progress-bar progress-bar-striped" role="progressbar" aria-valuenow={Math.trunc(percent_raised)} aria-valuemin="0" aria-valuemax="100" style={{width: Math.trunc(percent_raised)+"%"}}></div>
                                                 </div>
                                             </div>
                                         </div>

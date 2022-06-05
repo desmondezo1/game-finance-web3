@@ -1116,6 +1116,10 @@ body .modal-backdrop {
     font-size: 13px;
 }
 
+.icon-arrow_right:before {
+    content: "\e902";
+  }
+
 .Fin-navigation ul li a.active:not(.black-shape),
 .Fin-navigation ul li a:hover:not(.black-shape) {
     background: #2E2F3C;

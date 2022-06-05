@@ -26,17 +26,7 @@ import useStore from '../utility/store'
 // // <!-- jquery counterup js -->
 // import "../public/js/jquery.counterup.min.js"
 // // <!-- counter top js -->
-// import "../public/js/waypoints.min.js"
-// // <!-- owl.carousel js -->
-// import "../public/js/owl.carousel.min.js"
-// // <!-- plugins js -->
-// import "../public/js/plugins.js"
-// // <!-- Time Counter js -->
-// import "../public/js/time-counter.js"
-// // <!-- main js -->
-// import "../public/js/main.js"
-// // <!-- slickSlider js -->
-// import "../public/js/slick.min.js"
+
 export default function Home() {
 
 
