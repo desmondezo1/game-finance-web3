@@ -57,10 +57,10 @@ export default function PreviousSection(){
                                 </div>
           
                             </div>
-                            { projectsData.map(({project_name, price, symbol, chain, created, raised, percent_raised}) =>{
+                            { projectsData.map(({project_name, price, symbol, chain, created, raised, percent_raised}, index) =>{
 
                                return ( 
-                               <div className="col-md-12 wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="0.5s">
+                               <div  key={index} className="col-md-12 wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="0.5s">
                                 <a href="project-details.html">
                                     <div className="previous-item hover-shape-border hover-shape-inner">
                                         <div className="previous-gaming">
