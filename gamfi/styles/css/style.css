@@ -6,7 +6,7 @@
 * 
 * -----------------------------------------------------------------------------
 *
-* Template : GamFi - Metaverse Web3 IGO/IDO Token Launchpad HTML 5 Template
+* Template : Fin - Metaverse Web3 IHO/IDO Token Launchpad HTML 5 Template
 * Author : uigigs
 * Author URI : http://www.uigigs.com/
 *
@@ -15,24 +15,24 @@
 **/
 /* TABLE OF CONTENT
 ---------------------------------------------------------
-01. Gamfi General CSS
-02. Gamfi Header Section CSS
-03. Gamfi Banner Section CSS
-04. Gamfi Breadcrumbs Section CSS
-05. Gamfi About Section CSS
-06. Gamfi Project Section CSS
-07. Gamfi Project Details Section CSS
-08. Gamfi previous Section CSS
-09. Gamfi farming Section CSS
-10. Gamfi Calendar Section CSS
-11. Gamfi Leaderboard Section CSS
-12. Gamfi Igo-Rankging Section CSS
-13. Gamfi Tokenomics Section CSS
-14. Gamfi Team Section CSS
-15. Gamfi Partner Section CSS
-16. Gamfi Form Content Section CSS
-17. Gamfi Explore Content Section CSS
-18. Gamfi footer Section CSS
+01. Fin General CSS
+02. Fin Header Section CSS
+03. Fin Banner Section CSS
+04. Fin Breadcrumbs Section CSS
+05. Fin About Section CSS
+06. Fin Project Section CSS
+07. Fin Project Details Section CSS
+08. Fin previous Section CSS
+09. Fin farming Section CSS
+10. Fin Calendar Section CSS
+11. Fin Leaderboard Section CSS
+12. Fin Igo-Rankging Section CSS
+13. Fin Tokenomics Section CSS
+14. Fin Team Section CSS
+15. Fin Partner Section CSS
+16. Fin Form Content Section CSS
+17. Fin Explore Content Section CSS
+18. Fin footer Section CSS
 19. Modal Section CSS
 20. Preloader CSS
 --------------------------------------------------------*/
@@ -101,7 +101,7 @@
 }
 
 /* -----------------------------------/
-    01. Gamfi General CSS
+    01. Fin General CSS
 -------------------------------------*/
 html,
 body {
@@ -363,28 +363,28 @@ body .modal-backdrop {
 }
 
 /* -----------------------
-    02. Gamfi Header Section CSS
+    02. Fin Header Section CSS
 --------------------------*/
-.gamfi-header-section {
+.Fin-header-section {
     background-color: #090a1a;
     padding: 25px 0;
 }
 
-.gamfi-header-section.transparent-header {
+.Fin-header-section.transparent-header {
     background: transparent;
     position: absolute;
     width: 100%;
     z-index: 12;
 }
 
-.gamfi-header-section.default-header {
+.Fin-header-section.default-header {
     background: #090A1A;
     position: relative;
     z-index: 11;
 }
 
-.gamfi-header-section.default-header:after,
-.gamfi-header-section.default-header:before {
+.Fin-header-section.default-header:after,
+.Fin-header-section.default-header:before {
     width: 252px;
     height: 100%;
     content: "";
@@ -394,26 +394,26 @@ body .modal-backdrop {
     background-repeat: no-repeat;
 }
 
-.gamfi-header-section.default-header:after {
+.Fin-header-section.default-header:after {
     background-image: url(../../public/images/bg/header-shape1.png);
     left: 0;
 }
 
-.gamfi-header-section.default-header:before {
+.Fin-header-section.default-header:before {
     background-image: url(../../public/images/bg/header-shape2.png);
     right: 0;
 }
 
-.gamfi-header-section .logo {
+.Fin-header-section .logo {
     margin-right: 60px;
 }
 
-.gamfi-header-section .heaader-inner-area ul li {
+.Fin-header-section .heaader-inner-area ul li {
     display: inline-block;
     position: relative;
 }
 
-.gamfi-header-section .heaader-inner-area ul li ul {
+.Fin-header-section .heaader-inner-area ul li ul {
     position: absolute;
     left: -22px;
     top: 100%;
@@ -430,17 +430,17 @@ body .modal-backdrop {
     z-index: 10;
 }
 
-.gamfi-header-section .heaader-inner-area ul li ul li {
+.Fin-header-section .heaader-inner-area ul li ul li {
     display: block;
     width: 240px;
 }
 
-.gamfi-header-section .heaader-inner-area ul li ul li + li {
+.Fin-header-section .heaader-inner-area ul li ul li + li {
     border-top: 1px solid #343441;
     margin-bottom: -1px;
 }
 
-.gamfi-header-section .heaader-inner-area ul li ul li a {
+.Fin-header-section .heaader-inner-area ul li ul li a {
     display: block;
     background: #222231;
     font-size: 16px;
@@ -452,7 +452,7 @@ body .modal-backdrop {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-header-section .heaader-inner-area ul li ul li a i {
+.Fin-header-section .heaader-inner-area ul li ul li a i {
     font-size: 20px;
     color: #fff;
     margin-right: 10px;
@@ -460,30 +460,30 @@ body .modal-backdrop {
     top: 2px;
 }
 
-.gamfi-header-section .heaader-inner-area ul li ul li a:hover {
+.Fin-header-section .heaader-inner-area ul li ul li a:hover {
     color: #fff;
 }
 
-.gamfi-header-section .heaader-inner-area ul li:hover ul {
+.Fin-header-section .heaader-inner-area ul li:hover ul {
     opacity: 1;
     visibility: visible;
     transform: scaleY(1);
 }
 
-.gamfi-header-section .heaader-inner-area ul li img {
+.Fin-header-section .heaader-inner-area ul li img {
     margin-right: 10px;
 }
 
-.gamfi-header-section .header-menu ul li {
+.Fin-header-section .header-menu ul li {
     display: inline-block;
     overflow: visible;
 }
 
-.gamfi-header-section .header-menu ul li.menu-item-has-children {
+.Fin-header-section .header-menu ul li.menu-item-has-children {
     position: relative;
 }
 
-.gamfi-header-section .header-menu ul li.menu-item-has-children:before {
+.Fin-header-section .header-menu ul li.menu-item-has-children:before {
     content: "\e901";
     position: absolute;
     top: 18px;
@@ -493,11 +493,11 @@ body .modal-backdrop {
     font-size: 7px;
 }
 
-.gamfi-header-section .header-menu ul li + li {
+.Fin-header-section .header-menu ul li + li {
     margin-left: 40px;
 }
 
-.gamfi-header-section .header-menu ul li a {
+.Fin-header-section .header-menu ul li a {
     display: block;
     color: #fff;
     font-family: "Russo One", sans-serif;
@@ -506,12 +506,12 @@ body .modal-backdrop {
     padding-bottom: 10px;
 }
 
-.gamfi-header-section .header-menu ul li ul.sub-menu li {
+.Fin-header-section .header-menu ul li ul.sub-menu li {
     margin-left: 0;
     margin-bottom: -1px;
 }
 
-.gamfi-header-section .header-menu ul li ul.sub-menu li .sub-menu {
+.Fin-header-section .header-menu ul li ul.sub-menu li .sub-menu {
     position: absolute;
     left: 100%;
     top: 0;
@@ -527,24 +527,24 @@ body .modal-backdrop {
     transition: all 0.3s ease-in-out;
 }
 
-.gamfi-header-section .header-menu ul li ul.sub-menu li:hover .sub-menu {
+.Fin-header-section .header-menu ul li ul.sub-menu li:hover .sub-menu {
     opacity: 1;
     visibility: visible;
     transform: scaleY(1);
 }
 
-.gamfi-header-section .header-menu ul li ul.sub-menu li.menu-item-has-children {
+.Fin-header-section .header-menu ul li ul.sub-menu li.menu-item-has-children {
     position: relative;
 }
 
-.gamfi-header-section .header-menu ul li ul.sub-menu li.menu-item-has-children:before {
+.Fin-header-section .header-menu ul li ul.sub-menu li.menu-item-has-children:before {
     content: "\e902";
     top: 22px;
     right: 30px;
     font-size: 10px;
 }
 
-.gamfi-header-section .white-btn {
+.Fin-header-section .white-btn {
     background: #fff;
     color: #090A1A;
     margin-left: 25px;
@@ -552,29 +552,29 @@ body .modal-backdrop {
     border: none;
 }
 
-.gamfi-header-section .white-btn img {
+.Fin-header-section .white-btn img {
     position: relative;
     top: -1px;
     margin-right: 8px;
 }
 
-.gamfi-header-section .gamfi-btn-area ul li ul li a {
+.Fin-header-section .Fin-btn-area ul li ul li a {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-header-section .gamfi-btn-area ul li ul li a:hover {
+.Fin-header-section .Fin-btn-area ul li ul li a:hover {
     color: #fff;
 }
 
-.gamfi-header-section .gamfi-btn-area ul .nav-expander {
+.Fin-header-section .Fin-btn-area ul .nav-expander {
     margin-top: 15px;
 }
 
-.gamfi-header-section .gamfi-btn-area ul .nav-expander .bar {
+.Fin-header-section .Fin-btn-area ul .nav-expander .bar {
     overflow: hidden;
 }
 
-.gamfi-header-section .gamfi-btn-area ul .nav-expander .bar span {
+.Fin-header-section .Fin-btn-area ul .nav-expander .bar span {
     height: 2px;
     display: block;
     background: rgba(255, 255, 255, 0.7);
@@ -583,30 +583,30 @@ body .modal-backdrop {
     list-style: none;
 }
 
-.gamfi-header-section .gamfi-btn-area ul .nav-expander .bar span.dot1 {
+.Fin-header-section .Fin-btn-area ul .nav-expander .bar span.dot1 {
     width: 20px;
     margin-bottom: 6px;
 }
 
-.gamfi-header-section .gamfi-btn-area ul .nav-expander .bar span.dot2 {
+.Fin-header-section .Fin-btn-area ul .nav-expander .bar span.dot2 {
     width: 30px;
     margin-bottom: 6px;
 }
 
-.gamfi-header-section .gamfi-btn-area ul .nav-expander .bar span.dot3 {
+.Fin-header-section .Fin-btn-area ul .nav-expander .bar span.dot3 {
     width: 25px;
 }
 
-.gamfi-header-section .gamfi-btn-area ul .nav-expander .bar:hover span.dot1,
-.gamfi-header-section .gamfi-btn-area ul .nav-expander .bar:hover span.dot3 {
+.Fin-header-section .Fin-btn-area ul .nav-expander .bar:hover span.dot1,
+.Fin-header-section .Fin-btn-area ul .nav-expander .bar:hover span.dot3 {
     width: 30px;
 }
 
-.gamfi-header-section .gamfi-btn-area > ul {
+.Fin-header-section .Fin-btn-area > ul {
     display: flex;
 }
 
-.gamfi-header-section .right_menu_togle {
+.Fin-header-section .right_menu_togle {
     background: #fff;
     padding: 66px 60px 50px 50px;
     max-width: 400px;
@@ -618,7 +618,7 @@ body .modal-backdrop {
     overflow-y: auto;
 }
 
-.gamfi-header-section .right_menu_togle .close-btn {
+.Fin-header-section .right_menu_togle .close-btn {
     overflow: visible;
     position: absolute;
     top: 10px;
@@ -629,13 +629,13 @@ body .modal-backdrop {
     transition: all .3s ease;
 }
 
-.gamfi-header-section .right_menu_togle .close-btn .nav-close .line {
+.Fin-header-section .right_menu_togle .close-btn .nav-close .line {
     width: 40px;
     height: 40px;
     line-height: 40px;
 }
 
-.gamfi-header-section .right_menu_togle .close-btn .nav-close .line span {
+.Fin-header-section .right_menu_togle .close-btn .nav-close .line span {
     position: absolute;
     left: 50%;
     top: 50%;
@@ -647,24 +647,24 @@ body .modal-backdrop {
     transition: all 0.3s ease;
 }
 
-.gamfi-header-section .right_menu_togle .close-btn .nav-close .line span.line2 {
+.Fin-header-section .right_menu_togle .close-btn .nav-close .line span.line2 {
     transform: translate(-50%, -50%) rotate(-45deg);
 }
 
-.gamfi-header-section .right_menu_togle .close-btn:hover .nav-close .line span {
+.Fin-header-section .right_menu_togle .close-btn:hover .nav-close .line span {
     opacity: 0.85;
 }
 
-.gamfi-header-section .right_menu_togle .canvas-logo {
+.Fin-header-section .right_menu_togle .canvas-logo {
     padding-left: 0;
     padding-bottom: 35px;
 }
 
-.gamfi-header-section .right_menu_togle .canvas-logo img {
+.Fin-header-section .right_menu_togle .canvas-logo img {
     max-height: 25px;
 }
 
-.gamfi-header-section .mobile-navbar-menu .sub-menu {
+.Fin-header-section .mobile-navbar-menu .sub-menu {
     display: none;
     position: relative;
     left: 0;
@@ -673,11 +673,11 @@ body .modal-backdrop {
     text-align: left;
 }
 
-.gamfi-header-section .mobile-navbar-menu .nav-menu li {
+.Fin-header-section .mobile-navbar-menu .nav-menu li {
     position: relative;
 }
 
-.gamfi-header-section .mobile-navbar-menu .nav-menu li a {
+.Fin-header-section .mobile-navbar-menu .nav-menu li a {
     border-bottom: 1px solid rgba(0, 0, 0, 0.06);
     display: block;
     color: #090b1a;
@@ -687,15 +687,15 @@ body .modal-backdrop {
     font-family: "Russo One", sans-serif;
 }
 
-.gamfi-header-section .mobile-navbar-menu .nav-menu li li a {
+.Fin-header-section .mobile-navbar-menu .nav-menu li li a {
     padding-left: 25px;
 }
 
-.gamfi-header-section .mobile-navbar-menu .nav-menu li li li a {
+.Fin-header-section .mobile-navbar-menu .nav-menu li li li a {
     padding-left: 50px;
 }
 
-.gamfi-header-section .mobile-navbar-menu span.submenu-button {
+.Fin-header-section .mobile-navbar-menu span.submenu-button {
     position: absolute;
     z-index: 99;
     right: 0;
@@ -706,8 +706,8 @@ body .modal-backdrop {
     cursor: pointer;
 }
 
-.gamfi-header-section .mobile-navbar-menu span.submenu-button:before,
-.gamfi-header-section .mobile-navbar-menu span.submenu-button:after {
+.Fin-header-section .mobile-navbar-menu span.submenu-button:before,
+.Fin-header-section .mobile-navbar-menu span.submenu-button:after {
     position: absolute;
     top: 24px;
     right: 10px;
@@ -721,14 +721,14 @@ body .modal-backdrop {
     width: 12px;
 }
 
-.gamfi-header-section .mobile-navbar-menu span.submenu-button:before {
+.Fin-header-section .mobile-navbar-menu span.submenu-button:before {
     width: 1px;
     height: 12px;
     right: 17px;
     top: 18px;
 }
 
-.gamfi-header-section .mobile-navbar-menu span.submenu-button em {
+.Fin-header-section .mobile-navbar-menu span.submenu-button em {
     display: block;
     position: absolute;
     right: 0;
@@ -737,19 +737,19 @@ body .modal-backdrop {
     transform: translateY(-50%);
 }
 
-.gamfi-header-section .mobile-navbar-menu .hash-has-sub span.submenu-button {
+.Fin-header-section .mobile-navbar-menu .hash-has-sub span.submenu-button {
     width: 100%;
     cursor: pointer;
     top: 0;
     height: 50px;
 }
 
-.gamfi-header-section .mobile-navbar-menu .submenu-button.submenu-opened:before {
+.Fin-header-section .mobile-navbar-menu .submenu-button.submenu-opened:before {
     display: none;
 }
 
-.gamfi-header-section .mobile-navbar-menu ul ul li,
-.gamfi-header-section .mobile-navbar-menu li:hover > ul > li {
+.Fin-header-section .mobile-navbar-menu ul ul li,
+.Fin-header-section .mobile-navbar-menu li:hover > ul > li {
     height: auto;
 }
 
@@ -886,7 +886,7 @@ body .modal-backdrop {
 }
 
 /* ------------------------------------
-    03. Gamfi Banner Section CSS
+    03. Fin Banner Section CSS
 ---------------------------------------*/
 .sc-banner {
     position: relative;
@@ -959,9 +959,9 @@ body .modal-backdrop {
 }
 
 /* -----------------------
-    04. Gamfi Breadcrumbs Section CSS
+    04. Fin Breadcrumbs Section CSS
 --------------------------*/
-.gamfi-breadcrumbs-section {
+.Fin-breadcrumbs-section {
     background: url(../../public/images/bg/breadcrumbs-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -969,7 +969,7 @@ body .modal-backdrop {
     padding: 80px 0 70px;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-link {
+.Fin-breadcrumbs-section .breadcrumbs-link {
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
     margin-right: 24px;
@@ -977,7 +977,7 @@ body .modal-backdrop {
     font-family: "Russo One", sans-serif;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-link:before {
+.Fin-breadcrumbs-section .breadcrumbs-link:before {
     content: "";
     width: 6px;
     height: 6px;
@@ -987,55 +987,55 @@ body .modal-backdrop {
     right: -15px;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-link:hover {
+.Fin-breadcrumbs-section .breadcrumbs-link:hover {
     color: rgb(134, 202, 230);
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form {
+.Fin-breadcrumbs-section .breadcrumbs-form {
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form .breadcrumbs-social a {
+.Fin-breadcrumbs-section .breadcrumbs-form .breadcrumbs-social a {
     color: #B8B8BD;
     text-transform: uppercase;
     font-family: "Russo One", sans-serif;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form .breadcrumbs-social a i {
+.Fin-breadcrumbs-section .breadcrumbs-form .breadcrumbs-social a i {
     font-size: 15px;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form form {
+.Fin-breadcrumbs-section .breadcrumbs-form form {
     position: relative;
     margin-right: 30px;
     top: -3px;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form input {
+.Fin-breadcrumbs-section .breadcrumbs-form input {
     background: transparent;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+.Fin-breadcrumbs-section .breadcrumbs-form input[type="text"] {
     border: 1px solid rgba(255, 255, 255, 0.3);
     padding: 11px 20px;
     width: 380px;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form input[type="submit"] {
+.Fin-breadcrumbs-section .breadcrumbs-form input[type="submit"] {
     font-size: 0;
     border: none;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form .submit {
+.Fin-breadcrumbs-section .breadcrumbs-form .submit {
     position: absolute;
     right: -6px;
     top: 11px;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form .submit i {
+.Fin-breadcrumbs-section .breadcrumbs-form .submit i {
     font-size: 15px;
     cursor: pointer;
     padding: 0;
@@ -1046,18 +1046,18 @@ body .modal-backdrop {
     right: 10px;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form .submit i:hover {
+.Fin-breadcrumbs-section .breadcrumbs-form .submit i:hover {
     color: #B9B9C0;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form .btn-area .readon {
+.Fin-breadcrumbs-section .breadcrumbs-form .btn-area .readon {
     background: rgba(255, 255, 255, 0.1);
     border: none;
     padding: 12px 26px 10px;
     color: #fff;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form .btn-area .readon i {
+.Fin-breadcrumbs-section .breadcrumbs-form .btn-area .readon i {
     font-size: 15px;
     top: 1px;
     margin-right: 10px;
@@ -1066,11 +1066,11 @@ body .modal-backdrop {
     z-index: 3;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form .btn-area .readon:hover {
+.Fin-breadcrumbs-section .breadcrumbs-form .btn-area .readon:hover {
     color: #fff;
 }
 
-.gamfi-breadcrumbs-section.breadcrumbs-style2 {
+.Fin-breadcrumbs-section.breadcrumbs-style2 {
     padding-top: 130px;
     padding-bottom: 115px;
     background: url(../../public/images/bg/breadcrumbs-bg2.jpg);
@@ -1079,26 +1079,26 @@ body .modal-backdrop {
     z-index: 2;
 }
 
-.gamfi-navigation ul li {
+.Fin-navigation ul li {
     display: inline-block;
     position: relative;
 }
 
-.gamfi-navigation ul li + li {
+.Fin-navigation ul li + li {
     margin-left: 4px;
 }
 
-.gamfi-navigation ul li:first-child {
+.Fin-navigation ul li:first-child {
     top: 2px;
 }
 
-.gamfi-navigation ul li:first-child a {
+.Fin-navigation ul li:first-child a {
     padding: 11px 19px 8px;
     position: relative;
     top: -1px;
 }
 
-.gamfi-navigation ul li a {
+.Fin-navigation ul li a {
     display: block;
     border: 1px solid #2E2F3C;
     color: #fff;
@@ -1108,36 +1108,36 @@ body .modal-backdrop {
     transition: 0.4s;
 }
 
-.gamfi-navigation ul li a .icon-Vector {
+.Fin-navigation ul li a .icon-Vector {
     font-size: 13px;
 }
 
-.gamfi-navigation ul li a .icon-arrow_right {
+.Fin-navigation ul li a .icon-arrow_right {
     font-size: 13px;
 }
 
-.gamfi-navigation ul li a.active:not(.black-shape),
-.gamfi-navigation ul li a:hover:not(.black-shape) {
+.Fin-navigation ul li a.active:not(.black-shape),
+.Fin-navigation ul li a:hover:not(.black-shape) {
     background: #2E2F3C;
     color: rgb(134, 202, 230);
 }
 
-.breadcrumbs-form .gamfi-navigation {
+.breadcrumbs-form .Fin-navigation {
     position: relative;
     top: -3px;
 }
 
-.breadcrumbs-form .gamfi-navigation ul {
+.breadcrumbs-form .Fin-navigation ul {
     display: flex;
     align-items: flex-end;
     justify-content: space-between;
 }
 
-.breadcrumbs-form .gamfi-navigation ul li:first-child {
+.breadcrumbs-form .Fin-navigation ul li:first-child {
     top: 0;
 }
 
-.breadcrumbs-form .gamfi-navigation ul li:first-child a {
+.breadcrumbs-form .Fin-navigation ul li:first-child a {
     padding-top: 11px;
     padding-bottom: 8px;
 }
@@ -1161,13 +1161,13 @@ body .modal-backdrop {
 }
 
 /* ------------------------------------
-    05. Gamfi About Section CSS
+    05. Fin About Section CSS
 ---------------------------------------*/
-.gamfi-about-secion {
+.Fin-about-secion {
     background: #151625;
 }
 
-.gamfi-about-secion .game-price-item {
+.Fin-about-secion .game-price-item {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -1176,98 +1176,98 @@ body .modal-backdrop {
     z-index: 9;
 }
 
-.gamfi-about-secion .game-price-item .game-price-inner {
+.Fin-about-secion .game-price-item .game-price-inner {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.gamfi-about-secion .game-price-item .game-price-inner .price-inner .image-icon {
+.Fin-about-secion .game-price-item .game-price-inner .price-inner .image-icon {
     margin-right: 25px;
 }
 
-.gamfi-about-secion .game-price-item .game-price-inner .all-raise {
+.Fin-about-secion .game-price-item .game-price-inner .all-raise {
     color: #ffffff;
 }
 
-.gamfi-about-secion .game-price-item .game-price-inner .allocation-max img {
+.Fin-about-secion .game-price-item .game-price-inner .allocation-max img {
     margin-top: 10px;
 }
 
-.gamfi-about-secion .game-price-item .game-price-inner .allocation-max .allocation {
+.Fin-about-secion .game-price-item .game-price-inner .allocation-max .allocation {
     color: #ffffff;
     margin-top: 73px;
 }
 
-.gamfi-about-secion .game-price-item .game-price-inner .targeted-raise .all-raise {
+.Fin-about-secion .game-price-item .game-price-inner .targeted-raise .all-raise {
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
 }
 
-.gamfi-about-secion .game-price-item .game-price-inner .targeted-raise .targeted-raise {
+.Fin-about-secion .game-price-item .game-price-inner .targeted-raise .targeted-raise {
     color: #ffffff;
 }
 
-.gamfi-about-secion .game-price-item .price-details h3,
-.gamfi-about-secion .game-price-item .price-details a {
+.Fin-about-secion .game-price-item .price-details h3,
+.Fin-about-secion .game-price-item .price-details a {
     color: #fff;
     transition: 0.4s;
     text-transform: capitalize;
 }
 
-.gamfi-about-secion .game-price-item .price-details .dsc {
+.Fin-about-secion .game-price-item .price-details .dsc {
     text-transform: uppercase;
 }
 
-.gamfi-about-secion .game-price-item .more {
+.Fin-about-secion .game-price-item .more {
     border: 1px solid #2E2F3C;
 }
 
-.gamfi-about-secion .text-content,
-.gamfi-about-secion .allocation,
-.gamfi-about-secion .targeted-raise {
+.Fin-about-secion .text-content,
+.Fin-about-secion .allocation,
+.Fin-about-secion .targeted-raise {
     font-family: "Russo One", sans-serif;
 }
 
-.gamfi-about-secion .game-price-inner,
-.gamfi-about-secion .progress-inner {
+.Fin-about-secion .game-price-inner,
+.Fin-about-secion .progress-inner {
     position: relative;
     z-index: 3;
 }
 
-.gamfi-about-secion .total-price .all-raise {
+.Fin-about-secion .total-price .all-raise {
     font-family: "Russo One", sans-serif;
 }
 
-.gamfi-about-secion .targeted-raise .all-raise {
+.Fin-about-secion .targeted-raise .all-raise {
     font-family: "Inter", sans-serif;
 }
 
-.gamfi-about-secion .total-price,
-.gamfi-about-secion .targeted-raise {
+.Fin-about-secion .total-price,
+.Fin-about-secion .targeted-raise {
     width: 38%;
 }
 
-.gamfi-about-secion .total-price .targeted-raise,
-.gamfi-about-secion .targeted-raise .targeted-raise {
+.Fin-about-secion .total-price .targeted-raise,
+.Fin-about-secion .targeted-raise .targeted-raise {
     width: 100%;
 }
 
-.gamfi-about-secion .allocation-max {
+.Fin-about-secion .allocation-max {
     width: 24%;
 }
 
-.gamfi-about-secion .game-price-item .btn-area,
-.gamfi-about-secion .game-price-item .text-content,
-.gamfi-about-secion .game-price-item .social-area {
+.Fin-about-secion .game-price-item .btn-area,
+.Fin-about-secion .game-price-item .text-content,
+.Fin-about-secion .game-price-item .social-area {
     width: 33.333%;
 }
 
-.gamfi-about-secion .game-price-item .text-content {
+.Fin-about-secion .game-price-item .text-content {
     text-align: center;
 }
 
-.gamfi-about-secion .game-price-item .social-icon-list {
+.Fin-about-secion .game-price-item .social-icon-list {
     text-align: right;
 }
 
@@ -1447,9 +1447,9 @@ body .modal-backdrop {
 }
 
 /* ------------------------------------
-    06. Gamfi Project Section CSS
+    06. Fin Project Section CSS
 ---------------------------------------*/
-.gamfi-project-section {
+.Fin-project-section {
     background: url(../../public/images/bg/project-bg.jpg);
     padding-top: 115px;
     padding-bottom: 105px;
@@ -1458,14 +1458,14 @@ body .modal-backdrop {
     background-repeat: no-repeat;
 }
 
-.gamfi-project-section .gamfi-btn-area .readon {
+.Fin-project-section .Fin-btn-area .readon {
     color: #fff;
     border: 2px solid #2E2F3B;
     padding: 12px 25px 9px;
     transition: 0.4s;
 }
 
-.gamfi-project-section .gamfi-btn-area .readon i {
+.Fin-project-section .Fin-btn-area .readon i {
     font-size: 15px;
     margin-right: 10px;
     color: #fff;
@@ -1473,43 +1473,43 @@ body .modal-backdrop {
     z-index: 3;
 }
 
-.gamfi-project-section .gamfi-btn-area .readon:hover {
+.Fin-project-section .Fin-btn-area .readon:hover {
     color: #fff;
 }
 
-.gamfi-project-section .project-item {
+.Fin-project-section .project-item {
     background: rgba(30, 31, 53, 0.8);
     margin-bottom: 30px;
     padding: 30px 30px 10px;
 }
 
-.gamfi-project-section .project-item .project-info {
+.Fin-project-section .project-item .project-info {
     margin-bottom: 28px;
 }
 
-.gamfi-project-section .project-item .project-info img {
+.Fin-project-section .project-item .project-info img {
     margin-right: 20px;
 }
 
-.gamfi-project-section .project-item a {
+.Fin-project-section .project-item a {
     color: #fff;
 }
 
-.gamfi-project-section .project-item a:hover {
+.Fin-project-section .project-item a:hover {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-project-section .project-item .heading-title {
+.Fin-project-section .project-item .heading-title {
     margin-bottom: 40px;
 }
 
-.gamfi-project-section .project-item .heading-title h4 {
+.Fin-project-section .project-item .heading-title h4 {
     font-size: 16px;
     margin-bottom: 0;
     position: relative;
 }
 
-.gamfi-project-section .project-item .heading-title h4:before {
+.Fin-project-section .project-item .heading-title h4:before {
     width: 197px;
     height: 35px;
     content: "";
@@ -1519,35 +1519,35 @@ body .modal-backdrop {
     top: -7px;
 }
 
-.gamfi-project-section .project-item .project-icon {
+.Fin-project-section .project-item .project-icon {
     position: relative;
     top: -6px;
 }
 
-.gamfi-project-section .project-item .project-media li {
+.Fin-project-section .project-item .project-media li {
     display: block;
     overflow: hidden;
     padding-bottom: 15px;
 }
 
-.gamfi-project-section .project-item .project-media li:last-child {
+.Fin-project-section .project-item .project-media li:last-child {
     padding-bottom: 0;
 }
 
-.gamfi-project-section .project-item .project-media li strong {
+.Fin-project-section .project-item .project-media li strong {
     font-weight: 400;
     color: #fff;
 }
 
-.gamfi-project-section .project-item .project-media li span {
+.Fin-project-section .project-item .project-media li span {
     float: right;
 }
 
-.gamfi-project-section .project-item .project-media span {
+.Fin-project-section .project-item .project-media span {
     color: #fff;
 }
 
-.gamfi-project-section .project-item .project-media .social-icon-list {
+.Fin-project-section .project-item .project-media .social-icon-list {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -1555,28 +1555,28 @@ body .modal-backdrop {
     margin-top: -22px;
 }
 
-.gamfi-project-section .project-item .project-media .social-icon-list li {
+.Fin-project-section .project-item .project-media .social-icon-list li {
     padding-bottom: 0;
 }
 
-.gamfi-project-section .project-item .project-media .social-icon-list li a {
+.Fin-project-section .project-item .project-media .social-icon-list li a {
     color: #fff;
 }
 
-.gamfi-project-section .project-item .project-media .social-icon-list li a i {
+.Fin-project-section .project-item .project-media .social-icon-list li a i {
     font-size: 15px;
     transition: 0.4s;
 }
 
-.gamfi-project-section .project-item .project-media .social-icon-list li a i:hover {
+.Fin-project-section .project-item .project-media .social-icon-list li a i:hover {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-project-section .project-item .project-media .social-icon-list li {
+.Fin-project-section .project-item .project-media .social-icon-list li {
     display: inline-block;
 }
 
-.gamfi-project-section .project-item .project-media .social-icon-list li i {
+.Fin-project-section .project-item .project-media .social-icon-list li i {
     padding-left: 10px;
 }
 
@@ -1605,7 +1605,7 @@ body .modal-backdrop {
 }
 
 /* ------------------------------------
-    07. Gamfi Project Details Section CSS
+    07. Fin Project Details Section CSS
 ---------------------------------------*/
 .project-details-conent {
     background: #090a1a;
@@ -2269,109 +2269,109 @@ body .modal-backdrop {
 }
 
 /* ------------------------------------
-    08. Gamfi previous Section CSS
+    08. Fin previous Section CSS
 ---------------------------------------*/
-.gamfi-previous-section {
+.Fin-previous-section {
     background: #090b1a;
 }
 
-.gamfi-previous-section .project-right-menu .access i {
+.Fin-previous-section .project-right-menu .access i {
     padding-left: 60px;
 }
 
-.gamfi-previous-section .project-right-menu .block i {
+.Fin-previous-section .project-right-menu .block i {
     padding-left: 30px;
 }
 
-.gamfi-previous-section .project-right-menu .chain {
+.Fin-previous-section .project-right-menu .chain {
     padding-left: 80px;
 }
 
-.gamfi-previous-section .previous-mainmenu .menu-list {
+.Fin-previous-section .previous-mainmenu .menu-list {
     font-family: "Russo One", sans-serif;
 }
 
-.gamfi-previous-section .previous-mainmenu .menu-list .date-list {
+.Fin-previous-section .previous-mainmenu .menu-list .date-list {
     width: 13%;
     position: relative;
 }
 
-.gamfi-previous-section .previous-mainmenu .menu-list.date-menu {
+.Fin-previous-section .previous-mainmenu .menu-list.date-menu {
     padding: 0 20px;
 }
 
-.gamfi-previous-section .previous-mainmenu .menu-list .date_2 {
+.Fin-previous-section .previous-mainmenu .menu-list .date_2 {
     left: 20px;
 }
 
-.gamfi-previous-section .previous-mainmenu .menu-list .date_3 {
+.Fin-previous-section .previous-mainmenu .menu-list .date_3 {
     left: 30px;
 }
 
-.gamfi-previous-section .previous-mainmenu .menu-list .date_4 {
+.Fin-previous-section .previous-mainmenu .menu-list .date_4 {
     left: 50px;
 }
 
-.gamfi-previous-section .previous-mainmenu .menu-list .date_5 {
+.Fin-previous-section .previous-mainmenu .menu-list .date_5 {
     left: 65px;
 }
 
-.gamfi-previous-section .previous-mainmenu .menu-list .date_6 {
+.Fin-previous-section .previous-mainmenu .menu-list .date_6 {
     left: 85px;
 }
 
-.gamfi-previous-section .previous-mainmenu .menu-list .date_7 {
+.Fin-previous-section .previous-mainmenu .menu-list .date_7 {
     left: 100px;
 }
 
-.gamfi-previous-section .previous-mainmenu ul {
+.Fin-previous-section .previous-mainmenu ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.gamfi-previous-section .previous-mainmenu ul {
+.Fin-previous-section .previous-mainmenu ul {
     padding: 0 30px;
 }
 
-.gamfi-previous-section .previous-mainmenu ul li {
+.Fin-previous-section .previous-mainmenu ul li {
     display: inline-block;
     color: rgba(255, 255, 255, 0.7);
     text-transform: uppercase;
     transition: 0.4s;
 }
 
-.gamfi-previous-section .previous-mainmenu ul .list1 {
+.Fin-previous-section .previous-mainmenu ul .list1 {
     width: 34.5%;
 }
 
-.gamfi-previous-section .previous-mainmenu ul .list2 {
+.Fin-previous-section .previous-mainmenu ul .list2 {
     width: 10.5%;
 }
 
-.gamfi-previous-section .previous-mainmenu ul .list3 {
+.Fin-previous-section .previous-mainmenu ul .list3 {
     width: 17.8%;
 }
 
-.gamfi-previous-section .previous-mainmenu ul .list4 {
+.Fin-previous-section .previous-mainmenu ul .list4 {
     width: 17.4%;
 }
 
-.gamfi-previous-section .previous-mainmenu ul .list5 {
+.Fin-previous-section .previous-mainmenu ul .list5 {
     width: 14%;
 }
 
-.gamfi-previous-section .form-check {
+.Fin-previous-section .form-check {
     padding: 17px 68px;
     cursor: pointer;
 }
 
-.gamfi-previous-section .form-check input,
-.gamfi-previous-section .form-check label {
+.Fin-previous-section .form-check input,
+.Fin-previous-section .form-check label {
     cursor: pointer;
 }
 
-.gamfi-previous-section .form-switch {
+.Fin-previous-section .form-switch {
     font-family: "Russo One", sans-serif;
     text-transform: uppercase;
     transition: 0.4s;
@@ -2380,24 +2380,24 @@ body .modal-backdrop {
     padding: 18px 28px;
 }
 
-.gamfi-previous-section .form-switch:hover {
+.Fin-previous-section .form-switch:hover {
     color: #fff;
 }
 
-.gamfi-previous-section .form-switch .switch {
+.Fin-previous-section .form-switch .switch {
     position: relative;
     display: inline-block;
     width: 45px;
     height: 24px;
 }
 
-.gamfi-previous-section .form-switch .switch input {
+.Fin-previous-section .form-switch .switch input {
     opacity: 0;
     width: 0;
     height: 0;
 }
 
-.gamfi-previous-section .form-switch .slider {
+.Fin-previous-section .form-switch .slider {
     position: absolute;
     cursor: pointer;
     top: 0;
@@ -2409,7 +2409,7 @@ body .modal-backdrop {
     transition: .4s;
 }
 
-.gamfi-previous-section .form-switch .slider:before {
+.Fin-previous-section .form-switch .slider:before {
     position: absolute;
     content: "";
     height: 14px;
@@ -2421,37 +2421,37 @@ body .modal-backdrop {
     transition: .4s;
 }
 
-.gamfi-previous-section .form-switch input:checked + .slider {
+.Fin-previous-section .form-switch input:checked + .slider {
     background-color: #86cae6;
 }
 
-.gamfi-previous-section .form-switch input:checked + .slider:before {
+.Fin-previous-section .form-switch input:checked + .slider:before {
     left: 0;
 }
 
-.gamfi-previous-section .form-switch .title {
+.Fin-previous-section .form-switch .title {
     margin-left: 6px;
 }
 
-.gamfi-previous-section .form-switch input:focus + .slider {
+.Fin-previous-section .form-switch input:focus + .slider {
     box-shadow: 0 0 1px #86cae6;
 }
 
-.gamfi-previous-section .form-switch input:checked + .slider:before {
+.Fin-previous-section .form-switch input:checked + .slider:before {
     -webkit-transform: translateX(26px);
     -ms-transform: translateX(26px);
     transform: translateX(26px);
 }
 
-.gamfi-previous-section .form-switch .slider.round {
+.Fin-previous-section .form-switch .slider.round {
     border-radius: 34px;
 }
 
-.gamfi-previous-section .form-switch .slider.round:before {
+.Fin-previous-section .form-switch .slider.round:before {
     border-radius: 50%;
 }
 
-.gamfi-previous-section .previous-item {
+.Fin-previous-section .previous-item {
     background: #1a1b30;
     margin-bottom: 30px;
     padding: 30px 30px;
@@ -2462,146 +2462,146 @@ body .modal-backdrop {
     color: #fff;
 }
 
-.gamfi-previous-section .previous-item .previous-gaming {
+.Fin-previous-section .previous-item .previous-gaming {
     display: flex;
 }
 
-.gamfi-previous-section .previous-item .previous-gaming img {
+.Fin-previous-section .previous-item .previous-gaming img {
     margin-right: 20px;
 }
 
-.gamfi-previous-section .previous-item .previous-gaming .previous-price a {
+.Fin-previous-section .previous-item .previous-gaming .previous-price a {
     transition: 0.4s;
 }
 
-.gamfi-previous-section .previous-item .previous-gaming .previous-price a:hover {
+.Fin-previous-section .previous-item .previous-gaming .previous-price a:hover {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-previous-section .previous-item .previous-gaming .previous-price .dsc {
+.Fin-previous-section .previous-item .previous-gaming .previous-price .dsc {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-previous-section .previous-item .previous-chaining {
+.Fin-previous-section .previous-item .previous-chaining {
     display: flex;
     align-items: center;
 }
 
-.gamfi-previous-section .previous-item .previous-chaining img {
+.Fin-previous-section .previous-item .previous-chaining img {
     margin-right: 82px;
 }
 
-.gamfi-previous-section .previous-item .previous-chaining li {
+.Fin-previous-section .previous-item .previous-chaining li {
     display: inline-block;
     padding-right: 5px;
     text-transform: uppercase;
 }
 
-.gamfi-previous-section .previous-item .previous-chaining li:last-child {
+.Fin-previous-section .previous-item .previous-chaining li:last-child {
     padding-right: 0;
 }
 
-.gamfi-previous-section .previous-item .previous-gaming {
+.Fin-previous-section .previous-item .previous-gaming {
     width: 44%;
 }
 
-.gamfi-previous-section .previous-item .previous-chaining {
+.Fin-previous-section .previous-item .previous-chaining {
     width: 36%;
 }
 
-.gamfi-previous-section .previous-item .previous-raise {
+.Fin-previous-section .previous-item .previous-raise {
     width: 45%;
 }
 
-.gamfi-previous-section .previous-item .previous-raise {
+.Fin-previous-section .previous-item .previous-raise {
     display: flex;
     align-items: center;
 }
 
-.gamfi-previous-section .previous-item .previous-raise .progress-inner {
+.Fin-previous-section .previous-item .previous-raise .progress-inner {
     width: 196px;
 }
 
-.gamfi-previous-section .previous-item .previous-raise span {
+.Fin-previous-section .previous-item .previous-raise span {
     margin-right: 35px;
 }
 
-.gamfi-previous-section .previous-item .hover-shape-bg {
+.Fin-previous-section .previous-item .hover-shape-bg {
     z-index: 1;
     opacity: 0;
     visibility: hidden;
     width: 14px;
 }
 
-.gamfi-previous-section .previous-item .hover_shape1 {
+.Fin-previous-section .previous-item .hover_shape1 {
     left: 46.5%;
 }
 
-.gamfi-previous-section .previous-item .hover_shape2 {
+.Fin-previous-section .previous-item .hover_shape2 {
     left: 48.5%;
 }
 
-.gamfi-previous-section .previous-item .hover_shape3 {
+.Fin-previous-section .previous-item .hover_shape3 {
     width: 26px;
     left: 50.5%;
 }
 
-.gamfi-previous-section .previous-item:hover {
+.Fin-previous-section .previous-item:hover {
     background: radial-gradient(circle, rgba(96, 79, 169, 0.58) -7%, #1e1f35 30%);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.gamfi-previous-section .previous-item:hover .hover-shape-bg {
+.Fin-previous-section .previous-item:hover .hover-shape-bg {
     opacity: 1;
     visibility: visible;
 }
 
-.gamfi-previous-section .progress-inner .progress,
-.gamfi-previous-section .progress-inner .progress-bar {
+.Fin-previous-section .progress-inner .progress,
+.Fin-previous-section .progress-inner .progress-bar {
     background-size: 10px 20px;
     height: 6px;
 }
 
-.gamfi-previous-section .progress-inner {
+.Fin-previous-section .progress-inner {
     padding-bottom: 7px;
 }
 
-.gamfi-previous-section .project-item {
+.Fin-previous-section .project-item {
     background-image: radial-gradient(circle, rgba(86, 75, 135, 0.85) 0%, #1e1f35 100%);
     margin-bottom: 30px;
     padding: 30px 30px 10px;
 }
 
-.gamfi-previous-section .project-item .project-info {
+.Fin-previous-section .project-item .project-info {
     margin-bottom: 28px;
 }
 
-.gamfi-previous-section .project-item .project-info img {
+.Fin-previous-section .project-item .project-info img {
     margin-right: 20px;
 }
 
-.gamfi-previous-section .project-item a {
+.Fin-previous-section .project-item a {
     color: #fff;
 }
 
-.gamfi-previous-section .project-item a:hover {
+.Fin-previous-section .project-item a:hover {
     color: #ffffff;
 }
 
-.gamfi-previous-section .project-item .heading-title {
+.Fin-previous-section .project-item .heading-title {
     margin-bottom: 40px;
 }
 
-.gamfi-previous-section .project-item .heading-title h4 {
+.Fin-previous-section .project-item .heading-title h4 {
     font-size: 16px;
     margin-bottom: 0;
     position: relative;
 }
 
-.gamfi-previous-section .project-item .heading-title h4:before {
+.Fin-previous-section .project-item .heading-title h4:before {
     width: 197px;
     height: 35px;
     content: "";
@@ -2611,35 +2611,35 @@ body .modal-backdrop {
     top: -7px;
 }
 
-.gamfi-previous-section .project-item .project-icon {
+.Fin-previous-section .project-item .project-icon {
     position: relative;
     top: -6px;
 }
 
-.gamfi-previous-section .project-item .project-media li {
+.Fin-previous-section .project-item .project-media li {
     display: block;
     overflow: hidden;
     padding-bottom: 15px;
 }
 
-.gamfi-previous-section .project-item .project-media li:last-child {
+.Fin-previous-section .project-item .project-media li:last-child {
     padding-bottom: 0;
 }
 
-.gamfi-previous-section .project-item .project-media li strong {
+.Fin-previous-section .project-item .project-media li strong {
     font-weight: 400;
     color: #fff;
 }
 
-.gamfi-previous-section .project-item .project-media li span {
+.Fin-previous-section .project-item .project-media li span {
     float: right;
 }
 
-.gamfi-previous-section .project-item .project-media span {
+.Fin-previous-section .project-item .project-media span {
     color: #fff;
 }
 
-.gamfi-previous-section .project-item .project-media .social-icon-list {
+.Fin-previous-section .project-item .project-media .social-icon-list {
     margin: 0;
     padding: 0;
     list-style: none;
@@ -2647,40 +2647,40 @@ body .modal-backdrop {
     margin-top: -22px;
 }
 
-.gamfi-previous-section .project-item .project-media .social-icon-list li {
+.Fin-previous-section .project-item .project-media .social-icon-list li {
     padding-bottom: 0;
 }
 
-.gamfi-previous-section .project-item .project-media .social-icon-list li a {
+.Fin-previous-section .project-item .project-media .social-icon-list li a {
     color: #fff;
 }
 
-.gamfi-previous-section .project-item .project-media .social-icon-list li a i {
+.Fin-previous-section .project-item .project-media .social-icon-list li a i {
     font-size: 15px;
     transition: 0.4s;
 }
 
-.gamfi-previous-section .project-item .project-media .social-icon-list li a i:hover {
+.Fin-previous-section .project-item .project-media .social-icon-list li a i:hover {
     color: rgb(134, 202, 230);
 }
 
-.gamfi-previous-section .project-item .project-media .social-icon-list li {
+.Fin-previous-section .project-item .project-media .social-icon-list li {
     display: inline-block;
 }
 
-.gamfi-previous-section .project-item .project-media .social-icon-list li i {
+.Fin-previous-section .project-item .project-media .social-icon-list li i {
     padding-left: 10px;
 }
 
-.gamfi-previous-section .calender-image-area {
+.Fin-previous-section .calender-image-area {
     position: relative;
 }
 
-.gamfi-previous-section .calender-image-area img {
+.Fin-previous-section .calender-image-area img {
     cursor: pointer;
 }
 
-.gamfi-previous-section .calender-image-area .project-item {
+.Fin-previous-section .calender-image-area .project-item {
     position: absolute;
     top: 0;
     left: 0;
@@ -2690,46 +2690,46 @@ body .modal-backdrop {
     z-index: 10;
 }
 
-.gamfi-previous-section .calender-image-area:hover .project-item {
+.Fin-previous-section .calender-image-area:hover .project-item {
     transform: scale(1);
 }
 
-.gamfi-previous-section .tab-pane .previous-item {
+.Fin-previous-section .tab-pane .previous-item {
     margin-bottom: 20px;
 }
 
 /* ------------------------------------
-    09. Gamfi farming Section CSS
+    09. Fin farming Section CSS
 ---------------------------------------*/
-.gamfi-farming-content .default-centent {
+.Fin-farming-content .default-centent {
     background: #1A1B30;
     padding: 18px 25px;
     margin-bottom: 20px;
     cursor: pointer;
 }
 
-.gamfi-farming-content .list-content {
+.Fin-farming-content .list-content {
     flex: 0 0 16.66%;
     width: 16.66%;
     color: #fff;
 }
 
-.gamfi-farming-content .list-1 {
+.Fin-farming-content .list-1 {
     flex: 0 0 26.66%;
     width: 26.66%;
 }
 
-.gamfi-farming-content .list-6 {
+.Fin-farming-content .list-6 {
     flex: 0 0 2%;
     width: 2%;
 }
 
-.gamfi-farming-content .expeand-centent {
+.Fin-farming-content .expeand-centent {
     background: #222231;
     padding: 28px 30px;
 }
 
-.gamfi-farming-content .expeand-centent .farm-form-list .farm-form-area {
+.Fin-farming-content .expeand-centent .farm-form-list .farm-form-area {
     border: 1px solid #434350;
     padding: 10px;
     margin-bottom: 10px;
@@ -2738,26 +2738,26 @@ body .modal-backdrop {
     align-items: center;
 }
 
-.gamfi-farming-content .expeand-centent .farm-form-list input {
+.Fin-farming-content .expeand-centent .farm-form-list input {
     border: none;
     background: transparent;
     padding: 7px 20px;
     position: relative;
 }
 
-.gamfi-farming-content .expeand-centent .farm-form-list input[type="text"] {
+.Fin-farming-content .expeand-centent .farm-form-list input[type="text"] {
     width: 100%;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-farming-content .expeand-centent .farm-form-list .max {
+.Fin-farming-content .expeand-centent .farm-form-list .max {
     position: absolute;
     color: #fff;
     right: 45%;
     top: 19px;
 }
 
-.gamfi-farming-content .expeand-centent .farm-form-list input[type="submit"] {
+.Fin-farming-content .expeand-centent .farm-form-list input[type="submit"] {
     color: #fff;
     transition: 0.4S;
     text-transform: uppercase;
@@ -2766,159 +2766,159 @@ body .modal-backdrop {
     z-index: 3;
 }
 
-.gamfi-farming-content .expeand-centent .farm-form-list .black-shape {
+.Fin-farming-content .expeand-centent .farm-form-list .black-shape {
     position: absolute;
     z-index: 9999;
     right: 9px;
     background: #86cae6;
 }
 
-.gamfi-farming-content .expeand-centent .farm-form-list .black-shape span {
+.Fin-farming-content .expeand-centent .farm-form-list .black-shape span {
     background: rgba(255, 255, 255, 0.1);
 }
 
-.gamfi-farming-content .expeand-centent .farm-form-list .withdraw {
+.Fin-farming-content .expeand-centent .farm-form-list .withdraw {
     background: rgba(255, 255, 255, 0.1);
 }
 
-.gamfi-farming-content .expeand-centent .farm-form-list .withdraw span {
+.Fin-farming-content .expeand-centent .farm-form-list .withdraw span {
     background: rgba(255, 255, 255, 0.1);
 }
 
-.gamfi-farming-content .expeand-centent .farm-form-list input[type="submit"].submit-active {
+.Fin-farming-content .expeand-centent .farm-form-list input[type="submit"].submit-active {
     background: #86cae6;
 }
 
-.gamfi-farming-content .expeand-centent .farm-form-list:last-child h5 {
+.Fin-farming-content .expeand-centent .farm-form-list:last-child h5 {
     position: relative;
     top: -15px;
 }
 
-.gamfi-farming-content .expeand-centent .expeand-menu ul {
+.Fin-farming-content .expeand-centent .expeand-menu ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.gamfi-farming-content .expeand-centent .expeand-menu ul li {
+.Fin-farming-content .expeand-centent .expeand-menu ul li {
     display: inline-block;
     color: rgb(134, 202, 230);
     font-size: 14px;
     margin-right: 30px;
 }
 
-.gamfi-farming-content .expeand-centent .expeand-menu ul li i {
+.Fin-farming-content .expeand-centent .expeand-menu ul li i {
     font-size: 15px;
     color: rgb(134, 202, 230);
     padding-left: 10px;
 }
 
-.gamfi-farming-content .expeand-centent .unit {
+.Fin-farming-content .expeand-centent .unit {
     color: rgb(134, 202, 230);
     font-size: 22px;
     font-family: "Russo One", sans-serif;
 }
 
-.gamfi-farming-content .icon-arrow_up {
+.Fin-farming-content .icon-arrow_up {
     padding: 10px;
     cursor: pointer;
 }
 
-.gamfi-farming-content .expeand-centent {
+.Fin-farming-content .expeand-centent {
     display: none;
 }
 
-.gamfi-farming-content .border-shadow {
+.Fin-farming-content .border-shadow {
     opacity: 0;
     visibility: hidden;
     transition: 0.4s;
 }
 
-.gamfi-farming-content .expeand-arrow {
+.Fin-farming-content .expeand-arrow {
     padding: 10px;
     cursor: pointer;
 }
 
-.gamfi-farming-content .expeand-arrow .expeand-arrow {
+.Fin-farming-content .expeand-arrow .expeand-arrow {
     transform: rotate(0deg);
 }
 
-.gamfi-farming-content .expeand-bottom-content .expeand-centent {
+.Fin-farming-content .expeand-bottom-content .expeand-centent {
     display: block;
 }
 
-.gamfi-farming-content .expeand-bottom-content .border-shadow {
+.Fin-farming-content .expeand-bottom-content .border-shadow {
     opacity: 1;
     visibility: visible;
 }
 
-.gamfi-farming-content .expeand-bottom-content .expeand-arrow:before {
+.Fin-farming-content .expeand-bottom-content .expeand-arrow:before {
     transform: rotate(45deg);
 }
 
-.gamfi-farming .gamfi-farming-content .default-centent {
+.Fin-farming .Fin-farming-content .default-centent {
     margin-bottom: 0;
 }
 
-.gamfi-farming .gamfi-table-inner {
+.Fin-farming .Fin-table-inner {
     margin-bottom: 20px;
 }
 
-.gamfi-farming .farm-form-list {
+.Fin-farming .farm-form-list {
     width: 33.33%;
     margin-right: 30px;
 }
 
-.gamfi-farming .farm-form-list:last-child {
+.Fin-farming .farm-form-list:last-child {
     margin-right: 0;
 }
 
-.gamfi-farming .farm-form-list .farm-form {
+.Fin-farming .farm-form-list .farm-form {
     display: flex;
     position: relative;
     align-items: center;
     justify-content: space-between;
 }
 
-.gamfi-farming .farm-form-list .farm-form input[type="submit"] {
+.Fin-farming .farm-form-list .farm-form input[type="submit"] {
     position: static;
 }
 
-.gamfi-farming-table {
+.Fin-farming-table {
     background: #090a1a;
 }
 
-.gamfi-farming-table table {
+.Fin-farming-table table {
     width: 100%;
 }
 
-.gamfi-farming-table tr th,
-.gamfi-farming-table tr td {
+.Fin-farming-table tr th,
+.Fin-farming-table tr td {
     width: 16.666%;
     padding: 25.5px 25px;
     margin-bottom: 10px;
     display: inline-block;
 }
 
-.gamfi-farming-table tr th:first-child,
-.gamfi-farming-table tr td:first-child {
+.Fin-farming-table tr th:first-child,
+.Fin-farming-table tr td:first-child {
     width: 26.666%;
 }
 
-.gamfi-farming-table tr th:nth-child(5) {
+.Fin-farming-table tr th:nth-child(5) {
     width: 22.666%;
 }
 
-.gamfi-farming-table tr .image-row {
+.Fin-farming-table tr .image-row {
     padding-top: 18px;
     padding-bottom: 18px;
 }
 
-.gamfi-farming-table tr .image-row img {
+.Fin-farming-table tr .image-row img {
     margin-right: 10px;
 }
 
-.gamfi-farming-table tr th {
+.Fin-farming-table tr th {
     font-family: "Inter", sans-serif;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 400;
@@ -2927,22 +2927,22 @@ body .modal-backdrop {
     padding-bottom: 5px;
 }
 
-.gamfi-farming-table tr td {
+.Fin-farming-table tr td {
     background: #1a1b30;
     color: #fff;
 }
 
 /* ------------------------------------
-    10. Gamfi Calendar Section CSS
+    10. Fin Calendar Section CSS
 ---------------------------------------*/
-.gamfi-calendar-list {
+.Fin-calendar-list {
     display: flex;
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
 }
 
-.gamfi-calendar-list .calender-date {
+.Fin-calendar-list .calender-date {
     background: #1a1b30;
     padding: 20px;
     min-height: 171px;
@@ -2952,36 +2952,36 @@ body .modal-backdrop {
     width: 13.7%;
 }
 
-.gamfi-calendar-list .calender-date ul {
+.Fin-calendar-list .calender-date ul {
     margin-top: 70px;
 }
 
-.gamfi-calendar-list .calender-date ul li {
+.Fin-calendar-list .calender-date ul li {
     display: inline-block;
 }
 
-.gamfi-calendar-list .calender-date ul li + li {
+.Fin-calendar-list .calender-date ul li + li {
     margin-left: 5px;
 }
 
-.gamfi-calendar-list .calender-date ul li ul {
+.Fin-calendar-list .calender-date ul li ul {
     margin-top: 0;
 }
 
-.gamfi-calendar-list .calender-date ul li ul li {
+.Fin-calendar-list .calender-date ul li ul li {
     margin-left: 0;
 }
 
-.gamfi-calendar-list .calender-date > ul > li {
+.Fin-calendar-list .calender-date > ul > li {
     max-width: 34px;
 }
 
-.gamfi-calendar-list .heading-title h4 {
+.Fin-calendar-list .heading-title h4 {
     text-transform: uppercase;
 }
 
 /* ------------------------------------
-    11. Gamfi Leaderboard Section CSS
+    11. Fin Leaderboard Section CSS
 ---------------------------------------*/
 .leaderboard-table-list {
     background: #090a1a;
@@ -3030,74 +3030,74 @@ body .modal-backdrop {
     color: #fff;
 }
 
-.gamfi-breadcrumbs-section .breadcrumbs-form.mr-0 form {
+.Fin-breadcrumbs-section .breadcrumbs-form.mr-0 form {
     margin-right: 0;
 }
 
 /* ------------------------------------
-    12. Gamfi Igo-Rankging Section CSS
+    12. Fin Igo-Rankging Section CSS
 ---------------------------------------*/
-.igo-rankging-table-list {
+.iho-rankging-table-list {
     background: #090a1a;
 }
 
-.igo-rankging-table-list table {
+.iho-rankging-table-list table {
     width: 100%;
 }
 
-.igo-rankging-table-list tr th,
-.igo-rankging-table-list tr td {
+.iho-rankging-table-list tr th,
+.iho-rankging-table-list tr td {
     width: 14.28%;
     padding: 20px 25px;
     margin-bottom: 10px;
     display: inline-block;
 }
 
-.igo-rankging-table-list tr th:last-child,
-.igo-rankging-table-list tr td:last-child {
+.iho-rankging-table-list tr th:last-child,
+.iho-rankging-table-list tr td:last-child {
     text-align: right;
 }
 
-.igo-rankging-table-list tr th:nth-child(2),
-.igo-rankging-table-list tr td:nth-child(2) {
+.iho-rankging-table-list tr th:nth-child(2),
+.iho-rankging-table-list tr td:nth-child(2) {
     width: 24%;
 }
 
-.igo-rankging-table-list tr th:nth-child(3),
-.igo-rankging-table-list tr td:nth-child(3) {
+.iho-rankging-table-list tr th:nth-child(3),
+.iho-rankging-table-list tr td:nth-child(3) {
     width: 12.28%;
 }
 
-.igo-rankging-table-list tr th:last-child,
-.igo-rankging-table-list tr td:last-child {
+.iho-rankging-table-list tr th:last-child,
+.iho-rankging-table-list tr td:last-child {
     width: 9.28%;
 }
 
-.igo-rankging-table-list tr th:nth-child(1),
-.igo-rankging-table-list tr td:nth-child(1) {
+.iho-rankging-table-list tr th:nth-child(1),
+.iho-rankging-table-list tr td:nth-child(1) {
     width: 10.28%;
 }
 
-.igo-rankging-table-list tr th:last-child,
-.igo-rankging-table-list tr td:last-child {
+.iho-rankging-table-list tr th:last-child,
+.iho-rankging-table-list tr td:last-child {
     width: 10.28%;
 }
 
-.igo-rankging-table-list tr th img,
-.igo-rankging-table-list tr td img {
+.iho-rankging-table-list tr th img,
+.iho-rankging-table-list tr td img {
     max-width: 35px;
 }
 
-.igo-rankging-table-list tr .image-row {
+.iho-rankging-table-list tr .image-row {
     padding-top: 15.5px;
     padding-bottom: 15.5px;
 }
 
-.igo-rankging-table-list tr .image-row img {
+.iho-rankging-table-list tr .image-row img {
     margin-right: 15px;
 }
 
-.igo-rankging-table-list tr th {
+.iho-rankging-table-list tr th {
     font-family: "Russo One", sans-serif;
     color: rgba(255, 255, 255, 0.7);
     font-weight: 400;
@@ -3106,62 +3106,62 @@ body .modal-backdrop {
     padding-bottom: 5px;
 }
 
-.igo-rankging-table-list tr td {
+.iho-rankging-table-list tr td {
     background: #1a1b30;
     color: #fff;
 }
 
 @-moz-document url-prefix() {
 
-    .igo-rankging-table-list tr th:nth-child(2),
-    .igo-rankging-table-list tr td:nth-child(2) {
+    .iho-rankging-table-list tr th:nth-child(2),
+    .iho-rankging-table-list tr td:nth-child(2) {
         width: 23%;
     }
 
-    .igo-rankging-table-list tr th:nth-child(3),
-    .igo-rankging-table-list tr td:nth-child(3) {
+    .iho-rankging-table-list tr th:nth-child(3),
+    .iho-rankging-table-list tr td:nth-child(3) {
         width: 12%;
     }
 
-    .igo-rankging-table-list tr th,
-    .igo-rankging-table-list tr td {
+    .iho-rankging-table-list tr th,
+    .iho-rankging-table-list tr td {
         width: 14%;
     }
 }
 
 /* ------------------------------------
-    13. Gamfi Tokenomics Section CSS
+    13. Fin Tokenomics Section CSS
 ---------------------------------------*/
-.gamfi-tokenomics-section{
+.Fin-tokenomics-section{
     position: relative;
 }
-.gamfi_tokenomics_CornerImgs .gamfi_tokenomics_CornerImg1{
+.Fin_tokenomics_CornerImgs .Fin_tokenomics_CornerImg1{
     position: absolute;
     top: 0px;
     left: 0px;
 }
-.gamfi_tokenomics_CornerImgs .gamfi_tokenomics_CornerImg2{
+.Fin_tokenomics_CornerImgs .Fin_tokenomics_CornerImg2{
     position: absolute;
     right: 0px;
     bottom: 0px;
 }
-.gamfi-tokenomics-section .tokenomics-counter .counter-number {
+.Fin-tokenomics-section .tokenomics-counter .counter-number {
     font-size: 36px;
     color: #86cae6;
     font-family: "Russo One", sans-serif;
     display: block;
 }
 
-.gamfi-tokenomics-section .tokenomics-counter h5 {
+.Fin-tokenomics-section .tokenomics-counter h5 {
     margin-bottom: 0;
 }
 
-.gamfi-tokenomics-section .tokenomics-left-right-shape {
+.Fin-tokenomics-section .tokenomics-left-right-shape {
     position: relative;
 }
 
-.gamfi-tokenomics-section .tokenomics-left-right-shape:before,
-.gamfi-tokenomics-section .tokenomics-left-right-shape:after {
+.Fin-tokenomics-section .tokenomics-left-right-shape:before,
+.Fin-tokenomics-section .tokenomics-left-right-shape:after {
     height: 40px;
     width: 604px;
     content: " ";
@@ -3169,30 +3169,30 @@ body .modal-backdrop {
     background-repeat: no-repeat;
 }
 
-.gamfi-tokenomics-section .tokenomics-left-right-shape:before {
+.Fin-tokenomics-section .tokenomics-left-right-shape:before {
     /* background-image: url(../../public/images/banner/left_shape.html); */
     width: 614px;
     top: 0;
     left: 0;
 }
 
-.gamfi-tokenomics-section .tokenomics-left-right-shape:after {
+.Fin-tokenomics-section .tokenomics-left-right-shape:after {
     /* background-image: url(../../public/images/banner/right_shape.html); */
     bottom: 0;
     right: 0;
 }
 
 /* ------------------------------------
-    14. Gamfi Team Section CSS
+    14. Fin Team Section CSS
 ---------------------------------------*/
-.gamfi-team-section {
+.Fin-team-section {
     background: url(../../public/images/bg/team-bg.jpg);
     background-repeat: no-repeat;
     background-position: center bottom;
     background-color: #090a1a;
 }
 
-.gamfi-team-section .team-item {
+.Fin-team-section .team-item {
     background: rgba(26, 27, 47, 0.85);
     backdrop-filter: blur(5px);
     margin-bottom: 30px;
@@ -3200,78 +3200,78 @@ body .modal-backdrop {
     transition: 1.4s;
 }
 
-.gamfi-team-section .team-item img {
+.Fin-team-section .team-item img {
     margin-bottom: 45px;
 }
 
-.gamfi-team-section .team-item a {
+.Fin-team-section .team-item a {
     color: #fff;
     transition: 0.4s;
 }
 
-.gamfi-team-section .team-item a:hover {
+.Fin-team-section .team-item a:hover {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-team-section .team-item .dsc {
+.Fin-team-section .team-item .dsc {
     margin-bottom: 15px;
 }
 
-.gamfi-team-section .team-item .team-icon-list {
+.Fin-team-section .team-item .team-icon-list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.gamfi-team-section .team-item .team-icon-list li {
+.Fin-team-section .team-item .team-icon-list li {
     display: inline-block;
     padding: 0 7px;
 }
 
-.gamfi-team-section .team-item .team-icon-list li a {
+.Fin-team-section .team-item .team-icon-list li a {
     color: rgba(255, 255, 255, 0.5);
     transition: 0.4s;
 }
 
-.gamfi-team-section .team-item .team-icon-list li a i {
+.Fin-team-section .team-item .team-icon-list li a i {
     font-size: 15px;
 }
 
-.gamfi-team-section .team-item .border-shadow {
+.Fin-team-section .team-item .border-shadow {
     opacity: 0;
     visibility: hidden;
     transition: 0.4s;
 }
 
-.gamfi-team-section .team-item:hover {
+.Fin-team-section .team-item:hover {
     background-image: radial-gradient(circle, rgba(137, 120, 211, 0.4) 0%, #1e1f35 100%);
 }
 
-.gamfi-team-section .team-item:hover .border-shadow {
+.Fin-team-section .team-item:hover .border-shadow {
     opacity: 1;
     visibility: visible;
 }
 
 /* ------------------------------------
-    15. Gamfi Partner Section CSS
+    15. Fin Partner Section CSS
 ---------------------------------------*/
-.gamfi-partner-section {
+.Fin-partner-section {
     background: #0a0b1a;
 }
 
-.gamfi-partner-section .partner-item .partner-image {
+.Fin-partner-section .partner-item .partner-image {
     padding-right: 70px;
 }
 
-.gamfi-partner-section img {
+.Fin-partner-section img {
     transition: 0.4s;
 }
 
-.gamfi-partner-section img:hover {
+.Fin-partner-section img:hover {
     opacity: 0.7;
 }
 
-.gamfi-partner-section .gamfi-partner-inner {
+.Fin-partner-section .Fin-partner-inner {
     position: relative;
     display: flex;
     align-items: center;
@@ -3280,8 +3280,8 @@ body .modal-backdrop {
     overflow: hidden;
 }
 
-.gamfi-partner-section .gamfi-partner-inner:after,
-.gamfi-partner-section .gamfi-partner-inner:before {
+.Fin-partner-section .Fin-partner-inner:after,
+.Fin-partner-section .Fin-partner-inner:before {
     content: "";
     display: block;
     width: 50px;
@@ -3292,21 +3292,21 @@ body .modal-backdrop {
     z-index: 1;
 }
 
-.gamfi-partner-section .gamfi-partner-inner:before {
+.Fin-partner-section .Fin-partner-inner:before {
     left: 0;
 }
 
-.gamfi-partner-section .gamfi-partner-inner:after {
+.Fin-partner-section .Fin-partner-inner:after {
     right: 0;
     transform: rotateZ(180deg);
 }
 
-.gamfi-partner-section .gamfi-partner-inner .partner-image {
+.Fin-partner-section .Fin-partner-inner .partner-image {
     flex-shrink: 0;
     animation: 20s linear 0s infinite normal none running loop-animate;
 }
 
-.gamfi-partner-section .gamfi-partner-inner .partner-image a {
+.Fin-partner-section .Fin-partner-inner .partner-image a {
     margin: 0px 35px;
 }
 
@@ -3321,32 +3321,32 @@ body .modal-backdrop {
 }
 
 /* ------------------------------------
-16. Gamfi Form Content Section CSS
+16. Fin Form Content Section CSS
 ---------------------------------------*/
-.gamfi-form-content {
+.Fin-form-content {
     background: #090A1A;
 }
 
-.gamfi-form-content .container {
+.Fin-form-content .container {
     max-width: 580px;
 }
 
-.gamfi-form-content .form-title {
+.Fin-form-content .form-title {
     margin-top: 35px;
     text-transform: uppercase;
 }
 
-.gamfi-form-content .address-form h5 {
+.Fin-form-content .address-form h5 {
     text-transform: uppercase;
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-form-content .address-form ::placeholder {
+.Fin-form-content .address-form ::placeholder {
     color: rgba(255, 255, 255, 0.7);
     opacity: 1;
 }
 
-.gamfi-form-content .address-form input {
+.Fin-form-content .address-form input {
     border: 2px solid #2e2f3c;
     width: 100%;
     background: transparent;
@@ -3354,7 +3354,7 @@ body .modal-backdrop {
     padding: 15px 15px;
 }
 
-.gamfi-form-content .address-form textarea {
+.Fin-form-content .address-form textarea {
     width: 100%;
     background: transparent;
     border: 2px solid #2e2f3c;
@@ -3363,12 +3363,12 @@ body .modal-backdrop {
     margin-bottom: 30px;
 }
 
-.gamfi-form-content .address-form .input-list {
+.Fin-form-content .address-form .input-list {
     position: relative;
     display: block;
 }
 
-.gamfi-form-content .address-form .input-list input[type="radio"] {
+.Fin-form-content .address-form .input-list input[type="radio"] {
     position: absolute;
     visibility: hidden;
     border: 2px solid #2e2f3c;
@@ -3378,7 +3378,7 @@ body .modal-backdrop {
     padding: 15px 15px;
 }
 
-.gamfi-form-content .address-form .input-list label {
+.Fin-form-content .address-form .input-list label {
     display: block;
     position: relative;
     padding: 0px 25px 33px 40px;
@@ -3389,7 +3389,7 @@ body .modal-backdrop {
     -webkit-transition: all 0.25s linear;
 }
 
-.gamfi-form-content .address-form .input-list .check {
+.Fin-form-content .address-form .input-list .check {
     display: block;
     position: absolute;
     border: 2px solid #3a3b48;
@@ -3403,7 +3403,7 @@ body .modal-backdrop {
     -webkit-transition: border 0.25s linear;
 }
 
-.gamfi-form-content .address-form .input-list .check:before {
+.Fin-form-content .address-form .input-list .check:before {
     display: block;
     position: absolute;
     content: "";
@@ -3417,33 +3417,33 @@ body .modal-backdrop {
     -webkit-transition: background 0.25s linear;
 }
 
-.gamfi-form-content .address-form .input-list input[type="radio"]:checked ~ .check {
+.Fin-form-content .address-form .input-list input[type="radio"]:checked ~ .check {
     border: 2px solid #568416;
 }
 
-.gamfi-form-content .address-form .input-list input[type="radio"]:checked ~ .check::before {
+.Fin-form-content .address-form .input-list input[type="radio"]:checked ~ .check::before {
     background: rgb(134, 202, 230);
 }
 
-.gamfi-form-content .address-form .input-list input[type="radio"]:checked + h5,
-.gamfi-form-content .address-form .input-list input[type="radio"]:checked ~ label {
+.Fin-form-content .address-form .input-list input[type="radio"]:checked + h5,
+.Fin-form-content .address-form .input-list input[type="radio"]:checked ~ label {
     color: #fff;
 }
 
-.gamfi-form-content .address-form .input-button {
+.Fin-form-content .address-form .input-button {
     position: relative;
     padding-top: 36px;
     margin-top: 30px;
 }
 
-.gamfi-form-content .address-form .input-button i {
+.Fin-form-content .address-form .input-button i {
     position: absolute;
     border-right: 2px solid #2e2f3c;
     padding: 20px;
     font-size: 18px;
 }
 
-.gamfi-form-content .address-form .input-button label {
+.Fin-form-content .address-form .input-button label {
     position: absolute;
     left: 0;
     top: 0;
@@ -3452,29 +3452,29 @@ body .modal-backdrop {
     text-transform: uppercase;
 }
 
-.gamfi-form-content .address-form .input-button input:focus ~ label,
-.gamfi-form-content .address-form .input-button input:valid ~ label {
+.Fin-form-content .address-form .input-button input:focus ~ label,
+.Fin-form-content .address-form .input-button input:valid ~ label {
     color: #fff;
 }
 
-.gamfi-form-content .address-form .input-button input.enter {
+.Fin-form-content .address-form .input-button input.enter {
     padding-left: 77px;
 }
 
-.gamfi-form-content .address-form .input-button .brief {
+.Fin-form-content .address-form .input-button .brief {
     padding-bottom: 85px;
 }
 
-.gamfi-form-content .address-form .icon-input-box input {
+.Fin-form-content .address-form .icon-input-box input {
     padding-left: 80px;
     font-family: "Inter", sans-serif;
 }
 
-.gamfi-form-content .address-form .project-btn-area {
+.Fin-form-content .address-form .project-btn-area {
     background: #86cae6;
 }
 
-.gamfi-form-content .address-form .project-btn-area input {
+.Fin-form-content .address-form .project-btn-area input {
     font-family: "Russo One", sans-serif;
     color: #fff;
     border: none;
@@ -3484,49 +3484,49 @@ body .modal-backdrop {
     z-index: 3;
 }
 
-.gamfi-form-content .address-form .project-btn-area:hover .hover-shape1 {
+.Fin-form-content .address-form .project-btn-area:hover .hover-shape1 {
     left: 47%;
 }
 
-.gamfi-form-content .address-form .project-btn-area:hover .hover-shape3 {
+.Fin-form-content .address-form .project-btn-area:hover .hover-shape3 {
     left: 51%;
 }
 
 /* ------------------------------------
-17. Gamfi Explore Content Section CSS
+17. Fin Explore Content Section CSS
 ---------------------------------------*/
-.gamfi-explore-content {
+.Fin-explore-content {
     background: #090a1a;
 }
 
-.gamfi-explore-content .project-menu-area {
+.Fin-explore-content .project-menu-area {
     margin-bottom: 45px;
 }
 
-.gamfi-explore-content .project-item {
+.Fin-explore-content .project-item {
     background: rgba(30, 31, 53, 0.8);
     padding: 30px 30px 10px;
 }
 
-.gamfi-explore-content .project-item .project-info {
+.Fin-explore-content .project-item .project-info {
     margin-bottom: 28px;
 }
 
-.gamfi-explore-content .project-item .project-info img {
+.Fin-explore-content .project-item .project-info img {
     margin-right: 20px;
 }
 
-.gamfi-explore-content .project-item .heading-title {
+.Fin-explore-content .project-item .heading-title {
     margin-bottom: 40px;
 }
 
-.gamfi-explore-content .project-item .heading-title h4 {
+.Fin-explore-content .project-item .heading-title h4 {
     font-size: 16px;
     margin-bottom: 0;
     position: relative;
 }
 
-.gamfi-explore-content .project-item .heading-title h4:before {
+.Fin-explore-content .project-item .heading-title h4:before {
     width: 197px;
     height: 35px;
     content: "";
@@ -3536,76 +3536,76 @@ body .modal-backdrop {
     top: -7px;
 }
 
-.gamfi-explore-content .project-info img {
+.Fin-explore-content .project-info img {
     margin-bottom: 25px;
 }
 
-.gamfi-explore-content .project-media {
+.Fin-explore-content .project-media {
     margin-bottom: 20px;
 }
 
-.gamfi-explore-content .project-media ul li {
+.Fin-explore-content .project-media ul li {
     display: block;
     overflow: hidden;
     padding-bottom: 15px;
 }
 
-.gamfi-explore-content .project-media ul li:last-child {
+.Fin-explore-content .project-media ul li:last-child {
     padding-bottom: 0;
 }
 
-.gamfi-explore-content .project-media ul li span {
+.Fin-explore-content .project-media ul li span {
     float: right;
     color: #fff;
 }
 
-.gamfi-explore-content .icon-listing {
+.Fin-explore-content .icon-listing {
     background: #25263a;
     padding: 15px 30px;
     margin-bottom: 30px;
 }
 
-.gamfi-explore-content .icon-listing .social-icon-list {
+.Fin-explore-content .icon-listing .social-icon-list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.gamfi-explore-content .icon-listing .social-icon-list li {
+.Fin-explore-content .icon-listing .social-icon-list li {
     display: inline-block;
 }
 
-.gamfi-explore-content .icon-listing .social-icon-list li i {
+.Fin-explore-content .icon-listing .social-icon-list li i {
     color: #fff;
     padding-right: 20px;
     font-size: 15px;
     transition: 0.4s;
 }
 
-.gamfi-explore-content .icon-listing .social-icon-list li i:hover {
+.Fin-explore-content .icon-listing .social-icon-list li i:hover {
     color: #B9B9C0;
 }
 
-body .gamfi-explore-content .project-item {
+body .Fin-explore-content .project-item {
     margin-bottom: 0;
 }
 
 /* ------------------------------------
-    18. Gamfi footer Section CSS
+    18. Fin footer Section CSS
 ---------------------------------------*/
-.gamfi-footer-section {
+.Fin-footer-section {
     background-color: #090a1a;
     position: relative;
 }
 
-.gamfi-footer-section .footer-cta-area {
+.Fin-footer-section .footer-cta-area {
     background: radial-gradient(circle, #4a4176 -24%, #1e1f35 40%);
     padding: 70px 0 80px 0;
     position: relative;
     z-index: 9;
 }
 
-.gamfi-footer-section .footer-cta-area .footer-link input[type="email"] {
+.Fin-footer-section .footer-cta-area .footer-link input[type="email"] {
     border: none;
     background: transparent;
     border: 2px solid #4C4764;
@@ -3615,15 +3615,15 @@ body .gamfi-explore-content .project-item {
     margin-right: 15px;
 }
 
-.gamfi-footer-section .footer-cta-area .footer-link .subscribe {
+.Fin-footer-section .footer-cta-area .footer-link .subscribe {
     background: rgb(134, 202, 230);
 }
 
-.gamfi-footer-section .footer-cta-area .footer-link .subscribe span {
+.Fin-footer-section .footer-cta-area .footer-link .subscribe span {
     z-index: 9;
 }
 
-.gamfi-footer-section .footer-cta-area .footer-link input[type="submit"] {
+.Fin-footer-section .footer-cta-area .footer-link input[type="submit"] {
     border: none;
     text-transform: uppercase;
     font-family: "Russo One", sans-serif;
@@ -3633,31 +3633,31 @@ body .gamfi-explore-content .project-item {
     background: transparent;
 }
 
-.gamfi-footer-section .footer-cta-area .black-shape .hover-shape1,
-.gamfi-footer-section .footer-cta-area .black-shape .hover-shape2,
-.gamfi-footer-section .footer-cta-area .black-shape .hover-shape3 {
+.Fin-footer-section .footer-cta-area .black-shape .hover-shape1,
+.Fin-footer-section .footer-cta-area .black-shape .hover-shape2,
+.Fin-footer-section .footer-cta-area .black-shape .hover-shape3 {
     background: rgba(0, 0, 0, 0.1);
 }
 
-.gamfi-footer-section .footer-cta-area .black-shape:hover .hover-shape1 {
+.Fin-footer-section .footer-cta-area .black-shape:hover .hover-shape1 {
     left: 44%;
 }
 
-.gamfi-footer-section .footer-cta-area .black-shape:hover .hover-shape3 {
+.Fin-footer-section .footer-cta-area .black-shape:hover .hover-shape3 {
     left: 56%;
 }
 
-.gamfi-footer-section .footer-cta-form .title {
+.Fin-footer-section .footer-cta-form .title {
     max-width: 550px;
     margin: 0 auto 18px;
 }
 
-.gamfi-footer-section .footer-cta-form .title img {
+.Fin-footer-section .footer-cta-form .title img {
     position: relative;
     top: -5px;
 }
 
-.gamfi-footer-section .footer-cta-form form {
+.Fin-footer-section .footer-cta-form form {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -3665,7 +3665,7 @@ body .gamfi-explore-content .project-item {
     margin: 0 auto;
 }
 
-.gamfi-footer-section .footer-area {
+.Fin-footer-section .footer-area {
     background: url(../../public/images/bg/footer-bg.jpg);
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -3675,17 +3675,17 @@ body .gamfi-explore-content .project-item {
     margin-top: -150px;
 }
 
-.gamfi-footer-section .footer-listing .footer-icon-list {
+.Fin-footer-section .footer-listing .footer-icon-list {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.gamfi-footer-section .footer-listing .footer-icon-list li {
+.Fin-footer-section .footer-listing .footer-icon-list li {
     display: inline-block;
 }
 
-.gamfi-footer-section .footer-listing .footer-icon-list i {
+.Fin-footer-section .footer-listing .footer-icon-list i {
     color: #fff;
     background: url(../../public/images/icons/icon-image.png);
     width: 60px;
@@ -3697,35 +3697,35 @@ body .gamfi-explore-content .project-item {
     font-size: 20px;
 }
 
-.gamfi-footer-section .footer-listing .footer-icon-list i:hover {
+.Fin-footer-section .footer-listing .footer-icon-list i:hover {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-footer-section .footer-mainmenu ul {
+.Fin-footer-section .footer-mainmenu ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-.gamfi-footer-section .footer-mainmenu ul li {
+.Fin-footer-section .footer-mainmenu ul li {
     display: inline-block;
     padding: 0 10px;
 }
 
-.gamfi-footer-section .footer-mainmenu ul li a {
+.Fin-footer-section .footer-mainmenu ul li a {
     color: rgba(255, 255, 255, 0.7);
     transition: 0.4s;
 }
 
-.gamfi-footer-section .footer-mainmenu ul li a:hover {
+.Fin-footer-section .footer-mainmenu ul li a:hover {
     color: #fff;
 }
 
-.gamfi-footer-section .copyright-area .gafi {
+.Fin-footer-section .copyright-area .gafi {
     color: rgba(255, 255, 255, 0.7);
 }
 
-.gamfi-footer-section .copyright-area .gafi:hover {
+.Fin-footer-section .copyright-area .gafi:hover {
     color: #fff;
 }
 
@@ -3930,13 +3930,13 @@ section.loader_first {
 /*--------------------
   Kyc Sereen
 --------------------*/
-.Gamfi_Header_contentright {
+.Fin_Header_contentright {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     height: 100%;
 }
-.Gamfi_Header_contentright h2 {
+.Fin_Header_contentright h2 {
     font-family: Russo One;
     font-style: normal;
     font-weight: normal;
@@ -3946,12 +3946,12 @@ section.loader_first {
     margin-bottom: 0px;
     color: #FFFFFF;
 }
-.Gamfi_Header_ProgressBar .progress-bar-striped {
+.Fin_Header_ProgressBar .progress-bar-striped {
     background-image: linear-gradient(72deg, rgba(0, 0, 0, .20) 50%, transparent 56%, transparent 84%, rgba(0, 0, 0, .20) 2%, rgba(0, 0, 0, .20) 90%, transparent 121%, transparent);
     background-size: 1rem 1rem;
     width: 33.33333%;
 }
-.Gamfi_Header_ProgressBar .progress {
+.Fin_Header_ProgressBar .progress {
     background: rgba(255, 255, 255, 0.15);
     height: 12px;
     border-radius: 0px;
@@ -3959,7 +3959,7 @@ section.loader_first {
     margin-left: 19px;
     overflow: hidden;
 }
-.Gamfi_Header_ProgressBar .progress-bar {
+.Fin_Header_ProgressBar .progress-bar {
     background-color: rgb(134, 202, 230);
 }
 .kycFormSect {
@@ -4024,7 +4024,7 @@ section.loader_first {
     margin-bottom: 0px;
     color: rgba(255, 255, 255, 0.7);
 }
-.Gamfi_Container {
+.Fin_Container {
     max-width: 1210px;
     padding: 0px 20px;
     width: 100%;
@@ -4995,7 +4995,7 @@ Kyc Upload Docs
     text-align: right;
     color: rgba(255, 255, 255, 0.7);
 }
-.gamfiRoadMap   {
+.FinRoadMap   {
     padding-bottom: 120px;
     background: #090A1A;
     position: relative;
@@ -5216,7 +5216,7 @@ Kyc Upload Docs
 
 
 
-.gamfi_header_V2{
+.Fin_header_V2{
     min-height: 800px;
     background: url(../../public/images/bg/bgV2.png);
     background-position: center center;
@@ -5234,23 +5234,23 @@ Kyc Upload Docs
     align-items: center;
     justify-content: center;
 }
-.gamfi-header-section .header-menu.header-menuV2 ul li ul.sub-menu li .sub-menu{
+.Fin-header-section .header-menu.header-menuV2 ul li ul.sub-menu li .sub-menu{
     left: -100%;
 }
-.gamfi-header-section .header-menu.header-menuV2 ul li ul.sub-menu li.menu-item-has-children:before{
+.Fin-header-section .header-menu.header-menuV2 ul li ul.sub-menu li.menu-item-has-children:before{
     transform: rotate(90deg);
 }
-.gamfi-header-section .header-menu.header-menuV2 ul li ul.sub-menu li.menu-item-has-children:hover:before{
+.Fin-header-section .header-menu.header-menuV2 ul li ul.sub-menu li.menu-item-has-children:hover:before{
     transform: rotate(180deg);
 }
 
-.gamfiV2_HeroSect{
+.FinV2_HeroSect{
     padding-top: 80px;
 }
-.gamfi_V2_hero_Left{
+.Fin_V2_hero_Left{
     margin-top: 136px;
 }
-.gamfi_V2_hero_Left h2 {
+.Fin_V2_hero_Left h2 {
     font-family: Russo One;
     font-style: normal;
     font-weight: normal;
@@ -5260,10 +5260,10 @@ Kyc Upload Docs
     color: #FFFFFF;
     margin-bottom: 0px;
 }
-.gamfi_V2_hero_Left h2 span {
+.Fin_V2_hero_Left h2 span {
     color: #F82552;
 }
-.gamfi_V2_hero_Left p {
+.Fin_V2_hero_Left p {
     font-family: Inter;
     font-style: normal;
     font-weight: 600;
@@ -5273,14 +5273,14 @@ Kyc Upload Docs
     margin-top: 22px;
 }
 
-.gamfi_V2_hero_Btns{
+.Fin_V2_hero_Btns{
     display: flex;
     align-items: center;
     justify-content: flex-start;
     width: 100%;
     margin-bottom: 106px;
 }
-.gamfi_V2_hero_Btns .VIEW_Projects_Btn{
+.Fin_V2_hero_Btns .VIEW_Projects_Btn{
     width: 200px;
     height: 60px;
     background: rgb(134, 202, 230);
@@ -5290,7 +5290,7 @@ Kyc Upload Docs
     align-items: center;
     justify-content: center;
 }
-.gamfi_V2_hero_Btns .VIEW_Projects_Btn .btn-text {
+.Fin_V2_hero_Btns .VIEW_Projects_Btn .btn-text {
     font-family: Russo One;
     font-style: normal;
     font-weight: normal;
@@ -5300,7 +5300,7 @@ Kyc Upload Docs
     text-transform: uppercase;
     color: #090A1A;
 }
-.gamfi_V2_hero_Btns .Apply_Project_Btn{
+.Fin_V2_hero_Btns .Apply_Project_Btn{
     width: 200px;
     height: 60px;
     margin-left: 15px;
@@ -5311,7 +5311,7 @@ Kyc Upload Docs
     align-items: center;
     justify-content: center;
 }
-.gamfi_V2_hero_Btns .Apply_Project_Btn .btn-text {
+.Fin_V2_hero_Btns .Apply_Project_Btn .btn-text {
     font-family: Russo One;
     font-style: normal;
     font-weight: normal;
@@ -5342,7 +5342,7 @@ Kyc Upload Docs
 }
 
 
-.gamfi_V2_hero_right{
+.Fin_V2_hero_right{
     display: flex;
     align-items: flex-end;
     justify-content: center;
@@ -5352,12 +5352,12 @@ Kyc Upload Docs
     height: 100%;
     width: 100%;
 }
-.gamfi_V2_heroRocket{
+.Fin_V2_heroRocket{
     position: relative;
     margin-top: 70px;
     
 }
-.gamfi_V2_heroRocket .RedRocketImg{
+.Fin_V2_heroRocket .RedRocketImg{
     position: relative;
     animation-name: RocketLaunch;
     animation: RocketLaunch 5s infinite;
@@ -5375,37 +5375,37 @@ Kyc Upload Docs
         bottom: 30px;
     }
 }
-.gamfi_V2_heroRocket .rocketshadow1 {
+.Fin_V2_heroRocket .rocketshadow1 {
     position: absolute; 
     top: 15%;
     left: 40%;
     z-index: 2;
 }
-.gamfi_V2_heroRocket .rocketshadow2 {
+.Fin_V2_heroRocket .rocketshadow2 {
     position: absolute; 
     top: 50%;
     left: 25%;
     z-index: 2;
 }
-.gamfi_V2_heroRocket .rocketshadow3 {
+.Fin_V2_heroRocket .rocketshadow3 {
     position: absolute; 
     top: 62%;
     right: 29%;
     z-index: 2;
 }
-.gamfi_V2_heroRocket .rocketshadow4 {
+.Fin_V2_heroRocket .rocketshadow4 {
     position: absolute; 
     top: 60%;
     left: 35%;
     z-index: 0;
 }
-.gamfi_V2_heroRocket .rocketshadow5 {
+.Fin_V2_heroRocket .rocketshadow5 {
     position: absolute; 
     top: 40%;
     right: 33.5%;
     z-index: 0;
 }
-.gamfi_V2_heroRocket .rocketshadow1 img{
+.Fin_V2_heroRocket .rocketshadow1 img{
     position: relative;
     animation-name: rocketshadow1;
     animation: rocketshadow1 0.95s infinite;
@@ -5415,7 +5415,7 @@ Kyc Upload Docs
   to {top: 80px; opacity: 0}
 }
 
-.gamfi_V2_heroRocket .rocketshadow2 img{
+.Fin_V2_heroRocket .rocketshadow2 img{
     position: relative;
     animation-name: rocketshadow2;
     animation: rocketshadow2 0.95s infinite;
@@ -5425,7 +5425,7 @@ Kyc Upload Docs
   to {top: 80px; opacity: 0}
 }
 
-.gamfi_V2_heroRocket .rocketshadow3 img{
+.Fin_V2_heroRocket .rocketshadow3 img{
     position: relative;
     animation-name: rocketshadow3;
     animation: rocketshadow3 1s infinite;
@@ -5435,7 +5435,7 @@ Kyc Upload Docs
   to {top: 50px; opacity: 0}
 }
 
-.gamfi_V2_heroRocket .rocketshadow4 img{
+.Fin_V2_heroRocket .rocketshadow4 img{
     position: relative;
     animation-name: rocketshadow4;
     animation: rocketshadow4 1.05s infinite;
@@ -5445,7 +5445,7 @@ Kyc Upload Docs
   to {top: 80px; opacity: 0}
 }
 
-.gamfi_V2_heroRocket .rocketshadow5 img{
+.Fin_V2_heroRocket .rocketshadow5 img{
     position: relative;
     animation-name: rocketshadow5;
     animation: rocketshadow5 1.05s infinite;
@@ -5519,7 +5519,7 @@ Kyc Upload Docs
 }
 
 
-.gamfi-project-section .project-item.project_itemV2{
+.Fin-project-section .project-item.project_itemV2{
     position: relative;
     padding-bottom: 89px;
 }
@@ -5547,17 +5547,17 @@ Kyc Upload Docs
 .social_icons_Sect .social_icon_list li.medium a i{
     font-size: 15px;
 }
-.gamfi-project-section .project-item .heading-title .price-counter{
+.Fin-project-section .project-item .heading-title .price-counter{
     position: relative;
     margin-bottom: 0px;
 }
 .ProjectPools_Sect .project-item .heading-title .price-counter{
     margin-bottom: 50px;
 }
-.gamfi-project-section .project-item .heading-title .price-counter .timer{
+.Fin-project-section .project-item .heading-title .price-counter .timer{
     margin-bottom: 0px;
 }
-.gamfi-project-section .project-item .heading-title .price-counter .timer ul li {
+.Fin-project-section .project-item .heading-title .price-counter .timer ul li {
     font-family: Russo One;
     font-style: normal;
     font-weight: normal;
@@ -5567,7 +5567,7 @@ Kyc Upload Docs
     margin-right: 10px;
     text-transform: lowercase;
 }
-.gamfi-project-section .project-item .heading-title.heading-titleV2 .price-counter:before {
+.Fin-project-section .project-item .heading-title.heading-titleV2 .price-counter:before {
     width: 241px;
     height: 35px;
     content: "";
@@ -5630,7 +5630,7 @@ Kyc Upload Docs
 
 
 
-.gamfi-project-section.ProjectPools_Sect {
+.Fin-project-section.ProjectPools_Sect {
     /*
     background: url(../../public/images/bg/project-bg.jpg);
     */
@@ -5638,7 +5638,7 @@ Kyc Upload Docs
     padding-top: 115px;
     padding-bottom: 105px;
 }
-.gamfi-project-section.ProjectPools_Sect .container{
+.Fin-project-section.ProjectPools_Sect .container{
     position: relative;
     z-index: 2;
 }
@@ -6141,7 +6141,7 @@ Kyc Upload Docs
     right: 0px;
 }
 
-.gamfi_Our_mentor_section{
+.Fin_Our_mentor_section{
     background: #090A1A;
     padding-top: 0px;
     padding-bottom: 105px;
@@ -6425,7 +6425,7 @@ Kyc Upload Docs
     margin: auto;
 }
 
-.gamfisubscriveSect{
+.FinsubscriveSect{
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -6433,7 +6433,7 @@ Kyc Upload Docs
     width: 100%;
     margin: auto;
 }
-.gamfisubscriveSect input {
+.FinsubscriveSect input {
     max-width: 350px;
     width: 100%;
     height: 60px;
@@ -6512,7 +6512,7 @@ Kyc Upload Docs
 
 
 
-.Gamfi_footerBtnSect{
+.Fin_footerBtnSect{
     height: 200px;
     background: #86cae6;
     position: fixed;
@@ -6522,7 +6522,7 @@ Kyc Upload Docs
     bottom: 0;
     z-index: 1;
 }
-.Gamfi_footerBtnContent{
+.Fin_footerBtnContent{
     height: 200px;
     width: 100%;
     position: relative;
@@ -6531,30 +6531,30 @@ Kyc Upload Docs
     justify-content: center;
 }
 
-.Gamfi_footerBtnContent span.frameLeft{
+.Fin_footerBtnContent span.frameLeft{
     position: absolute;
     left: 0px;
     bottom: 0px;
     z-index: 1;
 }
-.Gamfi_footerBtnContent span.frameright{
+.Fin_footerBtnContent span.frameright{
     position: absolute;
     right: 0px;
     bottom: 0px;
     z-index: 1;
 }
-.Gamfi_footerBtnContent span img{
+.Fin_footerBtnContent span img{
     height: 200px;
     filter: contrast(100);
 }
 
-.GamfiBody{
+.FinBody{
     position: relative;
     z-index: 2;
     margin-bottom: 200px;
     background: #090A1A;
 }
-.Gamfi_footerBtnContent a {
+.Fin_footerBtnContent a {
     position: absolute;
     font-family: Russo One;
     font-style: normal;
@@ -6756,15 +6756,15 @@ Kyc Upload Docs
     z-index: 2;
 } 
 
-.GamfiV3_ProjectPoolsBtn{
+.FinV3_ProjectPoolsBtn{
     display: flex;
     align-items: center;
     justify-content: flex-end;
 }
-.GamfiV3_ProjectPoolsBtn li{
+.FinV3_ProjectPoolsBtn li{
     margin-left: 20px;
 }
-.GamfiV3_ProjectPoolsBtn li button {
+.FinV3_ProjectPoolsBtn li button {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -6778,7 +6778,7 @@ Kyc Upload Docs
     padding: 0px;
 }
 
-.GamfiV3_ProjectPoolsBtn li.active button {
+.FinV3_ProjectPoolsBtn li.active button {
     background: rgba(255, 255, 255, 0.15);
     color: #ffffff;
     border: none;
@@ -6787,13 +6787,13 @@ Kyc Upload Docs
 
 
 
-.GamfiV3_ProjectPoolsBtn li.active button.black-shape .hover-shape1 {
+.FinV3_ProjectPoolsBtn li.active button.black-shape .hover-shape1 {
     left: 42%;
 }
-.GamfiV3_ProjectPoolsBtn li.active button.black-shape .hover-shape2, .GamfiV3_ProjectPoolsBtn li.active button.hover-shape .hover-shape2 {
+.FinV3_ProjectPoolsBtn li.active button.black-shape .hover-shape2, .FinV3_ProjectPoolsBtn li.active button.hover-shape .hover-shape2 {
     left: 50%;
 }
-.GamfiV3_ProjectPoolsBtn li.active button.black-shape .hover-shape3 {
+.FinV3_ProjectPoolsBtn li.active button.black-shape .hover-shape3 {
     left: 58%;
 }
 
@@ -6943,35 +6943,35 @@ Kyc Upload Docs
 /*-----------------
     Tier
 ------------------*/
-.gamfi_TierSect{
+.Fin_TierSect{
     background: #090A1A;
     padding-top: 70px;
     padding-bottom: 110px;
     position: relative;
 }
-.gamfi_TierSect .container{
+.Fin_TierSect .container{
     position: relative;
     z-index: 1;
 }
-.gamfi_TierSect .tier_earthImg{
+.Fin_TierSect .tier_earthImg{
     position: absolute;
     left: 30%;
     top: 246px;
     z-index: 0;
 }
-.gamfi_TierSect .TierGalaxyImg1{
+.Fin_TierSect .TierGalaxyImg1{
     position: absolute;
     left: 10%;
     bottom: 241px;
     z-index: 0;
 }
-.gamfi_TierSect .TierGalaxyImg2{
+.Fin_TierSect .TierGalaxyImg2{
     position: absolute;
     right: 12%;
     top: 259px;
     z-index: 0;
 }
-.gamfi_Tier_card{
+.Fin_Tier_card{
     max-width: 370px;
     width: 100%;
     background: rgba(30, 31, 53, 0.7);
@@ -6987,7 +6987,7 @@ Kyc Upload Docs
 
 }
 
-.gamfi_Tier_card h2 {
+.Fin_Tier_card h2 {
     font-family: Russo One;
     font-style: normal;
     font-weight: normal;
@@ -6997,7 +6997,7 @@ Kyc Upload Docs
     color: #FFFFFF;
     margin-bottom: 0px;
 }
-.gamfi_Tier_card h3 {
+.Fin_Tier_card h3 {
     font-family: Russo One;
     font-style: normal;
     font-weight: normal;
@@ -7007,11 +7007,11 @@ Kyc Upload Docs
     color: #FFFFFF;
     margin-bottom: 0px;
 }
-.gamfi_Tier_card span{
+.Fin_Tier_card span{
     margin-bottom: 4px;
     margin-top: 24px;
 }
-.gamfi_Tier_card p {
+.Fin_Tier_card p {
     font-family: Inter;
     font-style: normal;
     font-weight: 500;
@@ -7022,7 +7022,7 @@ Kyc Upload Docs
     margin-top: 21px;
     margin-bottom: 0px;
 }
-.gamfi_Tier_card h4 {
+.Fin_Tier_card h4 {
     font-family: Russo One;
     font-style: normal;
     font-weight: normal;
@@ -7167,7 +7167,7 @@ Kyc Upload Docs
 /*-----------------
     Tier V3
 ------------------*/
-.gamfi_TierV3_Sect{
+.Fin_TierV3_Sect{
     background: #090A1A;
     padding-top: 70px;
     padding-bottom: 140px;
@@ -7309,7 +7309,7 @@ Kyc Upload Docs
     Tokenomics Page
 -------------------*/
 
-.Gamfi_Header_contentright_Custom h2{
+.Fin_Header_contentright_Custom h2{
     font-size: 28px;
     color: rgba(255, 255, 255, 0.7);
 }
@@ -7656,7 +7656,7 @@ Kyc Upload Docs
     Mega Menu
 ----------------*/
 
-.Gamfi_Mega_Menu {
+.Fin_Mega_Menu {
     background: rgba(19, 20, 44, 0.98);
     backdrop-filter: blur(4px);
     padding-top: 0px;
@@ -7850,26 +7850,26 @@ Kyc Upload Docs
     backdrop-filter: blur(5px);
 }
 
-.gamfi-header-section .heaader-inner-area ul li.megaMenuHov{
+.Fin-header-section .heaader-inner-area ul li.megaMenuHov{
     position: inherit;
 }
 
-.gamfi-header-section .heaader-inner-area ul li .Gamfi_Mega_Menu ul{
+.Fin-header-section .heaader-inner-area ul li .Fin_Mega_Menu ul{
     position: inherit;
 }
 
 
-.gamfi-header-section .header-menu ul li .Menu_column ul{
+.Fin-header-section .header-menu ul li .Menu_column ul{
     display: block !important;
 }
 
-.gamfi-header-section .heaader-inner-area ul li .Gamfi_Mega_Menu ul{
+.Fin-header-section .heaader-inner-area ul li .Fin_Mega_Menu ul{
     opacity: 1;
     visibility: visible;
     transform: scaleY(1);
 }
 
-.gamfi-header-section .header-menu ul li .Menu_column ul li a {
+.Fin-header-section .header-menu ul li .Menu_column ul li a {
     
     display: block;
     font-family: 'Russo One';
@@ -7881,13 +7881,13 @@ Kyc Upload Docs
     padding: 0px;
 }
 
-.gamfi-header-section .heaader-inner-area ul li .Menu_column ul li a  {
+.Fin-header-section .heaader-inner-area ul li .Menu_column ul li a  {
     display: block;
     background: none;
     padding: 0px;
     transition: 0.4s;
 }
-.gamfi-header-section .heaader-inner-area ul li .Menu_column ul li{
+.Fin-header-section .heaader-inner-area ul li .Menu_column ul li{
     border: none;
     margin: 0px;
     display: flex;
@@ -7896,7 +7896,7 @@ Kyc Upload Docs
     
 }
 
-.Gamfi_Mega_Menu_Sect{
+.Fin_Mega_Menu_Sect{
     padding-top: 40px;
     position: absolute;
     height: 100%;
@@ -7916,7 +7916,7 @@ Kyc Upload Docs
     transition: all 0.2s ease-in-out;
 }
 
-.megaMenuHov:hover .Gamfi_Mega_Menu_Sect {
+.megaMenuHov:hover .Fin_Mega_Menu_Sect {
 
     opacity: 1;
     visibility: visible;
@@ -7936,41 +7936,41 @@ Kyc Upload Docs
 
 
 
-.gamfi-breadcrumbs-section.blog-breadcrumbs {
+.Fin-breadcrumbs-section.blog-breadcrumbs {
     background: url(../../public/images/blog/blog-bg.jpg);
     background-size: cover;
     padding-top: 410px;
     padding-bottom: 45px;
 }
-.gamfi-breadcrumbs-section.blog-breadcrumbs .sec-heading h1{
+.Fin-breadcrumbs-section.blog-breadcrumbs .sec-heading h1{
     font-size: 60px;
     text-transform: none;
     margin-bottom: 45px;
 }
-.gamfi-breadcrumbs-section.blog-breadcrumbs .sub-menu ul{
+.Fin-breadcrumbs-section.blog-breadcrumbs .sub-menu ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.gamfi-breadcrumbs-section.blog-breadcrumbs .sub-menu ul li{
+.Fin-breadcrumbs-section.blog-breadcrumbs .sub-menu ul li{
     display: inline-block;
     margin-right: 35px;
 }
-.gamfi-breadcrumbs-section.blog-breadcrumbs .sub-menu ul li a{
+.Fin-breadcrumbs-section.blog-breadcrumbs .sub-menu ul li a{
     font-size: 16px;
     text-transform: uppercase;
 }
-.gamfi-breadcrumbs-section.blog-breadcrumbs .sub-menu img{
+.Fin-breadcrumbs-section.blog-breadcrumbs .sub-menu img{
     margin-right: 10px;
 }
-.gamfi-breadcrumbs-section.blog-breadcrumbs .sub-menu ul li i{
+.Fin-breadcrumbs-section.blog-breadcrumbs .sub-menu ul li i{
     margin-right: 10px;
     font-size: 15px;
 }
 
 
 /* -----------------------------------------------
-    03. Gamfi Blog detail-conent Section CSS
+    03. Fin Blog detail-conent Section CSS
 -------------------------------------------------*/
 .blog-detail-conent{
    padding-top: 60px;
@@ -8001,7 +8001,7 @@ Kyc Upload Docs
     padding-left: 65px;
     color: #fff;
 }
-.blog-detail-conent .blog-area .igo-blog h4{
+.blog-detail-conent .blog-area .iho-blog h4{
     margin-bottom: 15px;
 }
 .blog-detail-conent .blog-area .Tokenomics-item .project-service{
@@ -8046,18 +8046,18 @@ Kyc Upload Docs
 .blog-detail-conent .blog-area .Tokenomics-item .project-content .project-sale.turquoises:before{
     background: #3BCBFF;
 }
-.blog-detail-conent .blog-area .igo-blog ul{
+.blog-detail-conent .blog-area .iho-blog ul{
     margin: 0;
     padding: 0;
     list-style: none;
 }
-.blog-detail-conent .blog-area .igo-blog ul li{
+.blog-detail-conent .blog-area .iho-blog ul li{
     position: relative;
 }
-.blog-detail-conent .blog-area .igo-blog ul li span{
+.blog-detail-conent .blog-area .iho-blog ul li span{
     line-height: 36px;
 }
-.blog-detail-conent .blog-area .igo-blog ul li:before{
+.blog-detail-conent .blog-area .iho-blog ul li:before{
     position: absolute;
     content: "";
     width: 8px;
@@ -8067,7 +8067,7 @@ Kyc Upload Docs
     border-radius: 8px;
     top: 15px;
 }
-.blog-detail-conent .blog-area .igo-blog ul li span{
+.blog-detail-conent .blog-area .iho-blog ul li span{
     padding-left: 25px;
 }
 .blog-detail-conent .blog-area .about-blog .about-menu{
@@ -8214,7 +8214,7 @@ Kyc Upload Docs
     padding-bottom: 90px;
 }
 
-.gamfi-navigation ul li {
+.Fin-navigation ul li {
   display: inline-block;
   position: relative;
 }
@@ -8414,7 +8414,7 @@ div.latest-item .hover-shape-bg{
 
 
 /* ------------------------------------
-    03. Gamfi Latest-details-content Section CSS
+    03. Fin Latest-details-content Section CSS
 ---------------------------------------*/
 .latest-details-content .latest-content{
     padding-right: 30px;
@@ -8491,19 +8491,19 @@ div.latest-item .hover-shape-bg{
     top: 7px;
     left: 0;
 }
-.gamfi-navigation ul li + li {
+.Fin-navigation ul li + li {
   margin-left: 4px;
 }
-.gamfi-navigation ul li:first-child {
+.Fin-navigation ul li:first-child {
   top: 2px;
 }
-.gamfi-navigation ul li:first-child a {
+.Fin-navigation ul li:first-child a {
   padding: 11px 19px 8px;
   position: relative;
   top: -1px;
 }
 
-.gamfi-navigation ul li a {
+.Fin-navigation ul li a {
   display: block;
   border: 1px solid #2e2f3c;
   color: #fff;
@@ -8513,36 +8513,36 @@ div.latest-item .hover-shape-bg{
   transition: 0.4s;
 }
 
-.gamfi-navigation ul li a .icon-Vector {
+.Fin-navigation ul li a .icon-Vector {
   font-size: 13px;
 }
 
-.gamfi-navigation ul li a .icon-arrow_right {
+.Fin-navigation ul li a .icon-arrow_right {
   font-size: 13px;
 }
 
-.gamfi-navigation ul li a.active:not(.black-shape),
-.gamfi-navigation ul li a:hover:not(.black-shape) {
+.Fin-navigation ul li a.active:not(.black-shape),
+.Fin-navigation ul li a:hover:not(.black-shape) {
   background: #2e2f3c;
   color: rgb(134, 202, 230);
 }
 
-.breadcrumbs-form .gamfi-navigation {
+.breadcrumbs-form .Fin-navigation {
   position: relative;
   top: -3px;
 }
 
-.breadcrumbs-form .gamfi-navigation ul {
+.breadcrumbs-form .Fin-navigation ul {
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
 }
 
-.breadcrumbs-form .gamfi-navigation ul li:first-child {
+.breadcrumbs-form .Fin-navigation ul li:first-child {
   top: 0;
 }
 
-.breadcrumbs-form .gamfi-navigation ul li:first-child a {
+.breadcrumbs-form .Fin-navigation ul li:first-child a {
   padding-top: 11px;
   padding-bottom: 8px;
 }
@@ -9110,41 +9110,41 @@ ProjectClasic
 
 
 
-.gamfi-previous-section .previous-mainmenu ul .list1.list1Custom{
+.Fin-previous-section .previous-mainmenu ul .list1.list1Custom{
     width: 31%;
 }
-.gamfi-previous-section .previous-mainmenu ul .list2.list2Custom{
+.Fin-previous-section .previous-mainmenu ul .list2.list2Custom{
     width: 14%;
 }
-.gamfi-previous-section .previous-mainmenu ul .list3.list3Custom{
+.Fin-previous-section .previous-mainmenu ul .list3.list3Custom{
     width: 15%;
 }
-.gamfi-previous-section .previous-mainmenu ul .list4.list4Custom{
+.Fin-previous-section .previous-mainmenu ul .list4.list4Custom{
     width: 15%%;
 }
-.gamfi-previous-section .previous-mainmenu ul .list5.list5Custom{
+.Fin-previous-section .previous-mainmenu ul .list5.list5Custom{
     width: 21%;
 }
 
-.gamfi-previous-section .previous-item .previous-gaming.list1Custom{
+.Fin-previous-section .previous-item .previous-gaming.list1Custom{
     width: 31%;
 }
-.gamfi-previous-section .previous-item .previous-chaining.list2Custom{
+.Fin-previous-section .previous-item .previous-chaining.list2Custom{
     width: 14%;
 }
-.gamfi-previous-section .previous-item .previous-EndsIn.list3Custom{
+.Fin-previous-section .previous-item .previous-EndsIn.list3Custom{
     width: 16%;
 }
-.gamfi-previous-section .previous-item .previous-raise.list4Custom{
+.Fin-previous-section .previous-item .previous-raise.list4Custom{
     width: 17%;
 }
-.gamfi-previous-section .previous-item .previousProgress.list5Custom{
+.Fin-previous-section .previous-item .previousProgress.list5Custom{
     width: 21%;
 }
 
 
 
-.gamfi-previous-section.ProjectClasic_PreviousSection .previous-item .previous-EndsIn.list3Custom span {
+.Fin-previous-section.ProjectClasic_PreviousSection .previous-item .previous-EndsIn.list3Custom span {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -9154,7 +9154,7 @@ ProjectClasic
     color: #FFFFFF;
 }
 
-.gamfi-previous-section .previous-item .previous-raise.list4Custom span {
+.Fin-previous-section .previous-item .previous-raise.list4Custom span {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 500;
@@ -9179,7 +9179,7 @@ ProjectClasic
 
 
 
-.gamfiProjectClasic_ProjectSect{
+.FinProjectClasic_ProjectSect{
     background: #090A1A;
     padding-top: 50px;
     padding-bottom: 92px;
@@ -9585,7 +9585,7 @@ ProjectClasic
     align-items: center;
     justify-content: flex-start;
 }
-.gamfi-project-section .project-item .project-media .ProjectClasicSocialIconList .social-icon-list{
+.Fin-project-section .project-item .project-media .ProjectClasicSocialIconList .social-icon-list{
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -9595,7 +9595,7 @@ ProjectClasic
 .ProjectClasicSocialIconList ul li{
     margin-right: 25px;
 }
-.gamfi-project-section .project-item .project-media .ProjectClasicSocialIconList .social-icon-list li a i {
+.Fin-project-section .project-item .project-media .ProjectClasicSocialIconList .social-icon-list li a i {
     padding-left: 0px;
     font-size: 18px;
 }
@@ -9950,7 +9950,7 @@ ProjectClasic2
 
 
 
-.gamfi-explore-content .project-item .heading-title h4 span{
+.Fin-explore-content .project-item .heading-title h4 span{
     margin-right: 8px;
 }
 
@@ -10459,7 +10459,7 @@ ProjectDetails2
     background: transparent;
     padding-bottom: 192px;
 }
-.sc_banner_V3.sc_banner_V4 .gamfi_V2_hero_Btns{
+.sc_banner_V3.sc_banner_V4 .Fin_V2_hero_Btns{
     margin-bottom: 0px;
 }
 
@@ -10478,7 +10478,7 @@ ProjectDetails2
     
 }
 
-.gamfi-partner-section.Home_V4_PartnerContent .gamfi-partner-inner:after, .gamfi-partner-section.Home_V4_PartnerContent .gamfi-partner-inner:before{
+.Fin-partner-section.Home_V4_PartnerContent .Fin-partner-inner:after, .Fin-partner-section.Home_V4_PartnerContent .Fin-partner-inner:before{
     background: linear-gradient(269.8deg, rgba(30, 31, 49, 0) 0.18%, #1E1F31 99.84%);
     height: 100%;
 }
@@ -10487,13 +10487,13 @@ ProjectDetails2
 .HomeV4_LiveProjectSect{
     margin-top: 136px;
 }
-.Home_4_gamfi_TierV3_Sect{
+.Home_4_Fin_TierV3_Sect{
     background: transparent;
 }
 .homeV4_FAQSect{
     background: transparent;
 }
-.gamfi_Home4_footer_section, .gamfi_Home4_footer_section .HomeV4_FooterArea{
+.Fin_Home4_footer_section, .Fin_Home4_footer_section .HomeV4_FooterArea{
     background: transparent;
 }
 
@@ -10502,11 +10502,11 @@ ProjectDetails2
 }
 
 
-.gamfi-project-section.HomeV4_OurProject_Sect{
+.Fin-project-section.HomeV4_OurProject_Sect{
     background: transparent;
     padding-top: 80px;
 }
-.gamfi-previous-section.V4_OurProjectPreviousSect{
+.Fin-previous-section.V4_OurProjectPreviousSect{
     background: transparent;
 }
 
@@ -10515,7 +10515,7 @@ ProjectDetails2
     background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
 }
-.HomeV4_OurProject_Sect .gamfi-previous-section .previous-item{
+.HomeV4_OurProject_Sect .Fin-previous-section .previous-item{
     background: rgba(255, 255, 255, 0.08);
     backdrop-filter: blur(10px);
 }

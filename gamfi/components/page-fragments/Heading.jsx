@@ -1,11 +1,11 @@
 export default function Heading(){
     return(<>
        {/* <!--Header Start--> */}
-       <header id="gamfi-header" className="gamfi-header-section transparent-header">
+       <header id="Fin-header" className="Fin-header-section transparent-header">
             <div className="menu-area menu-sticky">
                 <div className="container">
                     <div className="heaader-inner-area d-flex justify-content-between align-items-center">
-                        <div className="gamfi-logo-area d-flex justify-content-between align-items-center">
+                        <div className="Fin-logo-area d-flex justify-content-between align-items-center">
                             <div className="logo">
                                 <a href="index-2.html"><img src="/images/logo.png" alt="logo" /></a>
                             </div>
@@ -38,8 +38,8 @@ export default function Heading(){
                                     </li>
                                     <li className="megaMenuHov"><a href="#">Pages +</a>
                                     {/* <!-- Mega Menu Start --> */}
-                                    <div className="Gamfi_Mega_Menu_Sect">
-                                        <div className="Gamfi_Mega_Menu">
+                                    <div className="Fin_Mega_Menu_Sect">
+                                        <div className="Fin_Mega_Menu">
                                             <div className="container">
                                                 <div className="MegaMenuContent">
                                                     <div className="megaMenuLeftSect">
@@ -89,7 +89,7 @@ export default function Heading(){
                                                                 <li><a href="calendar.html">Project Calendar</a></li>
                                                                 <li><a href="project-details.html">Project Details 1</a></li>
                                                                 <li><a href="Project_Details2.html">Project Details 2</a> <span className="new">NEW</span></li>
-                                                                <li><a href="igo-ranking.html">Project Ranking</a></li>
+                                                                <li><a href="iho-ranking.html">Project Ranking</a></li>
                                                             </ul>
                                                         </div>
 
@@ -116,7 +116,7 @@ export default function Heading(){
                                                                     <li><a href="Get-In-touch.html">Contact Us</a></li>
                                                                     <li><a href="roadMap.html">Roadmap</a></li>
                                                                     <li><a href="FAQ.html">FAQs</a> <span className="new">NEW</span></li>
-                                                                    <li><a href="igo-apply.html">Apply For Project</a></li>
+                                                                    <li><a href="iho-apply.html">Apply For Project</a></li>
                                                                     <li><a href="teamdetails.html">Team Details</a></li>
                                                                 </ul>
                                                             </div>
@@ -176,7 +176,7 @@ export default function Heading(){
                                 </ul>
                             </div>
                         </div>
-                        <div className="gamfi-btn-area">
+                        <div className="Fin-btn-area">
                             <ul>
                                 <li>
                                     <a id="nav-expander" className="nav-expander bar" href="#">
@@ -246,7 +246,7 @@ export default function Heading(){
                             <li><a href="calendar.html">Project Calendar</a></li>
                             <li><a href="project-details.html">Project Details 1</a></li>
                             <li><a href="Project_Details2.html">Project Details 2</a></li>
-                            <li><a href="igo-ranking.html">Project Ranking</a></li>
+                            <li><a href="iho-ranking.html">Project Ranking</a></li>
                         </ul>
                     </li>
                     <li><a href="staking.html">Staking</a>
@@ -267,7 +267,7 @@ export default function Heading(){
                                     <li><a href="calendar.html">Project Calendar</a></li>
                                     <li><a href="project-details.html">Project Details 1</a></li>
                                     <li><a href="Project_Details2.html">Project Details 2</a></li>
-                                    <li><a href="igo-ranking.html">Project Ranking</a></li>
+                                    <li><a href="iho-ranking.html">Project Ranking</a></li>
                                 </ul>
                             </li>
                             <li className="menu-item-has-children"><a href="signin.html">Stake & Farm</a>
@@ -283,7 +283,7 @@ export default function Heading(){
                                     <li><a href="Get-In-touch.html">Contact Us</a></li>
                                     <li><a href="roadMap.html">Roadmap</a></li>
                                     <li><a href="FAQ.html">FAQs</a></li>
-                                    <li><a href="igo-apply.html">Apply For Project</a></li>
+                                    <li><a href="iho-apply.html">Apply For Project</a></li>
                                     <li><a href="teamdetails.html">Team Details</a></li>
                                 </ul>
                             </li>

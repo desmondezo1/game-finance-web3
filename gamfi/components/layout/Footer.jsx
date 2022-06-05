@@ -4,7 +4,7 @@ import Link from 'next/link'
 export default function Footer(){
     return(<>
     
-    <div className="gamfi-footer-section">
+    <div className="Fin-footer-section">
             <div className="container">
                 <div className="footer-cta-area text-center active-shape hover-shape-inner">
                     <h2 className="title mb-15">
@@ -14,9 +14,9 @@ export default function Footer(){
                     <div className="dsc mb-40 md-mb-30">
                         Do you have a health or Charitable NGO? lend a helping hand
                     </div>
-                    <Link href={'/igo'}>
+                    <Link href={'/iho'}>
                     <a className="banner-btn wow fadeInUp black-shape" data-wow-delay="0.3s" data-wow-duration="0.5s">
-                        <span className="btn-text">Apply For IGO</span>
+                        <span className="btn-text">Apply For IHO</span>
                         <span className="hover-shape1"></span>
                         <span className="hover-shape2"></span>
                         <span className="hover-shape3"></span>
@@ -70,7 +70,7 @@ export default function Footer(){
                         </div>
                     </div>
                     <div className="scrollup text-center">
-                        <a href="#gamfi-header"><i className="icon-arrow_up"></i></a>
+                        <a href="#Fin-header"><i className="icon-arrow_up"></i></a>
                     </div>
                 </div>
             </div>

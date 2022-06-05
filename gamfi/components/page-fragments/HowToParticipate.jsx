@@ -18,7 +18,7 @@ export default function HowToParticipate(){
                             <div className="How_to_Participate_Left_Contnet">
                                 <p>In Finance Token, any NGO and Charitable organisation can join the network and become what&apos;s known as an orchestrator by Signing Agreements to mandates you to offer free and immediate healthcare services to consumers in your Region. either subsidized or 100% free. contribute your PILLS to help Citizens like Bob. <br/> For doing so, you earn fees in the form of a cryptocurrency like BNB or a stablecoin pegged to the US dollar like BUSD.</p>
                                 <div className="How_to_Participate_Left_Btn">
-                                    <Link href={"/verify-kyc"}>
+                                    <Link href={"/verify-kyc/step1"}>
                                     <a className="view-more black-shape">
                                         <span className="btn-text">Verify KYC</span>
                                         <i className="icon-arrow_right"></i>

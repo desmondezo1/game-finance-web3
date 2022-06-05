@@ -3,7 +3,7 @@ import indexCss from "../../styles/index.module.css"
 export default function FaqSection(){
     return (<>
     
-    <div  className={`${indexCss.top} gamfi-team-section gamfi_FAQ_Sect gamfi_Our_mentor_section pt-115 pb-85 md-pt-75 md-pb-42`}>
+    <div  className={`${indexCss.top} Fin-team-section Fin_FAQ_Sect Fin_Our_mentor_section pt-115 pb-85 md-pt-75 md-pb-42`}>
             <div className="container">
                 <div className="sec-heading text-center mb-55">
                     <div className="sub-inner  mb-15">
@@ -16,7 +16,7 @@ export default function FaqSection(){
                 <div className="FAQContnetSect">
                     <div className="FAQquestions">
                         <h2 className="accordion no-border">
-                            What is Gamfi ?
+                            What is Fin ?
                             <span>
                                 <img src="/images/icons/plus.svg" alt="" className="img-fluid IconPlus" />
                                 <img src="/images/icons/munis.svg" alt="" className="Img-fluid IconMunise" />
@@ -37,7 +37,7 @@ export default function FaqSection(){
                         </div>
 
                         <h2 className="accordion">
-                            Why we should choose Gamfi ?
+                            Why we should choose Fin ?
                             <span>
                                 <img src="/images/icons/plus.svg" alt="" className="img-fluid IconPlus" />
                                 <img src="/images/icons/munis.svg" alt="" className="Img-fluid IconMunise" />
@@ -48,7 +48,7 @@ export default function FaqSection(){
                         </div>
 
                         <h2 className="accordion">
-                            Where we can buy and sell Gamfi NFts ?
+                            Where we can buy and sell Fin NFts ?
                             <span>
                                 <img src="/images/icons/plus.svg" alt="" className="img-fluid IconPlus" />
                                 <img src="/images/icons/munis.svg" alt="" className="Img-fluid IconMunise" />

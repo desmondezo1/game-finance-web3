@@ -1,21 +1,21 @@
 import indexCss from "../styles/index.module.css"
 
-export default function Igo(){
+export default function Iho(){
     return (<>
     
 
             {/* <!-- Breadcrumbs Section Start --> */}
-        <div className={`${indexCss.top} gamfi-breadcrumbs-section`}>
+        <div className={`${indexCss.top} Fin-breadcrumbs-section`}>
             <div className="container">
                 <div className="apply-heading text-center">
-                    <h2 className="mb-0">Apply for IGO</h2>
+                    <h2 className="mb-0">Apply for IHO</h2>
                 </div>
             </div>
         </div>
         {/* <!-- Breadcrumbs  Section End --> */}
 
         {/* <!-- Form Section Start --> */}
-        <div className={`${indexCss.top} gamfi-form-content pt-65 md-pt-45 pb-120 md-pb-80`}>
+        <div className={`${indexCss.top} Fin-form-content pt-65 md-pt-45 pb-120 md-pb-80`}>
             <div className="container">
                 <div className="address-form">
                     <form>
@@ -108,7 +108,7 @@ export default function Igo(){
                             </div>
                         </div>
                         <div className="input-button">
-                            <input type="text" id="target" placeholder="How much are you planning on raising on the IGO?" required />
+                            <input type="text" id="target" placeholder="How much are you planning on raising on the IHO?" required />
                             <label htmlFor="target">Target Raise</label>
                         </div>  
                         <div className="input-button">
@@ -126,7 +126,7 @@ export default function Igo(){
                             <label htmlFor="twitter">Project Twitter</label>
                         </div>  
                         <div  style={{ background: "#86cae6"}} className="project-btn-area text-center black-shape-big mt-40">
-                            <input type="submit"  style={{ background: "#86cae6"}} name="submit" value="Submit IGO Project" />
+                            <input type="submit"  style={{ background: "#86cae6"}} name="submit" value="Submit IHO Project" />
                             <span className="hover-shape1"></span>
                             <span className="hover-shape2"></span>
                             <span className="hover-shape3"></span>

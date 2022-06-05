@@ -2,7 +2,7 @@ import indexCss from "../../styles/index.module.css"
 
 export default function TeamSection(){
     return (<>
-            <div  className={`${indexCss.top} gamfi-team-section gamfi_Our_mentor_section OurPartnarV3_Sect pt-115 pb-85 md-pt-75 md-pb-42`}>
+            <div  className={`${indexCss.top} Fin-team-section Fin_Our_mentor_section OurPartnarV3_Sect pt-115 pb-85 md-pt-75 md-pb-42`}>
             <div className="container">
                 <div className="sec-inner align-items-center d-flex justify-content-between  mb-50">
                     <div className="sec-heading">
@@ -12,8 +12,8 @@ export default function TeamSection(){
                         </div>
                         <h2 className="title mb-0 xs-pb-20">Our PARTNERS</h2>
                     </div>
-                    <div className="gamfi-btn-area">
-                        <ul className="GamfiV3_ProjectPoolsBtn">
+                    <div className="Fin-btn-area">
+                        <ul className="FinV3_ProjectPoolsBtn">
                             <li className="v3_OurPartnars_tablinks m-0" onClick="openV3_OurPartnars(event, 'Investor')" id="V3_OurPartnars_Tab_defaultOpen">
                                 <button className="view-more black-shape">
                                     <span className="btn-text">Investor</span>

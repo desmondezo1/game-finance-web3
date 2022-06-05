@@ -34,7 +34,7 @@ export default function Banner(){
                             <div className="sc_banner_V3_left" style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}}>
                                 <h2 className={`${bannerCss.bannerH2} bannerH2 wow fadeInUp`} data-wow-delay="0.4s" data-wow-duration="0.6s">BETASPACE <br/> STAKE-TO <span><img src="/images/icons/dollar-dollar-color.svg" alt="" className="img-fluid" /></span> EARN CROWD FUNDING <span><img src="/images/icons/rocket-dynamic-color.svg" alt="" className="img-fluid" /></span></h2>
                                 <p className="wow fadeInUp" data-wow-delay="0.5s" data-wow-duration="0.7s" style={{fontFamily: "'Comic Sans MS', 'Comic Sans'"}}>Largest community token allowing Crowd Funding on BNB Chain . It Facilitates a secured crowd funding system for the community and Charity.</p>
-                                <div className="gamfi_V2_hero_Btns wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
+                                <div className="Fin_V2_hero_Btns wow fadeInUp" data-wow-delay="0.6s" data-wow-duration="0.8s">
                                     <a href="project.html">
                                        <button type="button" className="readon white-btn hover-shape VIEW_Projects_Btn">
                                            <span className="btn-text" style={{fontFamily: "'Comic Sans MS', 'Comic Sans'", background: "#00D1" }}>VIEW Projects</span>
@@ -44,7 +44,7 @@ export default function Banner(){
                                        </button>
                                     </a>
                                     <Link href={'/Igo'}>                                    
-                                    <a className={`${indexCss.fiFont} readon black-shape Apply_Project_Btn`} href="igo-apply.html">
+                                    <a className={`${indexCss.fiFont} readon black-shape Apply_Project_Btn`} href="iho-apply.html">
                                         <span className={`${indexCss.fiFont} btn-text`}>Apply Project</span>
                                         <span className="hover-shape1"></span>
                                         <span className="hover-shape2"></span>
@@ -92,8 +92,8 @@ export default function Banner(){
                         </div>
                         <div className="col-md-6">
                             <div className="Multi_Block_Chains_RightSect">
-                                <div className="gamfi-partner-section Multi_Block_Chains_Right">
-                                    <div className="gamfi-partner-inner Multi_Block_Chains_RightContent">
+                                <div className="Fin-partner-section Multi_Block_Chains_Right">
+                                    <div className="Fin-partner-inner Multi_Block_Chains_RightContent">
                                         <div className="partner-image">
                                             <a href="#"><img src="/images/icons/BlockChain1.png" alt="icon" className="img-fluid" /></a>
                                             <a href="#"><img src="/images/icons/BlockChain2.png" alt="icon" className="img-fluid" /></a>

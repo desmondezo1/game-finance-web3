@@ -56,11 +56,11 @@ export default function Nav(){
     
     
     {/* <!--Header Start--> */}
-        <header id="gamfi-header" className="gamfi-header-section transparent-header">
+        <header id="Fin-header" className="Fin-header-section transparent-header">
             <div className="menu-area menu-sticky">
                 <div className="container">
                     <div className="heaader-inner-area d-flex justify-content-between align-items-center">
-                        <div className="gamfi-logo-area d-flex justify-content-between align-items-center">
+                        <div className="Fin-logo-area d-flex justify-content-between align-items-center">
                             <div className="logo">
                                 <Link href={'/'}>
                                     <a >
@@ -92,7 +92,7 @@ export default function Nav(){
                                 </ul>
                             </div>
                         </div>
-                        <div className="gamfi-btn-area">
+                        <div className="Fin-btn-area">
                             <ul>
                                 <li>
                                     <span id="nav-expander" className="nav-expander bar" onClick={openMobileMenu} href="#">

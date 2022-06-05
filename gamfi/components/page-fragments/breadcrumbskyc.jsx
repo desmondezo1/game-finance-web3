@@ -4,7 +4,7 @@ import indexCss from "../../styles/index.module.css"
 export default function BreadCrumbsKYC({step, progress}){
     return(<>
     
-    <div  className={`${indexCss.top} gamfi-breadcrumbs-section`}>
+    <div  className={`${indexCss.top} Fin-breadcrumbs-section`}>
 			<div className="container">
 				<div className="row">
 					<div className="col-lg-5">
@@ -18,9 +18,9 @@ export default function BreadCrumbsKYC({step, progress}){
 						</div>
 					</div>
 					<div className="col-lg-7 breadcrumbs-form breadcrumbsprogress_BarCustom md-mt-40">
-						<div className="Gamfi_Header_contentright">
+						<div className="Fin_Header_contentright">
                             <h2>Step {!step ? "1": step} of 3</h2>
-                            <div className="Gamfi_Header_ProgressBar">
+                            <div className="Fin_Header_ProgressBar">
                                 <div className="progress">
                                     <div className={`progress-bar progress-bar-striped ${
                                        step == 1 ? "" : ( step == 2 ? "w-75": ( step == 3 ? "w-100": "") )

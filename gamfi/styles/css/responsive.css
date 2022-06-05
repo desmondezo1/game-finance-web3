@@ -3,7 +3,7 @@
 /** 
 *
 * -----------------------------------------------------------------------------
-* Template : GamFi - Metaverse Web3 IGO/IDO Token Launchpad Figma Template
+* Template : Fin - Metaverse Web3 IHO/IDO Token Launchpad Figma Template
 * Author : uigigs
 * Author URI : http://www.uigigs.com/
 *
@@ -35,67 +35,67 @@
 }
 
 @media only screen and (max-width: 1199px) {
-    .gamfi-header-section .header-menu ul li + li {
+    .Fin-header-section .header-menu ul li + li {
         margin-left: 25px;
     }
-    .gamfi-about-secion .game-price-item .price-details h3{
+    .Fin-about-secion .game-price-item .price-details h3{
         font-size: 24px;
     }
-    .gamfi-about-secion .game-price-item{
+    .Fin-about-secion .game-price-item{
         padding: 30px;
     }
-    .gamfi-previous-section .previous-item .previous-chaining img {
+    .Fin-previous-section .previous-item .previous-chaining img {
         margin-right: 60px;
     }
-    .gamfi-previous-section .previous-item .previous-raise .progress-inner {
+    .Fin-previous-section .previous-item .previous-raise .progress-inner {
         width: 140px;
     }
-    .gamfi-previous-section .previous-item .previous-raise span {
+    .Fin-previous-section .previous-item .previous-raise span {
         margin-right: 15px;
     }
-    .gamfi-project-section .project-item{
+    .Fin-project-section .project-item{
         padding-left: 20px;
         padding-right: 20px;
     }
-    .gamfi-project-section .project-item .heading-title h4:before {
+    .Fin-project-section .project-item .heading-title h4:before {
          left: -21px;
     }
-    .gamfi-project-section .project-item h4{
+    .Fin-project-section .project-item h4{
         font-size: 20px;
     }
-    .gamfi-tokenomics-section .pr-63,
-    .gamfi-tokenomics-section .pr-63,
-    .gamfi-tokenomics-section .pr-60{
+    .Fin-tokenomics-section .pr-63,
+    .Fin-tokenomics-section .pr-63,
+    .Fin-tokenomics-section .pr-60{
         padding-right: 40px;
     }
-    .gamfi-calendar-list .calender-date {
+    .Fin-calendar-list .calender-date {
         padding: 15px;
         width: 13%;
     }
-    .gamfi-previous-section .previous-mainmenu .menu-list.date-menu {
+    .Fin-previous-section .previous-mainmenu .menu-list.date-menu {
         padding: 0;
     }
-    .gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+    .Fin-breadcrumbs-section .breadcrumbs-form input[type="text"] {
         width: 330px;
     }
-    .igo-rankging-table-list tr th, .igo-rankging-table-list tr td {
+    .iho-rankging-table-list tr th, .iho-rankging-table-list tr td {
         width: 12.28%;
         padding: 20px 12px;
     }
-    .igo-rankging-table-list tr th:nth-child(2), .igo-rankging-table-list tr td:nth-child(2) {
+    .iho-rankging-table-list tr th:nth-child(2), .iho-rankging-table-list tr td:nth-child(2) {
         width: 28%;
     }
-    .igo-rankging-table-list tr .image-row {
+    .iho-rankging-table-list tr .image-row {
         padding-top: 14.5px;
         padding-bottom: 14.5px;
     }
-    .gamfi-farming-table tr th, .gamfi-farming-table tr td {
+    .Fin-farming-table tr th, .Fin-farming-table tr td {
         width: 15.666%;
     }
-    .gamfi-farming-table tr th:nth-child(5) {
+    .Fin-farming-table tr th:nth-child(5) {
         width: 24.666%;
     }
-    .gamfi-farming-content .expeand-centent .farm-form-list input {
+    .Fin-farming-content .expeand-centent .farm-form-list input {
         padding: 7px 10px;
         font-size: 14px;
     }
@@ -108,10 +108,10 @@
     .project-details-conent .game-price-inner .image-icon img{
         max-width: 80px;
     }
-    .gamfi-about-secion .game-price-item .game-price-inner .price-inner .image-icon {
+    .Fin-about-secion .game-price-item .game-price-inner .price-inner .image-icon {
         margin-right: 15px;
     }
-    .gamfi-about-secion .game-price-item .game-price-inner .allocation-max .allocation {
+    .Fin-about-secion .game-price-item .game-price-inner .allocation-max .allocation {
         margin-top: 55px;
     }
     .project-details-conent .game-price-item .price-counter {
@@ -155,10 +155,10 @@
     .participat-information .project-item h3{
         font-size: 24px;
     }
-    .gamfi_V2_hero_Left h2{
+    .Fin_V2_hero_Left h2{
         font-size: 43px;
     }
-    .gamfi-project-section .project-item .heading-title.heading-titleV2 .price-counter:before {
+    .Fin-project-section .project-item .heading-title.heading-titleV2 .price-counter:before {
         left: -20px;
     }
     
@@ -183,15 +183,15 @@
     }
     .blog-detail-conent .about-blog p,
     .blog-detail-conent .blog-description p,
-    .blog-detail-conent .igo-blog p{
+    .blog-detail-conent .iho-blog p{
         font-size: 13px;
     }
-    .blog-detail-conent .blog-area .igo-blog ul li span {
+    .blog-detail-conent .blog-area .iho-blog ul li span {
         font-size: 14px;
     }
     .blog-detail-conent .post-item .post-shade h4,
     .blog-detail-conent .blog-description .des-heading h4,
-    .blog-detail-conent .blog-area .igo-blog h4,
+    .blog-detail-conent .blog-area .iho-blog h4,
     .blog-detail-conent .about-blog h4,
     .blog-detail-conent .blog-area .form-item .form-heading h4,
     .blog-detail-conent .tag-menu h4,
@@ -220,7 +220,7 @@
     }
     .blog-detail-conent .about-blog p,
     .blog-detail-conent .blog-description p,
-    .blog-detail-conent .igo-blog p{
+    .blog-detail-conent .iho-blog p{
         margin-bottom: 35px;
     }
     .blog-detail-conent .blog-area .form-item .input-submit {
@@ -270,7 +270,7 @@
     .menuHeadings h2{
         font-size: 12px;
     }
-    .gamfi-header-section .header-menu ul li .Menu_column ul li a{
+    .Fin-header-section .header-menu ul li .Menu_column ul li a{
         font-size: 12px;
     }
     .Menu_column ul li span {
@@ -281,12 +281,12 @@
 }
 
 @media (max-width: 1199px){
-    .Gamfi_Header_contentright{
+    .Fin_Header_contentright{
         flex-direction: column;
         align-items: flex-start;
         justify-content: center;
     }
-    .Gamfi_Header_ProgressBar .progress{
+    .Fin_Header_ProgressBar .progress{
         margin-left: 0px;
         margin-top: 15px;
     }
@@ -313,16 +313,16 @@
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-    .gamfi-project-section .project-item .dsc{
+    .Fin-project-section .project-item .dsc{
         font-size: 13px;
     }
-    .gamfi-previous-section .previous-item .previous-raise span {
+    .Fin-previous-section .previous-item .previous-raise span {
         font-size: 14px;
     }
-    .gamfi-calendar-list .calender-date > ul > li {
+    .Fin-calendar-list .calender-date > ul > li {
         max-width: 24px;
     }
-    .gamfi-farming-content .default-centent {
+    .Fin-farming-content .default-centent {
         padding: 10px;
     }
     .project-details-conent .game-price-item .targeted-raise .targeted-raise {
@@ -456,10 +456,10 @@
     }
     
     
-    .gamfi-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price h4{
+    .Fin-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price h4{
         font-size: 18px;
     }
-    .gamfi-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price .dsc {
+    .Fin-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price .dsc {
         font-size: 14px;
     }
     
@@ -619,19 +619,19 @@
         width: 40px;
     }
     
-    .gamfi-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price h4{
+    .Fin-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price h4{
         font-size: 16px;
     }
     
-    .gamfi-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price .dsc{
+    .Fin-previous-section.ProjectClasic_PreviousSection .previous-item .previous-gaming .previous-price .dsc{
         font-size: 12px;
     }
     
-    .gamfi-previous-section.ProjectClasic_PreviousSection .previous-item .previous-EndsIn.list3Custom span{
+    .Fin-previous-section.ProjectClasic_PreviousSection .previous-item .previous-EndsIn.list3Custom span{
         font-size: 10px;
     }
     
-    .gamfi-previous-section .previous-item .previous-raise.list4Custom span{
+    .Fin-previous-section .previous-item .previous-raise.list4Custom span{
         font-size: 10px;
     }
     .ProjectClasicCustomProgressSect p{
@@ -818,13 +818,13 @@
 
 
 @media only screen and (min-width: 992px) {
-    .gamfi-header-section .gamfi-btn-area ul .nav-expander{
+    .Fin-header-section .Fin-btn-area ul .nav-expander{
         display: none;
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    .breadcrumbs-form .gamfi-navigation {
+    .breadcrumbs-form .Fin-navigation {
         margin-left: 20px;
     }
     .kycForm .UploadDocSect ul li h4 {
@@ -926,15 +926,15 @@
     }
     
     
-    .gamfi-tokenomics-section .tokenomics-counter h5{
+    .Fin-tokenomics-section .tokenomics-counter h5{
         font-size: 14px;
     }
     
 }
 
 @media only screen and (max-width: 991px) {
-    .gamfi-header-section .heaader-inner-area ul li.buy-token,
-    .gamfi-header-section .header-menu{
+    .Fin-header-section .heaader-inner-area ul li.buy-token,
+    .Fin-header-section .header-menu{
         display: none;
     }
     .sc-banner .banner-content .banner-title {
@@ -944,28 +944,28 @@
     .banner-btn{
         padding: 14px 30px;
     }
-    .gamfi-about-secion .game-price-item .game-price-inner .price-inner,
-    .gamfi-about-secion .game-price-item .game-price-inner{
+    .Fin-about-secion .game-price-item .game-price-inner .price-inner,
+    .Fin-about-secion .game-price-item .game-price-inner{
         display: block !important;
     }
-    .gamfi-about-secion .allocation-max,
-    .gamfi-about-secion .total-price, 
-    .gamfi-about-secion .targeted-raise{
+    .Fin-about-secion .allocation-max,
+    .Fin-about-secion .total-price, 
+    .Fin-about-secion .targeted-raise{
         width: 100%;
     }
-    .gamfi-about-secion .game-price-item .game-price-inner .allocation-max .allocation {
+    .Fin-about-secion .game-price-item .game-price-inner .allocation-max .allocation {
         margin-top: 35px;
     }
-    .gamfi-about-secion .game-price-item .game-price-inner .targeted-raise .targeted-raise,
-    .gamfi-about-secion .game-price-item .game-price-inner .all-raise,
-    .gamfi-about-secion .game-price-item .game-price-inner .price-inner{
+    .Fin-about-secion .game-price-item .game-price-inner .targeted-raise .targeted-raise,
+    .Fin-about-secion .game-price-item .game-price-inner .all-raise,
+    .Fin-about-secion .game-price-item .game-price-inner .price-inner{
       text-align: center !important;
     }
-    .gamfi-about-secion .game-price-item .game-price-inner .targeted-raise .targeted-raise,
-    .gamfi-about-secion .game-price-item .game-price-inner .price-inner .image-icon{
+    .Fin-about-secion .game-price-item .game-price-inner .targeted-raise .targeted-raise,
+    .Fin-about-secion .game-price-item .game-price-inner .price-inner .image-icon{
       margin-bottom: 10px;
     }
-    .gamfi-about-secion .game-price-item .game-price-inner .price-inner .image-icon{
+    .Fin-about-secion .game-price-item .game-price-inner .price-inner .image-icon{
       margin-right: 0;
     }
     .banner-slider-inner .timer {
@@ -979,66 +979,66 @@
         flex: 0 0 15%;
     }
     .apply-heading h2,
-    .gamfi-footer-section .footer-cta-area .title,
+    .Fin-footer-section .footer-cta-area .title,
     .sec-heading .title{
         font-size: 30px;
     }
-    .gamfi-project-section{
+    .Fin-project-section{
         padding-top: 75px;  
         padding-bottom: 45px;  
     }
-    .gamfi-previous-section .previous-item {
+    .Fin-previous-section .previous-item {
         padding: 20px;
     }
-    .gamfi-previous-section .previous-item .previous-gaming .previous-price h4{
+    .Fin-previous-section .previous-item .previous-gaming .previous-price h4{
         font-size: 18px;
         margin-bottom: 4px;
     }
-    .gamfi-previous-section .previous-item .previous-chaining img {
+    .Fin-previous-section .previous-item .previous-chaining img {
         margin-right: 20px;
     }
-    .gamfi-previous-section .previous-item .previous-gaming img {
+    .Fin-previous-section .previous-item .previous-gaming img {
         width: 50px;
     }
-    .gamfi-previous-section .previous-mainmenu ul .list1 {
+    .Fin-previous-section .previous-mainmenu ul .list1 {
         width: 31.5%;
     }
-    .gamfi-tokenomics-section .tokenomics-menu,
-    .gamfi-tokenomics-section .pr-63, .gamfi-tokenomics-section .pr-63, .gamfi-tokenomics-section .pr-60 {
+    .Fin-tokenomics-section .tokenomics-menu,
+    .Fin-tokenomics-section .pr-63, .Fin-tokenomics-section .pr-63, .Fin-tokenomics-section .pr-60 {
         padding-right: 30px;
     }
-    .gamfi-footer-section .footer-listing .footer-icon-list i {
+    .Fin-footer-section .footer-listing .footer-icon-list i {
         width: 50px;
         height: 50px;
         line-height: 50px;
         margin: 0 8px;
         font-size: 18px;
     }
-    .gamfi-footer-section .footer-area {
+    .Fin-footer-section .footer-area {
         padding-top: 220px;
     }
-    .gamfi-footer-section .footer-cta-area {
+    .Fin-footer-section .footer-cta-area {
         padding: 60px 20px
     }
-    .gamfi-team-section .team-item img {
+    .Fin-team-section .team-item img {
         margin-bottom: 30px;
     }
-    .gamfi-about-secion .game-price-item .price-details h3{
+    .Fin-about-secion .game-price-item .price-details h3{
         margin-bottom: 5px;
     }
-    .gamfi-breadcrumbs-section .breadcrumbs-form {
+    .Fin-breadcrumbs-section .breadcrumbs-form {
         justify-content: flex-start;
     }
-    .gamfi-footer-section .copyright-area .dsc{
+    .Fin-footer-section .copyright-area .dsc{
         margin-bottom: 25px;
     }
-    .gamfi-previous-section .previous-mainmenu .menu-list .date-list {
+    .Fin-previous-section .previous-mainmenu .menu-list .date-list {
         width: 12%;
     }
-    .gamfi-calendar-list{
+    .Fin-calendar-list{
         justify-content: flex-start;
     }
-    .gamfi-calendar-list .calender-date {
+    .Fin-calendar-list .calender-date {
         width: 24%;
     }
     .project-menu-area ul li a, .project-menu-area ul li .tab-link {
@@ -1047,14 +1047,14 @@
     .project-menu-area ul li:last-child{
         border: none;
     }
-    .gamfi-farming-table tr th:first-child, 
-    .gamfi-farming-table tr td:first-child {
+    .Fin-farming-table tr th:first-child, 
+    .Fin-farming-table tr td:first-child {
         width: 14.666%;
     }
-    .gamfi-farming-table tr th:nth-child(5) {
+    .Fin-farming-table tr th:nth-child(5) {
         width: 35.666%;
     }
-    .gamfi-farming-content .list-1 {
+    .Fin-farming-content .list-1 {
         flex: 0 0 32%;
         width: 32%;
     }
@@ -1062,56 +1062,56 @@
     .project-menu-area .al-access-menu > li:before {
         top: 22px;
     }
-    .gamfi-farming-content .list-content {
+    .Fin-farming-content .list-content {
         flex: 0 0 100%;
         width: 100%;
         padding-bottom: 10px;
     }
-    .gamfi-farming-content .default-centent,
-    .gamfi-farming-content .expeand-bottom-content .expeand-centent .expeand-farm{
+    .Fin-farming-content .default-centent,
+    .Fin-farming-content .expeand-bottom-content .expeand-centent .expeand-farm{
         display: block !important;
     }
-    .gamfi-farming .farm-form-list{
+    .Fin-farming .farm-form-list{
         width: 100%;
     }
-    .gamfi-farming-content .default-centent{
+    .Fin-farming-content .default-centent{
         padding-top: 28px;
     }
-    .gamfi-farming-table table{
+    .Fin-farming-table table{
         display: block;
         width: 100%;
         overflow-x: auto;
     }
-    .gamfi-farming .farm-form-list {
+    .Fin-farming .farm-form-list {
         margin-bottom: 30px;
     }
-    .gamfi-farming .farm-form-list:last-child{
+    .Fin-farming .farm-form-list:last-child{
         margin-top: 40px;
         margin-bottom: 0;
     }
-    .gamfi-farming .farm-form-list .farm-form{
+    .Fin-farming .farm-form-list .farm-form{
         margin-bottom: 0;
     }
-    .igo-rankging-table-list tr th:nth-child(2), 
-    .igo-rankging-table-list tr td:nth-child(2) {
+    .iho-rankging-table-list tr th:nth-child(2), 
+    .iho-rankging-table-list tr td:nth-child(2) {
         min-width: 225px;
     }
-    .igo-rankging-table-list tr th:last-child, 
-    .igo-rankging-table-list tr td:last-child {
+    .iho-rankging-table-list tr th:last-child, 
+    .iho-rankging-table-list tr td:last-child {
         width: 10.28%;
     }
-    .igo-rankging-table-list tr th, 
-    .igo-rankging-table-list tr td {
+    .iho-rankging-table-list tr th, 
+    .iho-rankging-table-list tr td {
         padding: 20px 5px;
     }
-    .igo-rankging-table-list tr .image-row img {
+    .iho-rankging-table-list tr .image-row img {
         margin-right: 5px;
     }
-    .igo-rankging-table-list tr{
+    .iho-rankging-table-list tr{
         display: flex;
     }
-    .gamfi-previous-section .previous-mainmenu ul li,
-    .igo-rankging-table-list tr th{
+    .Fin-previous-section .previous-mainmenu ul li,
+    .iho-rankging-table-list tr th{
         font-size: 14px;
     }
 
@@ -1120,7 +1120,7 @@
         padding: 15px 8px;
         font-size: 15px;
     }
-    .gamfi-previous-section .previous-item .previous-gaming .previous-price .dsc {
+    .Fin-previous-section .previous-item .previous-gaming .previous-price .dsc {
         font-size: 14px;
     }
     .project-details-conent .game-price-item .price-counter{
@@ -1163,7 +1163,7 @@
         align-items: center;
         justify-content: flex-start;
     }
-    .Gamfi_Header_contentright {
+    .Fin_Header_contentright {
         display: block;
         margin-top: 10px;
     }
@@ -1177,7 +1177,7 @@
     }
     .blog-detail-conent .about-blog p,
     .blog-detail-conent .blog-description p,
-    .blog-detail-conent .igo-blog p {
+    .blog-detail-conent .iho-blog p {
         font-size: 15px; 
     }
     .blog-detail-conent .blog-area .blog-description .blockquote .des-active {
@@ -1186,7 +1186,7 @@
     .post-item .recent-content {
         display: flex;
     }
-    .gamfi-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
+    .Fin-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
         font-size: 50px;
     }
     .blog-detail-conent .blog-area .blog-description .des {
@@ -1196,13 +1196,13 @@
 }
 
 @media (max-width: 991px){
-    .gamfi-breadcrumbs-section .breadcrumbs-form.breadcrumbsprogress_BarCustom {
+    .Fin-breadcrumbs-section .breadcrumbs-form.breadcrumbsprogress_BarCustom {
         display: flex;
         align-items: center;
         justify-content: flex-start !important;
         margin-top: 25px;
     }
-    .Gamfi_Header_ProgressBar .progress {
+    .Fin_Header_ProgressBar .progress {
         margin-left: 0px;
         margin-top: 10px;
         width: 400px;
@@ -1212,21 +1212,21 @@
         margin: auto;
     }
     
-    .gamfi_header_V2MenuList ul.v2MainMenuList{
+    .Fin_header_V2MenuList ul.v2MainMenuList{
         display: none;
     }
-    .gamfi_V2_hero_Left h2{
+    .Fin_V2_hero_Left h2{
         font-size: 45px;
         line-height: 158%;
     }
-    .gamfi_V2_hero_Left p{
+    .Fin_V2_hero_Left p{
         font-size: 17px;
     }
-    .gamfi_V2_hero_Btns .VIEW_Projects_Btn, .gamfi_V2_hero_Btns .Apply_Project_Btn{
+    .Fin_V2_hero_Btns .VIEW_Projects_Btn, .Fin_V2_hero_Btns .Apply_Project_Btn{
         width: 150px;
         height: 50px;
     }
-    .gamfi_V2_hero_Btns .VIEW_Projects_Btn .btn-text, .gamfi_V2_hero_Btns .Apply_Project_Btn .btn-text{
+    .Fin_V2_hero_Btns .VIEW_Projects_Btn .btn-text, .Fin_V2_hero_Btns .Apply_Project_Btn .btn-text{
         font-size: 14px;
     }
     .TokenomicsListSect ul{
@@ -1238,7 +1238,7 @@
     .Multi_Chain_Support_right_list ul li{
         font-size: 15px;
     }
-    .gamfisubscriveSect input{
+    .FinsubscriveSect input{
         max-width: 390px;
         height: 52px;
     }
@@ -1324,7 +1324,7 @@
     .sc_banner_V3_right ul li h4{
         font-size: 16px;
     }
-    .GamfiV3_ProjectPoolsBtn li button{
+    .FinV3_ProjectPoolsBtn li button{
         width: 120px;
         height: 40px;
         font-size: 14px;
@@ -1362,91 +1362,91 @@
     .sc-banner .banner-content .banner-title {
         font-size: 30px;
     }
-    .gamfi-footer-section .footer-cta-area .title, .sec-heading .title {
+    .Fin-footer-section .footer-cta-area .title, .sec-heading .title {
         font-size: 26px;
     }
-    .gamfi-previous-section .previous-mainmenu ul{
+    .Fin-previous-section .previous-mainmenu ul{
         padding: 0;
     }
     .project-menu-area .project-right-menu ul li,
-    .gamfi-previous-section .previous-item,
-    body .gamfi-previous-section .previous-mainmenu ul li{
+    .Fin-previous-section .previous-item,
+    body .Fin-previous-section .previous-mainmenu ul li{
         display: block;
     }
-    body .gamfi-previous-section .previous-mainmenu ul li{
+    body .Fin-previous-section .previous-mainmenu ul li{
         padding: 0 0 14px;
         left:  0 !important;
     }
     .project-menu-area .project-right-menu ul li:first-child{
         border:  none;
     }
-    .gamfi-previous-section .previous-item .previous-raise,
-    .gamfi-previous-section .previous-item .previous-chaining,
-    .gamfi-previous-section .previous-item .previous-gaming{
+    .Fin-previous-section .previous-item .previous-raise,
+    .Fin-previous-section .previous-item .previous-chaining,
+    .Fin-previous-section .previous-item .previous-gaming{
         width: 100% ;
     }
-    body .gamfi-previous-section .previous-mainmenu ul li{
+    body .Fin-previous-section .previous-mainmenu ul li{
         width: 100% !important;
     }
-    .gamfi-previous-section .previous-item .previous-chaining{
+    .Fin-previous-section .previous-item .previous-chaining{
         margin: 20px 0;
     }
-    .gamfi-header-section .white-btn {
+    .Fin-header-section .white-btn {
         padding: 9px 20px 8px;
     }
-    .gamfi-form-content .address-form input {
+    .Fin-form-content .address-form input {
         padding: 10px 15px;
     }
-    .gamfi-form-content .address-form .input-button i{
+    .Fin-form-content .address-form .input-button i{
         padding-top: 15px;
         padding-bottom: 15px;
     }
-    .gamfi-footer-section .footer-cta-area .footer-link input[type="submit"] {
+    .Fin-footer-section .footer-cta-area .footer-link input[type="submit"] {
         padding: 14px 30px;
     }
-    .gamfi-footer-section .footer-cta-area .footer-link input[type="email"] {
+    .Fin-footer-section .footer-cta-area .footer-link input[type="email"] {
         width: 290px;
     }
-    .gamfi-calendar-list .calender-date {
+    .Fin-calendar-list .calender-date {
         width: 32%;
     }
     .project-menu-area {
         display: block !important;
     }
-    .gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+    .Fin-breadcrumbs-section .breadcrumbs-form input[type="text"] {
         width: 300px;
     }
-    .gamfi-farming .project-menu-area ul button{
+    .Fin-farming .project-menu-area ul button{
         width: 100%;
         text-align: left;
     }
-    .gamfi-breadcrumbs-section .breadcrumbs-form,
-    .gamfi-farming .project-menu-area ul button,
-    .gamfi-farming .project-menu-area ul{
+    .Fin-breadcrumbs-section .breadcrumbs-form,
+    .Fin-farming .project-menu-area ul button,
+    .Fin-farming .project-menu-area ul{
         display: block;
     }
-    .gamfi-farming .form-switch {
+    .Fin-farming .form-switch {
         padding: 8px 12px;
     }
-    .gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"]{
+    .Fin-breadcrumbs-section .breadcrumbs-form input[type="text"]{
         width: 100%;
     }
-    .gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+    .Fin-breadcrumbs-section .breadcrumbs-form input[type="text"] {
         margin: 0 0 20px;
     }
-    body .gamfi-farming-table tr th, 
-    body .gamfi-farming-table tr td {
+    body .Fin-farming-table tr th, 
+    body .Fin-farming-table tr td {
         display: block;
         width: 100% !important;
         margin-bottom: 10px;
         padding: 0;
     }
-    .gamfi-farming-content .expeand-centent .expeand-menu ul li {
+    .Fin-farming-content .expeand-centent .expeand-menu ul li {
         display: block;
         margin: 0 0 10px;
     }
     .leaderboard-table-list table,
-    .igo-rankging-table-list table{
+    .iho-rankging-table-list table{
         display: block;
         width: 100%;
         overflow-x: auto;
@@ -1454,8 +1454,8 @@
     .leaderboard-table-list tr{
         display: flex;
     }
-    .igo-rankging-table-list tr th:nth-child(1),
-    .igo-rankging-table-list tr td:nth-child(1) {
+    .iho-rankging-table-list tr th:nth-child(1),
+    .iho-rankging-table-list tr td:nth-child(1) {
         min-width: 65px;
     }
     .leaderboard-table-list tr th:nth-child(3),
@@ -1472,11 +1472,11 @@
     .leaderboard-table-list tr td:nth-child(4) {
         min-width: 100px;
     }
-    .igo-rankging-table-list tr th:last-child,
-    .igo-rankging-table-list tr td:last-child {
+    .iho-rankging-table-list tr th:last-child,
+    .iho-rankging-table-list tr td:last-child {
         min-width: 80px;
     }
-    .igo-rankging-table-list tr td:nth-child(1) {
+    .iho-rankging-table-list tr td:nth-child(1) {
         padding-left: 8px;
     }
     .project-details-conent .banner-bottom-content .social-icon-list li i {
@@ -1493,7 +1493,7 @@
     .project-meta-inner .meta-header p{
         margin-bottom: 0;
     }
-    .breadcrumbs-form .gamfi-navigation ul{
+    .breadcrumbs-form .Fin-navigation ul{
         justify-content: flex-start;
     }
     .loader_first .circular-spinner {
@@ -1527,7 +1527,7 @@
         margin-right: 25px;
         left: 0;
     }
-    .gamfi-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
+    .Fin-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
         font-size: 40px;
     }
     .blog-detail-conent .blog-area .blog-description .blockquote .des-active {
@@ -1540,7 +1540,7 @@
         margin-bottom: 15px;
         padding-left: 25px;
     }
-    .gamfi-footer-section .footer-cta-area .title, .sec-heading .title {
+    .Fin-footer-section .footer-cta-area .title, .sec-heading .title {
         font-size: 22px;
     }
     .blog-detail-conent .blog-area .blog-description .des {
@@ -1622,20 +1622,20 @@
     
 
     
-    .gamfi-previous-section .previous-mainmenu ul .list1.list1Custom {
+    .Fin-previous-section .previous-mainmenu ul .list1.list1Custom {
         width: 31%;
     }
     
     
-    .gamfi-previous-section .previous-mainmenu ul .list2.list2Custom,
-    .gamfi-previous-section .previous-mainmenu ul .list3.list3Custom,
-    .gamfi-previous-section .previous-mainmenu ul .list4.list4Custom,
-    .gamfi-previous-section .previous-mainmenu ul .list5.list5Custom,
-    .gamfi-previous-section .previous-item .previous-gaming.list1Custom,
-    .gamfi-previous-section .previous-item .previous-chaining.list2Custom,
-    .gamfi-previous-section .previous-item .previous-EndsIn.list3Custom,
-    .gamfi-previous-section .previous-item .previous-raise.list4Custom,
-    .gamfi-previous-section .previous-item .previousProgress.list5Custom {
+    .Fin-previous-section .previous-mainmenu ul .list2.list2Custom,
+    .Fin-previous-section .previous-mainmenu ul .list3.list3Custom,
+    .Fin-previous-section .previous-mainmenu ul .list4.list4Custom,
+    .Fin-previous-section .previous-mainmenu ul .list5.list5Custom,
+    .Fin-previous-section .previous-item .previous-gaming.list1Custom,
+    .Fin-previous-section .previous-item .previous-chaining.list2Custom,
+    .Fin-previous-section .previous-item .previous-EndsIn.list3Custom,
+    .Fin-previous-section .previous-item .previous-raise.list4Custom,
+    .Fin-previous-section .previous-item .previousProgress.list5Custom {
         width: 100%;
     }
 
@@ -1690,7 +1690,7 @@
 }
 
 @media (max-width: 768px){
-    .Gamfi_Header_contentright {
+    .Fin_Header_contentright {
         margin-top: 24px;
     }
     .kycCountryDropbox, .KycRadioBtn, .kycForm button{
@@ -1751,7 +1751,7 @@
     .Roadmap2021{
         margin-top: 40px;
     }
-    .gamfi_V2_hero_right{
+    .Fin_V2_hero_right{
         margin: auto;
         margin-top: 50px;
     }
@@ -1795,7 +1795,7 @@
     .FAQquestions .accordion-panel p{
         font-size: 13px;
     }
-    .gamfisubscriveSect input {
+    .FinsubscriveSect input {
         max-width: 300px;
         height: 52px;
     }
@@ -1856,7 +1856,7 @@
     .sc_banner_V3_right ul{
         margin-bottom: 50px;
     }
-    .GamfiV3_ProjectPoolsBtn li button {
+    .FinV3_ProjectPoolsBtn li button {
         width: 80px;
         height: 40px;
         font-size: 10px;
@@ -2075,41 +2075,41 @@
         display: block !important;
         margin-bottom: 40px;
     }
-    .gamfi-tokenomics-section .pr-63, .gamfi-tokenomics-section h5{
+    .Fin-tokenomics-section .pr-63, .Fin-tokenomics-section h5{
         margin-bottom: 0;
     }
-    .gamfi-footer-section .footer-listing .footer-icon-list i {
+    .Fin-footer-section .footer-listing .footer-icon-list i {
         width: 40px;
         height: 40px;
         line-height: 40px;
         margin: 0 4px;
         font-size: 15px;
     }
-    .gamfi-footer-section .footer-cta-area .footer-link input[type="email"] {
+    .Fin-footer-section .footer-cta-area .footer-link input[type="email"] {
         padding: 12px 15px;
     }
     .project-summary-menu {
         margin-bottom: 55px;
     }
-    .gamfi-calendar-list .calender-date {
+    .Fin-calendar-list .calender-date {
         width: 48%;
     }
-    .gamfi-breadcrumbs-section .breadcrumbs-form {
+    .Fin-breadcrumbs-section .breadcrumbs-form {
         display: block;
     }
-    .breadcrumbs-form .gamfi-navigation{
+    .breadcrumbs-form .Fin-navigation{
         margin: 30px 0 0;
     }
-    .breadcrumbs-form .gamfi-navigation ul li{
+    .breadcrumbs-form .Fin-navigation ul li{
         margin-right: 15px;
     }
-    .breadcrumbs-form .gamfi-navigation ul{
+    .breadcrumbs-form .Fin-navigation ul{
         justify-content: flex-start;
     }
-    .gamfi-breadcrumbs-section .breadcrumbs-form input[type="text"] {
+    .Fin-breadcrumbs-section .breadcrumbs-form input[type="text"] {
         width: 100%;
     }
-    .gamfi-breadcrumbs-section .breadcrumbs-form form{
+    .Fin-breadcrumbs-section .breadcrumbs-form form{
         margin: 0;
     }
     
@@ -2161,7 +2161,7 @@
         left: 14%;
     }
     
-    .GamfiV3_ProjectPoolsBtn{
+    .FinV3_ProjectPoolsBtn{
         justify-content: flex-start;
     }
     
@@ -2227,10 +2227,10 @@
 }
 
 @media (max-width: 540px) {
-    .gamfisubscriveSect input{
+    .FinsubscriveSect input{
         margin-bottom: 20px;
     }
-    .gamfisubscriveSect{
+    .FinsubscriveSect{
         flex-direction: column;
     }
     
@@ -2317,10 +2317,10 @@
         line-height: 158%;
         margin-top: 16px;
     }
-    .gamfi_V2_hero_Left h2{
+    .Fin_V2_hero_Left h2{
         font-size: 33px;
     }
-    .gamfi_V2_hero_Left p{
+    .Fin_V2_hero_Left p{
         font-size: 15px;
     }
     
@@ -2346,7 +2346,7 @@
         left: 12%;
     }
     
-    .gamfi_FAQ_Sect .sec-heading .sub-title {
+    .Fin_FAQ_Sect .sec-heading .sub-title {
         font-size: 12px;
     }
 }
@@ -2355,40 +2355,40 @@
     body{
         font-size: 15px;
     }
-    .gamfi-header-section .logo {
+    .Fin-header-section .logo {
         margin-right: 30px;
     }
-    .gamfi-header-section .white-btn{
+    .Fin-header-section .white-btn{
         display: none;
     }
     .footer-logo img,
     .sidebar-logo img,
-    .gamfi-header-section .logo img{
+    .Fin-header-section .logo img{
         max-width: 120px;
     }
-    .gamfi-header-section .gamfi-btn-area ul .nav-expander {
+    .Fin-header-section .Fin-btn-area ul .nav-expander {
         margin-top: 0;
     }
     .sc-banner{
         padding-top: 120px;
     }
-    .gamfi-header-section .right_menu_togle {
+    .Fin-header-section .right_menu_togle {
         padding: 66px 30px 50px 30px;
     }
-    .gamfi-header-section .right_menu_togle .close-btn {
+    .Fin-header-section .right_menu_togle .close-btn {
         right: 0;
     }
-    .gamfi-header-section .right_menu_togle {
+    .Fin-header-section .right_menu_togle {
         max-width: 300px;
     }
     .sc-banner .banner-content .banner-title {
         font-size: 24px;
     }
-    .gamfi-project-section .gamfi-btn-area .readon,
+    .Fin-project-section .Fin-btn-area .readon,
     .banner-btn {
         padding: 9px 24px 8px;
     }
-    .gamfi-about-secion .game-price-item {
+    .Fin-about-secion .game-price-item {
         padding-left: 15px;
         padding-right: 15px;
     }
@@ -2396,43 +2396,43 @@
         font-size: 26px;
     }
     .apply-heading h2,
-    .gamfi-footer-section .footer-cta-area .title, 
+    .Fin-footer-section .footer-cta-area .title, 
     .sec-heading .title {
         font-size: 22px;
     }
     .participat-information .project-value-inner{
         display: block !important;
     }
-    .gamfi-footer-section .footer-cta-form form,
+    .Fin-footer-section .footer-cta-form form,
     .project-details-conent .banner-bottom-content,
-    .gamfi-previous-section .previous-item .previous-raise,
-    .gamfi-previous-section .previous-item .previous-gaming{
+    .Fin-previous-section .previous-item .previous-raise,
+    .Fin-previous-section .previous-item .previous-gaming{
         display: block;
     }
-    .gamfi-previous-section .previous-item .previous-gaming .previous-image{
+    .Fin-previous-section .previous-item .previous-gaming .previous-image{
         margin-bottom: 15px;
     }
-    .gamfi-previous-section .previous-item .previous-raise .progress-inner{
+    .Fin-previous-section .previous-item .previous-raise .progress-inner{
         margin-top: 10px;
     }
-    .gamfi-explore-content .project-item h4{
+    .Fin-explore-content .project-item h4{
         font-size: 18px;
     }
-    .gamfi-about-secion .game-price-item .price-details h3 {
+    .Fin-about-secion .game-price-item .price-details h3 {
         font-size: 20px;
     }
-    .gamfi-footer-section .footer-mainmenu ul li{
+    .Fin-footer-section .footer-mainmenu ul li{
         padding: 0 0 10px;
     }
-    .gamfi-footer-section .footer-mainmenu ul li,
-    .gamfi-tokenomics-section .tokenomics-item,
-    .gamfi-project-section .project-item .project-info{
+    .Fin-footer-section .footer-mainmenu ul li,
+    .Fin-tokenomics-section .tokenomics-item,
+    .Fin-project-section .project-item .project-info{
         display: block !important;
     }
-    .gamfi-project-section .project-item .project-info img{
+    .Fin-project-section .project-item .project-info img{
         margin: 0 0 10px;
     }
-    .gamfi-tokenomics-section .tokenomics-menu{
+    .Fin-tokenomics-section .tokenomics-menu{
         padding: 0 0 20px;
     }
     .tokenomics-counter .counter-number {
@@ -2447,49 +2447,49 @@
     .sec-heading .sub-title{
         margin: 0;
     }
-    .gamfi-footer-section .footer-listing .footer-icon-list i {
+    .Fin-footer-section .footer-listing .footer-icon-list i {
         width: 32px;
         height: 32px;
         line-height: 32px;
         margin: 0 2px;
         font-size: 13px;
     }
-    .gamfi-team-section .team-item {
+    .Fin-team-section .team-item {
         margin-bottom: 20px;
     }
-    .gamfi-form-content .address-form h5,
-    .gamfi-form-content .address-form .input-button label{
+    .Fin-form-content .address-form h5,
+    .Fin-form-content .address-form .input-button label{
         font-size: 13px;
     }
-    .gamfi-explore-content .project-menu-area ul li,
-    .gamfi-calendar-list .calender-date{
+    .Fin-explore-content .project-menu-area ul li,
+    .Fin-calendar-list .calender-date{
         width: 100%;
     }
-    .gamfi-explore-content .project-menu-area ul{
+    .Fin-explore-content .project-menu-area ul{
         display: block;
     }
-    .gamfi-explore-content .project-item{
+    .Fin-explore-content .project-item{
         padding-left: 15px;
         padding-right: 15px;
     }
-    .gamfi-explore-content .project-item .heading-title h4:before {
+    .Fin-explore-content .project-item .heading-title h4:before {
         left: -15px;
     }
-    .gamfi-farming-content .expeand-centent {
+    .Fin-farming-content .expeand-centent {
         padding: 20px 15px;
     }
-    .gamfi-navigation ul li a:not(.black-shape) {
+    .Fin-navigation ul li a:not(.black-shape) {
         padding: 3px 12px;
     }
-    .gamfi-navigation ul li:first-child a {
+    .Fin-navigation ul li:first-child a {
         padding: 3px 12px 3px;
     }
-    .gamfi-breadcrumbs-section .breadcrumbs-link,
+    .Fin-breadcrumbs-section .breadcrumbs-link,
     .sec-heading .sub-title{
         font-size: 15px;
     }
-    .breadcrumbs-form .gamfi-navigation ul li:first-child a,
-    .gamfi-breadcrumbs-section .gamfi-navigation ul li a{
+    .breadcrumbs-form .Fin-navigation ul li:first-child a,
+    .Fin-breadcrumbs-section .Fin-navigation ul li a{
         padding: 6px 15px;
     }
     .project-details-conent table{
@@ -2527,20 +2527,20 @@
     .project-details-conent .project-item .big-text {
         position: static;
     }
-    .gamfi-about-secion .game-price-item .text-content{
+    .Fin-about-secion .game-price-item .text-content{
         margin: 10px 0;
     }
-    .gamfi-about-secion .game-price-item .social-icon-list,
-    .gamfi-about-secion .game-price-item .text-content{
+    .Fin-about-secion .game-price-item .social-icon-list,
+    .Fin-about-secion .game-price-item .text-content{
         text-align: left;
     }
-    .gamfi-footer-section .footer-cta-form .footer-link input[type="email"]{
+    .Fin-footer-section .footer-cta-form .footer-link input[type="email"]{
         margin-bottom: 20px;
     }
-    .gamfi-footer-section .footer-cta-form .footer-link input[type="email"],
-    .gamfi-about-secion .game-price-item .btn-area, 
-    .gamfi-about-secion .game-price-item .text-content, 
-    .gamfi-about-secion .game-price-item .social-area,
+    .Fin-footer-section .footer-cta-form .footer-link input[type="email"],
+    .Fin-about-secion .game-price-item .btn-area, 
+    .Fin-about-secion .game-price-item .text-content, 
+    .Fin-about-secion .game-price-item .social-area,
     .project-details-conent .project-item .project-form-list .balance-form-area input,
     .project-details-conent .project-item .project-form-list .balance-form-area input[type="submit"],
     .project-details-conent .project-item .project-form-list .balance-form-area .approve input[type="submit"]{
@@ -2561,7 +2561,7 @@
         height: 100%;
         padding: 12px 0px;
     }
-    .Gamfi_Header_ProgressBar .progress{
+    .Fin_Header_ProgressBar .progress{
         width: 290px;
     }
     .TeamMembersInfo h2{
@@ -2712,7 +2712,7 @@
     .blog-detail-conent .blog-area .Tokenomics-item .project-service {
        padding-left: 40px;
     }
-    .gamfi-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
+    .Fin-breadcrumbs-section.blog-breadcrumbs .sec-heading h1 {
         font-size: 25px;
     }
     .blog-detail-conent .blog-area .about-blog .about-menu .about-list .about-listing li,
@@ -2733,7 +2733,7 @@
     .latest-details-content .latest-item p {
         font-size: 14px;
     }
-    .Gamfi_Header_ProgressBar .progress{
+    .Fin_Header_ProgressBar .progress{
         width: 290px;
     }
     .TeamMembersInfo h2{
@@ -2925,10 +2925,10 @@
         padding: 30px 10px 5px;
     }
     
-    .gamfi_V2_hero_Left h2{
+    .Fin_V2_hero_Left h2{
         font-size: 30px;
     }
-    .gamfi_V2_hero_Left p{
+    .Fin_V2_hero_Left p{
         font-size: 14px;
     }
     .TokenomicsListSect ul{
@@ -3077,13 +3077,13 @@
         justify-content: center;
         flex-direction: column;
     }
-    .gamfi_V2_hero_Left h2{
+    .Fin_V2_hero_Left h2{
         font-size: 27px;
     }
-    .gamfi_V2_hero_Btns .VIEW_Projects_Btn, .gamfi_V2_hero_Btns .Apply_Project_Btn{
+    .Fin_V2_hero_Btns .VIEW_Projects_Btn, .Fin_V2_hero_Btns .Apply_Project_Btn{
         width: 130px;
     }
-    .gamfi_V2_hero_Btns .VIEW_Projects_Btn .btn-text, .gamfi_V2_hero_Btns .Apply_Project_Btn .btn-text{
+    .Fin_V2_hero_Btns .VIEW_Projects_Btn .btn-text, .Fin_V2_hero_Btns .Apply_Project_Btn .btn-text{
         font-size: 12px;
     }
     .TokenomicsContentsLeft h3{

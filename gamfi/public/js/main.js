@@ -1,7 +1,7 @@
 /** 
 *
 * -----------------------------------------------------------------------------
-* Template : GamFi - Metaverse Web3 IGO/IDO Token Launchpad Figma Template
+* Template : Fin - Metaverse Web3 IHO/IDO Token Launchpad Figma Template
 * Author : uigigs
 * Author URI : http://www.uigigs.com/
 *

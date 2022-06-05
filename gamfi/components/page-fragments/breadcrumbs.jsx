@@ -2,7 +2,7 @@ import indexCss from "../../styles/index.module.css"
 
 export default function Breadcrumbs(){
     return(<>
-            <div  className={`${indexCss.top} gamfi-breadcrumbs-section `}>
+            <div  className={`${indexCss.top} Fin-breadcrumbs-section `}>
             <div className="container">
                 <div className="row">
                     <div className="col-lg-5">
