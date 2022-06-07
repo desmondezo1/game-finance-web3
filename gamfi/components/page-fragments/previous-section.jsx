@@ -1,7 +1,9 @@
+import { useState } from "react";
 import indexCss from "../../styles/index.module.css"
 import projectsData from "../../utility/projectsData"
 
 export default function PreviousSection(){
+    const [showMore, setShowMore] = useState(false);
     return (<>
             <div  className={`${indexCss.top} Fin-previous-section ProjectPools_V3 pb-90 md-pb-50`}>
             <div className="container">
@@ -31,8 +33,8 @@ export default function PreviousSection(){
                                     <span className="hover-shape3"></span>
                                 </button>
                             </li>
-                            <li className="V3_ProjectPool_tablinks" onClick="openV3_ProjectPool(event, 'ENDED')">
-                                <button className="view-more black-shape">
+                            <li className="V3_ProjectPool_tablinks" >
+                                <button className="view-more black-shape" onClick={()=>{setShowMore(true)}}>
                                     <span className="btn-text">View More</span>
                                     <span className="hover-shape1"></span>
                                     <span className="hover-shape2"></span>
@@ -57,7 +59,16 @@ export default function PreviousSection(){
                                 </div>
           
                             </div>
-                            { projectsData.map(({project_name, price, symbol, chain, created, raised, percent_raised}, index) =>{
+                            { projectsData.filter((value, index)=>{
+                                if (!showMore) {
+                                    if (index < 3) {
+                                        return value;
+                                    }
+                                }else{
+                                    return value
+                                }
+                                
+                            }).map(({project_name, price, symbol, chain, created, raised, percent_raised}, index) =>{
 
                                return ( 
                                <div  key={index} className="col-md-12 wow fadeInUp" data-wow-delay="0.3s" data-wow-duration="0.5s">

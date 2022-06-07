@@ -28,7 +28,37 @@ const projectData = [
         "raised": 510000 ,
         "goal": 550000,
         "percent_raised": (510000/550000) * 100 
-    }
+    },
+    {
+        "project_name" : "Galaxy War 1",
+        "price": 0.33,
+        "symbol": "MTS",
+        "chain": "ethereum",
+        "created": "1 month ago",
+        "raised": 510000 ,
+        "goal": 550000,
+        "percent_raised": (510000/550000) * 100 
+    },
+    {
+        "project_name" : "Galaxy War 2",
+        "price": 0.33,
+        "symbol": "MTS",
+        "chain": "ethereum",
+        "created": "1 month ago",
+        "raised": 510000 ,
+        "goal": 550000,
+        "percent_raised": (510000/550000) * 100 
+    },
+    {
+        "project_name" : "Galaxy War 3",
+        "price": 0.33,
+        "symbol": "MTS",
+        "chain": "ethereum",
+        "created": "1 month ago",
+        "raised": 510000 ,
+        "goal": 550000,
+        "percent_raised": (510000/550000) * 100 
+    },
 
 
 ];
