@@ -4,7 +4,7 @@ export default function Participantdetails(){
     return(<>
             <div  className={`${indexCss.top} project-details-conent Fin-about-secion pb-80`}>
             <div className="container">
-                <div className="row pt-70">
+                <div className="row pt-100">
                     <div className="col-lg-4 col-md-6">
                         <div className="project-item project-value-inner">
                             <div className="project-value">

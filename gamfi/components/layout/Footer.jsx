@@ -1,17 +1,20 @@
 import Link from 'next/link'
+import indexCss from "../../styles/index.module.css"
 
 
 export default function Footer(){
     return(<>
     
-    <div className="Fin-footer-section">
+    <div  className={`${indexCss.top} Fin-footer-section`}>
             <div className="container">
                 <div className="footer-cta-area text-center active-shape hover-shape-inner">
                     <h2 className="title mb-15">
                         Become an<br />
                         Orchestrator
                     </h2>
-                    <div className="dsc mb-40 md-mb-30">
+                    <div className="dsc mb-40 md-mb-30" style={{
+                     color:   "rgba(255, 255, 255, 0.7)"
+                    }}>
                         Do you have a health or Charitable NGO? lend a helping hand
                     </div>
                     <Link href={'/iho'}>

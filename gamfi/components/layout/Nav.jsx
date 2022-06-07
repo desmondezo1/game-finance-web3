@@ -124,12 +124,7 @@ export default function Nav(){
                                         <span className="hover-shape3"></span> */}
                                     </a>
                                     </Link>
-                                    <ul>
-                                        <li><a href="#"><img src="/images/icons/pancake.png" alt="pancake" /> PancakeSwap</a></li>
-                                        <li><a href="#"><img src="/images/icons/uniswap.png" alt="uniswap" /> UniSwap</a></li>
-                                        <li><a href="#"><img src="/images/icons/market.png" alt="market" /> CoinMarketCap</a></li>
-                                        <li><a href="#"><img src="/images/icons/gate.png" alt="gate" /> Gate.io</a></li>
-                                    </ul>
+                                  
                                 </li>
                                 <li>
                                     <button type="button" style={{ background: "#86cae6",  borderRadius: "10px",}} className="readon white-btn hover-shape" data-bs-toggle="modal" data-bs-target="#exampleModal">

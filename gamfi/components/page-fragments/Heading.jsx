@@ -19,12 +19,12 @@ export default function Heading(){
                                             <li><a href="index-V4.html">Home 4</a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="project.html">Projects</a>
+                                    <li><a href="project.html">Orchestrators</a>
                                         <ul className="sub-menu">
-                                            <li><a href="Project-Clasic.html">Projects Clasic 1</a></li>
-                                            <li><a href="Project-Clasic-2.html">Projects Clasic 2</a></li>
-                                            <li><a href="project.html">Projects List</a></li>
-                                            <li><a href="explore.html">Projects Grid</a></li>
+                                            <li><a href="Project-Clasic.html">Orchestrators Clasic 1</a></li>
+                                            <li><a href="Project-Clasic-2.html">Orchestrators Clasic 2</a></li>
+                                            <li><a href="project.html">Orchestrators List</a></li>
+                                            <li><a href="explore.html">Orchestrators Grid</a></li>
                                             <li><a href="calendar.html">Project Calendar</a></li>
                                             <li><a href="project-details.html">Project Details 1</a></li>
                                             <li><a href="Project_Details2.html">Project Details 2</a></li>
@@ -82,9 +82,9 @@ export default function Heading(){
                                                                 <span><img src="/images/megaMenu/border-buttomShape.png" alt="" className="img-fluid" /></span>
                                                             </div>
                                                             <ul>
-                                                                <li><a href="Project-Clasic.html">Projects Clasic 1</a> <span className="hot">HOT</span></li>
-                                                                <li><a href="Project-Clasic-2.html">Projects Clasic 2</a> <span className="new">NEW</span></li>
-                                                                <li><a href="project.html">Projects List</a></li>
+                                                                <li><a href="Project-Clasic.html">Orchestrators Clasic 1</a> <span className="hot">HOT</span></li>
+                                                                <li><a href="Project-Clasic-2.html">Orchestrators Clasic 2</a> <span className="new">NEW</span></li>
+                                                                <li><a href="project.html">Orchestrators List</a></li>
                                                                 <li><a href="explore.html">Project Grid</a></li>
                                                                 <li><a href="calendar.html">Project Calendar</a></li>
                                                                 <li><a href="project-details.html">Project Details 1</a></li>
@@ -237,11 +237,11 @@ export default function Heading(){
                             <li><a href="index-V4.html">Home 4</a></li>
                         </ul>
                     </li>
-                    <li><a href="project.html">Projects</a>
+                    <li><a href="project.html">Orchestrators</a>
                         <ul className="sub-menu">
-                            <li><a href="Project-Clasic.html">Projects Clasic 1</a></li>
-                            <li><a href="Project-Clasic-2.html">Projects Clasic 2</a></li>
-                            <li><a href="project.html">Projects List</a></li>
+                            <li><a href="Project-Clasic.html">Orchestrators Clasic 1</a></li>
+                            <li><a href="Project-Clasic-2.html">Orchestrators Clasic 2</a></li>
+                            <li><a href="project.html">Orchestrators List</a></li>
                             <li><a href="explore.html">Project Grid</a></li>
                             <li><a href="calendar.html">Project Calendar</a></li>
                             <li><a href="project-details.html">Project Details 1</a></li>
@@ -258,11 +258,11 @@ export default function Heading(){
                     <li className="menu-item-has-children">
                         <a href="#">Pages</a>
                         <ul className="sub-menu">
-                            <li className="menu-item-has-children"><a href="project.html">Projects Pages</a>
+                            <li className="menu-item-has-children"><a href="project.html">Orchestrators Pages</a>
                                 <ul className="sub-menu">
-                                    <li><a href="Project-Clasic.html">Projects Clasic 1</a></li>
-                                    <li><a href="Project-Clasic-2.html">Projects Clasic 2</a></li>
-                                    <li><a href="project.html">Projects List</a></li>
+                                    <li><a href="Project-Clasic.html">Orchestrators Clasic 1</a></li>
+                                    <li><a href="Project-Clasic-2.html">Orchestrators Clasic 2</a></li>
+                                    <li><a href="project.html">Orchestrators List</a></li>
                                     <li><a href="explore.html">Project Grid</a></li>
                                     <li><a href="calendar.html">Project Calendar</a></li>
                                     <li><a href="project-details.html">Project Details 1</a></li>

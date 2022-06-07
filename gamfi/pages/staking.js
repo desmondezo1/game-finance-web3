@@ -4,7 +4,7 @@ import Participantdetails from "../components/page-fragments/participantdetails"
 export default function Staking(){
     return (
         <>
-        <Breadcrumbs />
+        {/* <Breadcrumbs /> */}
 
         <Participantdetails />
         

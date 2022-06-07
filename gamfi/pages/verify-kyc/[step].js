@@ -24,7 +24,8 @@ export default function VerifyKyc(){
     })
     
     return (<>
-    <BreadCrumbsKYC step={currentStep} />
+
+    {/* <BreadCrumbsKYC step={currentStep} /> */}
 
     {
         currentStep == 1 ? (<KycStep1 />) : ("")

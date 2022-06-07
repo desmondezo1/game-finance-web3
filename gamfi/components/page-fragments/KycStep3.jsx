@@ -7,7 +7,7 @@ export default function KycStep3(){
 
 <div  className={`${indexCss.top} kycFormSect`}>
             <div className="container">
-                <div className="row m-0">
+                <div className="row m-0 pt-100">
                     <div className="col-md-6 p-0">
                         <div className="kycForm kycPersonalinfoForm">
                             <h3>Personal Information</h3>
