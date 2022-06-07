@@ -4,6 +4,13 @@ import projectsData from "../../utility/projectsData"
 
 export default function PreviousSection(){
     const [showMore, setShowMore] = useState(false);
+    const toggleShowMore = () =>{
+        if (!showMore) {
+            return setShowMore(true)
+        }
+        return setShowMore(false);
+    }
+
     return (<>
             <div  className={`${indexCss.top} Fin-previous-section ProjectPools_V3 pb-90 md-pb-50`}>
             <div className="container">
@@ -34,8 +41,8 @@ export default function PreviousSection(){
                                 </button>
                             </li>
                             <li className="V3_ProjectPool_tablinks" >
-                                <button className="view-more black-shape" onClick={()=>{setShowMore(true)}}>
-                                    <span className="btn-text">View More</span>
+                                <button className="view-more black-shape" onClick={()=>{toggleShowMore()}}>
+                                    <span className="btn-text">{!showMore ? "View More" : "View Less"}</span>
                                     <span className="hover-shape1"></span>
                                     <span className="hover-shape2"></span>
                                     <span className="hover-shape3"></span>
