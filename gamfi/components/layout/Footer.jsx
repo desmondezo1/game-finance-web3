@@ -4,7 +4,48 @@ import indexCss from "../../styles/index.module.css"
 
 export default function Footer(){
     return(<>
-    
+    <style jsx>
+        {
+           `
+           .icon-discord:before {
+            content: "\e905";
+          }
+          .icon-facebook:before {
+            content: "\e906";
+          }
+          .icon-info-circle:before {
+            content: "\e907";
+          }
+          .icon-instagram:before {
+            content: "\e908";
+          }
+          .icon-link:before {
+            content: "\e909";
+          }
+          .icon-linkedin:before {
+            content: "\e90a";
+          }
+          .icon-list:before {
+            content: "\e90b";
+          }
+          .icon-medium:before {
+            content: "\e90c";
+          }
+          .icon-search:before {
+            content: "\e90d";
+          }
+          .icon-share:before {
+            content: "\e90e";
+          }
+          .icon-telegram:before {
+            content: "\e90f";
+          }
+          .icon-twitter:before {
+            content: "\e910";
+          }
+           `
+        }
+       </ style>
     <div  className={`${indexCss.top} Fin-footer-section`}>
             <div className="container">
                 <div className="footer-cta-area text-center active-shape hover-shape-inner">

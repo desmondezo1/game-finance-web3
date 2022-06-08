@@ -15,12 +15,67 @@ import connectWhite from "../../public/images/icons/connect_white.png"
 import Link from "next/link"
 import useStore from "../../utility/store"
 import { useEffect, useState } from "react"
+import WalletConnectProvider from '@walletconnect/web3-provider'
+import { ethers, providers  } from "ethers";
+import Web3Modal from "web3modal";
+import CoinbaseWalletSDK from '@coinbase/wallet-sdk';
+const INFURA_ID = '460f40a260564ac4a4f4b3fffb032dad';
+
+    const providerOptions = {
+        binancechainwallet: {
+            package: true
+          },
+          walletconnect: {
+            package: WalletConnectProvider, // required
+            options: {
+              infuraId:  INFURA_ID // required
+            }
+          },
+          coinbasewallet: {
+            package: CoinbaseWalletSDK, // Required
+            options: {
+              appName: "My Awesome App", // Required
+              infuraId: INFURA_ID, // Required
+              rpc: "", // Optional if `infuraId` is provided; otherwise it's required
+              chainId: 1, // Optional. It defaults to 1 if not provided
+              darkMode: false // Optional. Use dark theme, defaults to false
+            }
+          }
+      }
+
 
 
 export default function Nav(){
+
     const expand = useStore(state => state.expandMobileNav);
 
+    const [provider, setProvider] = useState();
+    const [library, setLibrary] = useState();
+    const [account, setAccount] = useState();
+    const [web3ModalOb, setWeb3ModalObj] = useState();
 
+    useEffect(()=>{
+        const web3Modal = new Web3Modal({
+            cacheProvider: true, // optional
+            providerOptions // required
+          });
+          setWeb3ModalObj(web3Modal)
+    })
+
+    const connectWallet = async () => {
+        try {
+          const provider = await web3ModalOb.connect();
+          const library = new ethers.providers.Web3Provider(provider);
+          const accounts = await library.listAccounts();
+          const network = await library.getNetwork();
+          setProvider(provider);
+          setLibrary(library);
+          if (accounts) setAccount(accounts[0]);
+          setChainId(network.chainId);
+        } catch (error) {
+          setError(error);
+        }
+      };
 
    
   
@@ -127,7 +182,8 @@ export default function Nav(){
                                   
                                 </li>
                                 <li>
-                                    <button type="button" style={{ background: "#86cae6",  borderRadius: "10px",}} className="readon white-btn hover-shape" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                                    {/* <button type="button" style={{ background: "#86cae6",  borderRadius: "10px",}} className="readon white-btn hover-shape" data-bs-toggle="modal" data-bs-target="#exampleModal"> */}
+                                    <button type="button" style={{ background: "#86cae6",  borderRadius: "10px",}} className="readon white-btn hover-shape" onClick={connectWallet}>
                                         <Image src={connectPng} alt="Icon"/> 
                                         <span style={{marginLeft: "10px", fontFamily: "'Comic Sans MS', 'Comic Sans'" , fontWeight: 600 ,  borderRadius: "10px",  }} className="btn-text">Connect </span>
                                         <span className="hover-shape1"></span>
