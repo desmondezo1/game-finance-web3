@@ -26,7 +26,9 @@ export default function Nav(){
 
     const connectWall = async () =>{
         let wallet =  await connectWallet();
-            setAccount(wallet[0]);
+        if(wallet){
+          setAccount(wallet[0]);
+        }
     }
 
     const disconnectWallet= async () =>{
