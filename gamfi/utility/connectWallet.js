@@ -4,8 +4,7 @@ import { ethers, providers  } from "ethers";
 import Web3Modal from "web3modal";
 import CoinbaseWalletSDK from '@coinbase/wallet-sdk';
 
-
-const INFURA_ID = '460f40a260564ac4a4f4b3fffb032dad';
+const INFURA_ID = '460f40a260564ac4a4f4b3fffb032dad'; //replace ID with yours
 
 const providerOptions = {
     binancechainwallet: {
@@ -30,29 +29,33 @@ const providerOptions = {
   }
 
 
-
-const web3Modal = new Web3Modal({
+  if (typeof window !== "undefined") {
+   const web3Modal = new Web3Modal({
     // network: "mainnet", // optional
     cacheProvider: true, // optional
     providerOptions // required
   });
+  }
 
 
-//   const instance = await web3Modal.connect();
-  
-//   const provider = new ethers.providers.Web3Provider(instance);
-//   const signer = provider.getSigner();
+export const disconnect = async () => {
+    await web3Modal.clearCachedProvider();
+  };
 
 
-export default connectWallet = async () => {
+export const connectWallet = async () => {
 
     try {
         const provider = await web3Modal.connect();
         const library = new ethers.providers.Web3Provider(provider);
         const accounts = await library.listAccounts();
-        const network = await library.getNetwork();
-        if (accounts) setAccount(accounts[0]);
-      } catch (error) {
-  
-      }
+        const network = await library.getNetwork();  
+        return accounts;
+
+    } catch (error) {
+        console.log(error)  
+    }
+ 
 }
+
+export default { connectWallet, disconnect };

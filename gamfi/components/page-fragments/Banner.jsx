@@ -25,6 +25,7 @@ export default function Banner(){
     </style>
     
     <div id="sc-banner" style={{
+        zIndex: 1,
         background: `url(${bgImage.src})`,
     }} className="sc_banner_V3 banner-bg position-relative">
             <div className="container">

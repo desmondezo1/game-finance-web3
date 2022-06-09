@@ -15,69 +15,24 @@ import connectWhite from "../../public/images/icons/connect_white.png"
 import Link from "next/link"
 import useStore from "../../utility/store"
 import { useEffect, useState } from "react"
-import WalletConnectProvider from '@walletconnect/web3-provider'
-import { ethers, providers  } from "ethers";
-import Web3Modal from "web3modal";
-import CoinbaseWalletSDK from '@coinbase/wallet-sdk';
-const INFURA_ID = '460f40a260564ac4a4f4b3fffb032dad';
-
-    const providerOptions = {
-        binancechainwallet: {
-            package: true
-          },
-          walletconnect: {
-            package: WalletConnectProvider, // required
-            options: {
-              infuraId:  INFURA_ID // required
-            }
-          },
-          coinbasewallet: {
-            package: CoinbaseWalletSDK, // Required
-            options: {
-              appName: "My Awesome App", // Required
-              infuraId: INFURA_ID, // Required
-              rpc: "", // Optional if `infuraId` is provided; otherwise it's required
-              chainId: 1, // Optional. It defaults to 1 if not provided
-              darkMode: false // Optional. Use dark theme, defaults to false
-            }
-          }
-      }
+import { connectWallet, disconnect} from "../../utility/connectWallet"
 
 
 
 export default function Nav(){
-
+    
     const expand = useStore(state => state.expandMobileNav);
+    const [account , setAccount] = useState();
 
-    const [provider, setProvider] = useState();
-    const [library, setLibrary] = useState();
-    const [account, setAccount] = useState();
-    const [web3ModalOb, setWeb3ModalObj] = useState();
+    const connectWall = async () =>{
+        let wallet =  await connectWallet();
+            setAccount(wallet[0]);
+    }
 
-    useEffect(()=>{
-        const web3Modal = new Web3Modal({
-            cacheProvider: true, // optional
-            providerOptions // required
-          });
-          setWeb3ModalObj(web3Modal)
-    })
-
-    const connectWallet = async () => {
-        try {
-          const provider = await web3ModalOb.connect();
-          const library = new ethers.providers.Web3Provider(provider);
-          const accounts = await library.listAccounts();
-          const network = await library.getNetwork();
-          setProvider(provider);
-          setLibrary(library);
-          if (accounts) setAccount(accounts[0]);
-          setChainId(network.chainId);
-        } catch (error) {
-          setError(error);
-        }
-      };
-
-   
+    const disconnectWallet= async () =>{
+        disconnect();
+        setAccount()
+    }
   
   const fileUrl = "../../public/pdf/Findeck.pdf"
   const filename = "Findeck.pdf";
@@ -87,9 +42,6 @@ export default function Nav(){
         let bodyTag = document.querySelectorAll('body');
         expand("nav-expanded");
         
-        // if(navexpander.length){
-        //    useStore(state => state.expandMobileNav);
-        // }
     }
 
     return(<>
@@ -103,6 +55,12 @@ export default function Nav(){
         }
         .header-menu ul li a{
             font-family: "Comic Sans MS", "Comic Sans";   
+        }
+        #WEB3_CONNECT_MODAL_ID{
+            z-index:9999;
+        }
+        .web3modal-modal-lightbox{
+            z-index:9999;
         }
     `
     }
@@ -173,19 +131,17 @@ export default function Nav(){
                                         style={{
                                             color: "#00D1B8" 
                                         }}>Sign Up </span>
-                                        {/* <i className="icon-arrow_down"></i>
-                                        <span className="hover-shape1"></span>
-                                        <span className="hover-shape2"></span>
-                                        <span className="hover-shape3"></span> */}
+                                  
                                     </a>
                                     </Link>
                                   
                                 </li>
                                 <li>
                                     {/* <button type="button" style={{ background: "#86cae6",  borderRadius: "10px",}} className="readon white-btn hover-shape" data-bs-toggle="modal" data-bs-target="#exampleModal"> */}
-                                    <button type="button" style={{ background: "#86cae6",  borderRadius: "10px",}} className="readon white-btn hover-shape" onClick={connectWallet}>
+                                   <button type="button" style={{ background: "#86cae6",  borderRadius: "10px",}} className="readon white-btn hover-shape" 
+                                   onClick={()=>{ !account ? connectWall() :  disconnectWallet()}}>
                                         <Image src={connectPng} alt="Icon"/> 
-                                        <span style={{marginLeft: "10px", fontFamily: "'Comic Sans MS', 'Comic Sans'" , fontWeight: 600 ,  borderRadius: "10px",  }} className="btn-text">Connect </span>
+                                        <span style={{marginLeft: "10px", fontFamily: "'Comic Sans MS', 'Comic Sans'" , fontWeight: 600 ,  borderRadius: "10px",  }} className="btn-text">{!account? "Connect" : account.substring(0,5)} </span>
                                         <span className="hover-shape1"></span>
                                         <span className="hover-shape2"></span>
                                         <span className="hover-shape3"></span>
@@ -248,22 +204,15 @@ export default function Nav(){
                                         style={{
                                             color: "#00D1B8" 
                                         }}>Sign Up </span>
-                                        {/* <i className="icon-arrow_down"></i>
-                                        <span className="hover-shape1"></span>
-                                        <span className="hover-shape2"></span>
-                                        <span className="hover-shape3"></span> */}
+
                                     </a>
                                     </Link>
-                        {/* <ul className="sub-menu">
-                            <li><a href="#">PancakeSwap</a></li>
-                            <li><a href="#">UniSwap</a></li>
-                            <li><a href="#">CoinMarketCap</a></li>
-                            <li><a href="#">Gate.io</a></li> */}
-                        {/* </ul> */}
+
                     </li>
                     <li>
-                        <button type="button" style={{ background: "#86cae6",  borderRadius: "10px",}} className="readon black-shape-big connectWalletBtnforMobile" data-bs-toggle="modal" data-bs-target="#exampleModal"><Image src={connectWhite} alt="Icon" />
-                            <span style={{marginLeft: "10px", fontFamily: "'Comic Sans MS', 'Comic Sans'" , fontWeight: 600 ,  borderRadius: "10px",  }}  className="btn-text">Connect </span>
+                        <button type="button" style={{ background: "#86cae6",  borderRadius: "10px",}} className="readon black-shape-big connectWalletBtnforMobile" onClick={()=>{ !account ? connectWall() :  disconnectWallet()}}><Image src={connectWhite} alt="Icon" />
+                        {/* <button type="button" style={{ background: "#86cae6",  borderRadius: "10px",}} className="readon black-shape-big connectWalletBtnforMobile" data-bs-toggle="modal" data-bs-target="#exampleModal"><Image src={connectWhite} alt="Icon" /> */}
+                            <span style={{marginLeft: "10px", fontFamily: "'Comic Sans MS', 'Comic Sans'" , fontWeight: 600 ,  borderRadius: "10px",  }}  className="btn-text">{!account? "Connect" : account.substring(0,5)}</span>
                             <span className="hover-shape1"></span>
                             <span className="hover-shape2"></span>
                             <span className="hover-shape3"></span>
